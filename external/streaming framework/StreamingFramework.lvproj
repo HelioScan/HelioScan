@@ -19,20 +19,30 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="service manager" Type="Folder">
 			<Item Name="boot.vi" Type="VI" URL="../service manager/boot.vi"/>
+			<Item Name="boot_component.vi" Type="VI" URL="../service manager/boot_component.vi"/>
 			<Item Name="service_manager.vi" Type="VI" URL="../StreamingBase/service_manager.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
 			<Item Name="fetch_TCP_input.vi" Type="VI" URL="../fetch_TCP_input.vi"/>
 		</Item>
 		<Item Name="type definitions" Type="Folder"/>
-		<Item Name="StreamingBase.lvclass" Type="LVClass" URL="../StreamingBase/StreamingBase.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="globals.vi" Type="VI" URL="../service manager/globals.vi"/>
+			<Item Name="StreamingBase.lvclass" Type="LVClass" URL="../StreamingBase/StreamingBase.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="serviceManager" Type="RESTful WS">
@@ -51,16 +61,19 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/serviceManager/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="RESTfulWebSrvc_routingTemplate[0].template" Type="Str">/boot/:asdf</Property>
+				<Property Name="RESTfulWebSrvc_routingTemplate[0].template" Type="Str">/boot/:module/:configuration</Property>
 				<Property Name="RESTfulWebSrvc_routingTemplate[0].VIName" Type="Str">boot.vi</Property>
 				<Property Name="RESTfulWebSrvc_routingTemplateCount" Type="Int">1</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A6F45EB4-1A31-409D-8273-0855E6604182}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1D3AC6D1-4001-4519-B7C7-BF48D0AA2AFD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/service manager/boot.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">RESTfulVI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/service manager/boot_component.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/service manager/boot.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">RESTfulVI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Zurich</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">serviceManager</Property>
 				<Property Name="TgtF_internalName" Type="Str">serviceManager</Property>
