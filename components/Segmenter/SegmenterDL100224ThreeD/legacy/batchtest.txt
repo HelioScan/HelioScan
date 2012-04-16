@@ -1,0 +1,9 @@
+:: Batch file for 3D segmentation of neurons from an RGBfile
+::
+:: Author: Fritjof Helmchen, 1.2.2008
+::
+set name1=%1.tif
+set name2=".tiff"
+set str=%name1%+%name2%
+echo.%name1%
+echo.%str%

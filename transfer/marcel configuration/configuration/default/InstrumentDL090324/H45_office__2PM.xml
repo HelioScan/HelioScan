@@ -1,0 +1,24 @@
+<config_data>
+  <detectors>
+    <class_path>components\Detector\DetectorDL090603DAQmxOnOff\DetectorDL090603DAQmxOnOff\DetectorDL090603DAQmxOnOff.lvclass</class_path>
+    <configuration>H45_office__standard</configuration>
+    <label/>
+    <settings_name/>
+  </detectors>
+  <light_source>
+    <class_path>components\LightSource\LightSourceMH110124MaiTai\LightSourceMH110124MaiTai\LightSourceMH110124MaiTai.lvclass</class_path>
+    <configuration>MaiTai</configuration>
+    <label/>
+    <settings_name/>
+  </light_source>
+  <microscope>
+    <class_path>components\Microscope\MicroscopeDL090905\MicroscopeDL090905\MicroscopeDL090905.lvclass</class_path>
+    <configuration>H45_office__standard</configuration>
+    <label/>
+    <settings_name/>
+  </microscope>
+  <LSID>
+    <identifier>NELMDPRSMJYWQO</identifier>
+    <revision>2</revision>
+  </LSID>
+</config_data>

@@ -1,0 +1,121 @@
+// Author(s): Dominik Langer (based on an original macro written by Fritjof Helmchen)
+// Purpose: command line macro to analyse segmentation file (determine centroid coordinates etc.)
+
+
+// finds object centroids for 3D-segmented file, each object represented by a particular grey value 
+// creates new image stack with centers of mass highlighted and numbers written to them
+
+macro "Analyse" {
+
+	// Get file path and verify...
+	image_path = getArgument();
+	file_name = File.getName(image_path);
+	
+	if (image_path == "")
+		 exit("No argument!");  
+	if (File.exists(image_path) == 0)
+		exit("File does not exist!");
+
+	// Read file...
+	print("Reading in file...");
+	run("Analyze Reader", "open=[" + image_path + "]");
+	directory_path = getDirectory("image");
+
+	// Delete first and last slice...
+	setSlice(1); run("Delete Slice"); 
+	setSlice(nSlices); run("Delete Slice"); 
+	
+	// Count objects...
+	print("Counting objects...");
+	nObjects = 0;	
+	for (n = 1; n <= nSlices; n++) 
+	{
+         	setSlice(n); 
+		getRawStatistics(count, mean, min, max, std);
+		if (max > nObjects) 
+		{
+		    nObjects = max;
+		}
+     	}
+
+	// Allocate buffers...
+	cx = newArray(nObjects); 
+	cy = newArray(nObjects); 
+	cz = newArray(nObjects);  
+	hits = newArray(nObjects); 
+
+	// Find pixels for each object...
+	w = getWidth;			
+   	h = getHeight;
+      	for (n = 1; n <= nSlices; n++) 
+      	{
+		setSlice(n); 
+		for (y = 0; y < w; y++) 
+		{
+          		for (x = 0; x < h; x++) 
+          		{
+				value=getPixel(x, y); if (value != 0) 
+				{
+					cx[value - 1] += x;
+					cy[value - 1] += y;
+					cz[value - 1] += n;
+					hits[value - 1] += 1;
+				}
+			}
+		}
+		if (y % (h / 10) == 0) 
+			showProgress(y, h);	
+	}
+	
+	// Calculate center of mass...
+	for (i = 1; i <= nObjects; i++) 
+	{
+		
+		cx[i - 1] /= hits[i - 1];
+		cy[i - 1] /= hits[i - 1];
+		cz[i - 1] /= hits[i - 1];	
+	}	
+	
+
+	// Draw centers in current stack...
+//	for (i = 1; i <= nObjects; i++) 
+//	{
+//		// Calculate center of mass...
+//		cx[i - 1] /= hits[i - 1];
+//		cy[i - 1] /= hits[i - 1];
+//		cz[i - 1] /= hits[i - 1];	
+//		// Draw...
+//		setSlice(cz[i-1]); 
+//		setForegroundColor(0, 0, 0); 
+//		fillOval(cx[i - 1] - 1, cy[i - 1] - 1, 3, 3);   	
+//		setForegroundColor(0, 0, 0);
+//		if (cx[i - 1] < w / 2) 
+//		{
+//			xoff = 1; 
+//			yoff= -3;
+//		} 
+//		else 
+//		{
+//			xoff = -10; 
+//			yoff = -3;
+//		} 	    
+//		drawString(i, cx[i - 1] + xoff, cy[i - 1] + yoff);
+//	}
+
+	processed_image_path = directory_path + substring(file_name, 0, lengthOf(file_name) - 4) + ".tif";
+	saveAs("Tiff", processed_image_path);
+	centroid_file_path = directory_path + substring(file_name, 0, lengthOf(file_name) - 4) + "_centroids.txt";
+
+	// Create centroid file...
+	print("Creating centroid file...");
+	centroid_file = File.open(centroid_file_path);
+	print(centroid_file, "n \t XCenter \t YCenter \t ZCenter \t Voxels");	
+	for (i = 1; i <= nObjects; i++) {
+		print(centroid_file, i + " \t " + cx[i - 1] + " \t " + cy[i - 1] + " \t " + cz[i - 1]+ " \t " + hits[i - 1]);		
+	}
+	File.close(centroid_file);
+	
+	print("Done!");
+
+} 
+// end macro "FindCoordinates" 

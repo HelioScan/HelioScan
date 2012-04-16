@@ -1,0 +1,93 @@
+macro "FindCoordinates" {
+// 
+// command line macro to find coordinates (center of masses) in 3D-segemented stack
+// finds 3D center of mass for 3D segmented file, each object represented by a particular grey value 
+// creates new image stack with centers of mass highlighted and numbers written to them
+//
+// author: Fritjof Helmchen
+// Date: 31.1.2008
+
+	tmppath = "p:\\data\\Hifo\\software\\Labview\\3DSegmentation\\"   // temporary folder for calculations
+
+	path = getArgument();
+	fname = File.getName(path);
+	path=path+"_todo_segmentation";
+
+  	if (path=="")
+     		 exit("No argument!");  
+  	//print("opening "+path);
+	run("Analyze...", "open="+path); 
+
+	fpath = File.directory;
+
+	setSlice(1); run("Delete Slice"); 
+	setSlice(nSlices); run("Delete Slice"); 
+	
+	saveAs("Raw Data", "p:\\data\\Hifo\\software\\Labview\\3DSegmentation\\"+fname+"_todo_segmentation.raw");
+	
+	//run("Reslice [/]...", "input=0.4878 output=1.000 start=Top");
+	//run("Reslice [/]...", "input=1.000 output=1.000 start=Top");
+	//run("Scale...", "x=2 y=2 process create");
+	
+	nObjects=0;	// first find number of objects
+	for (n=1; n<=nSlices; n++) {
+         	setSlice(n); 
+		getRawStatistics(count, mean, min, max, std);
+		if (max>nObjects) {
+		    nObjects=max;
+		}
+     	}
+	//fac=65535/nObjects;	// convert to 16-bit
+	//run("16-bit");
+	//run("Divide...", "stack value="+fac);
+
+	cx = newArray(nObjects); 
+	cy = newArray(nObjects); 
+	cz = newArray(nObjects);  
+	hits = newArray(nObjects); 
+
+	w = getWidth;			// find pixels for each object
+   	h = getHeight;
+      for (n=1; n<=nSlices; n++) {
+		setSlice(n); 
+		for (y=0; y<w; y++) {
+          			for (x=0; x<h; x++) {
+				value=getPixel(x, y); if (value!=0) {
+					cx[value-1]+=x;
+					cy[value-1]+=y;
+					cz[value-1]+=n;
+					hits[value-1]+=1;
+				}
+			}
+		}
+	if (y%(h/10)==0) showProgress(y, h);	
+	}
+
+	for (i=1; i<=nObjects; i++) {
+		cx[i-1]/=hits[i-1];cy[i-1]/=hits[i-1];cz[i-1]/=hits[i-1];	// calculate center of mass
+		setSlice(cz[i-1]); 
+		setForegroundColor(0, 0, 0);     
+		fillOval(cx[i-1]-1, cy[i-1]-1,3,3);   	// draw centers in current stack
+		setForegroundColor(0, 0, 0);
+		if (cx[i-1]<w/2) {
+			xoff=1; yoff=-3;
+		} else {
+			xoff=-10; yoff=-3;
+		} 	    
+		drawString(i, cx[i-1]+xoff, cy[i-1]+yoff);
+  	}
+
+	//print("writing image output file");
+
+	//run("8-bit");
+	saveAs("Tiff", "p:\\data\\Hifo\\software\\Labview\\3DSegmentation\\"+fname+"_coord.tif");
+
+	print("n \t XCenter \t YCenter \t ZCenter \t Hits");	
+	for (i=1; i<=nObjects; i++) {
+		print(i + " \t " + cx[i-1] + " \t " + cy[i-1] + " \t " + cz[i-1]+ " \t " + hits[i-1]);		
+	}
+
+} // end macro "FindCoordinates" 
+
+//****************************************************//
+

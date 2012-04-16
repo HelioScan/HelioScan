@@ -1,0 +1,53 @@
+// Author: Dominik Langer, Brain Research Institute, University of Zurich
+// Version: 2009/12/07, 1:01pm
+// Purpose: User specifies a HelioScan file of type "<xy>__channel00.tif" (first of the channel series). Macro automatically loads all channels 0 to 2, performs range/offset optimisation over slices, and merges the files to an RGB file which is saved as "<xy>__RGB.tif".
+
+open("");
+fileName = getTitle();
+nameLength = lengthOf(fileName);
+
+pathBase = getDirectory("image") + substring(fileName, 0, nameLength - 5);
+
+var channelFilePath = newArray(3);
+channelFilePath[0] = pathBase + "0.tif";
+channelFilePath[1] = pathBase + "1.tif";
+channelFilePath[2] = pathBase + "2.tif";
+var tmpFilePath = newArray(3);
+var fileName = newArray(3);
+
+for (i = 0; i < channelFilePath.length; i++)
+{
+	if (i > 0) open(channelFilePath[i]);
+	run("Stack to Images");
+	for(j = 1; j <= nImages; j++)
+	{
+		selectImage(j);
+		run("Enhance Contrast", "saturated=0.5");
+		run("8-bit");
+	}
+	run("Images to Stack");
+
+	tmpFilePath[i] = pathBase + i + "__8bit.tif";
+	saveAs("Tiff", tmpFilePath[i]);
+	close();
+}
+
+var tmpFileName = newArray(3);
+
+for (i = 0; i < tmpFilePath.length; i++)
+{
+	open(tmpFilePath[i]);	
+	tmpFileName[i] = getTitle();
+}
+
+run("Merge Channels...", "red=" + tmpFileName[0] + " green=" + tmpFileName[1] + " blue=" + tmpFileName[2] + " gray=*None*");
+for (i = 0; i < tmpFilePath.length; i++)
+{
+//	File.delete(tmpFilePath[i]);
+}
+
+rgbFileName = substring(pathBase, 0, lengthOf(pathBase) - 8) + "RGB";
+
+saveAs("Tiff", rgbFileName);
+
+

@@ -1,0 +1,7 @@
+=== IMPORTANT ===
+
+In order to be able to edit the libraries (classes) in this project, you have to temporarily "Unlock library for editing" (via right mouse click) the Xsettings.xctl in the dependencies.
+When you are done with changes to the libraries, save the whole project and choose "Apply changes to all instances" (via right mouse click) for XSettings.xctl.
+Note:
+- This is only necessary for changes to the libraries (i.e., deleting/adding method VIs or changing their scope or editing the classes' private data (or typedefs used in the classes' private data).
+- It is NOT necessary for mere changes to method block diagrams and front panels. 

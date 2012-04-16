@@ -1,0 +1,18 @@
+<config_cluster>
+  <LSID>
+    <identifier>OSHUTKBDBAXYFW</identifier>
+    <revision>1</revision>
+  </LSID>
+  <manufacturer_specification>
+    <manufacturer>Zeiss</manufacturer>
+    <model>W Plan-Apochromat 20x 1.0 N.A. DIC (UV), VIS-IR</model>
+    <serial_number/>
+    <lot_number/>
+  </manufacturer_specification>
+  <lens_NA>1</lens_NA>
+  <nominal_magnification>20</nominal_magnification>
+  <calibrated_magnification>20</calibrated_magnification>
+  <working_distance>0.0019</working_distance>
+  <correction>PlanApo</correction>
+  <immersion>WaterDipping</immersion>
+</config_cluster>

@@ -1,0 +1,14 @@
+<config_data>
+  <readers>
+    <class_path>components\SignalReader\SignalReaderDL091205FPGA\SignalReaderDL091205FPGA\SignalReaderDL091205FPGA.lvclass</class_path>
+    <configuration>H45_AOD_framescan</configuration>
+    <label/>
+    <settings_name/>
+  </readers>
+  <LSID>
+    <identifier>GGVXNWSYXIACTB</identifier>
+    <revision>1</revision>
+  </LSID>
+  <read_block_size>16000</read_block_size>
+  <software_buffer_size>16000</software_buffer_size>
+</config_data>

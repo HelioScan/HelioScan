@@ -1,0 +1,1 @@
+All parent classes (all scaffolds plus GenericScanMode) have to be ADDED TO THE PROJECT, otherwise a irreversibly broken Statechart can result!

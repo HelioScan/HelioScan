@@ -1,0 +1,7 @@
+<config_cluster>
+  <maximum_output_value>1</maximum_output_value>
+  <minimum_output_value>-1</minimum_output_value>
+  <step>1</step>
+  <speed>1000</speed>
+  <axis>1</axis>
+</config_cluster>

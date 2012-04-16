@@ -1,0 +1,27 @@
+<config_data>
+  <segmenter>
+    <class_path/>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </segmenter>
+  <expression>B/A</expression>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL091210Raw\TraceProcessorDL091210Raw\TraceProcessorDL091210Raw.lvclass</class_path>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </trace_processor_pipeline>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS.lvclass</class_path>
+    <configuration>frame_scan</configuration>
+    <label/>
+    <settings_name/>
+  </trace_processor_pipeline>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL090629Noise\TraceProcessorDL090629Noise\TraceProcessorDL090629Noise.lvclass</class_path>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </trace_processor_pipeline>
+</config_data>

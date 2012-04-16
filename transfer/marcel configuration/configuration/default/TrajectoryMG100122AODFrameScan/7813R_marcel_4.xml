@@ -1,0 +1,27 @@
+<config_data>
+  <FPGA_wrapper_path>components\FPGAWrapper\FPGAMWrapperG100125AOD\FPGAWrapperMG100125AODFrameScan_PXI7813R\FPGAWrapperMG100125AODFrameScan_PXI7813R.lvclass</FPGA_wrapper_path>
+  <amp_comp>false</amp_comp>
+  <AOD_center_frequ_Hz>9.4E+7</AOD_center_frequ_Hz>
+  <AOD_Bandwidth>3.4E+7</AOD_Bandwidth>
+  <inverse>normal</inverse>
+  <OSK_select>true</OSK_select>
+  <DDS_board_initialization_parameters>
+    <Bypass_PLL>false</Bypass_PLL>
+    <PLL_Range>true</PLL_Range>
+    <Update_Clock>false</Update_Clock>
+    <Triangle_>false</Triangle_>
+    <SDO_Active>false</SDO_Active>
+    <LSB_First>false</LSB_First>
+    <OSK_Int>false</OSK_Int>
+    <Output_Shaped_Keying_Enable>true</Output_Shaped_Keying_Enable>
+    <Bypass_Sinc>false</Bypass_Sinc>
+    <Digital_Part>true</Digital_Part>
+    <OutPut_DAC>true</OutPut_DAC>
+    <Control_DAC>false</Control_DAC>
+    <Comparator>false</Comparator>
+    <Modus>0</Modus>
+    <Multiplier_Value>15</Multiplier_Value>
+  </DDS_board_initialization_parameters>
+  <AOD_equilibration_time>1E-5</AOD_equilibration_time>
+  <AOD_amplitude>3400</AOD_amplitude>
+</config_data>

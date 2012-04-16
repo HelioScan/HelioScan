@@ -1,0 +1,38 @@
+// Author: Dominik Langer
+// Latest change: 2010/03/09
+// Purpose: Calculates dF/F movie from 16bit HelioScan file
+
+macro "Calculate DFF" {
+  	Dialog.create("Calculate DFF");
+  	Dialog.addNumber("NumImages for F0:", 20);
+	Dialog.addNumber("Background:", 0);
+  	Dialog.show();
+  	numf0 = Dialog.getNumber();
+  	bg = Dialog.getNumber();
+	original_path = getDirectory("image") + getTitle();
+
+  	rename("raw")
+	run("Subtract...", "stack value=" + bg);
+  	raw_id = getImageID();
+  	run("Z Project...", "start=1 stop="+numf0+" projection=[Average Intensity]");
+  	rename("f0");
+
+  	imageCalculator("Subtract create 32-bit stack", "raw","f0");
+  	//run("Image Calculator...", "image1=raw operation=Subtract image2=f0 create 32-bit stack");
+  	rename("df");
+  	imageCalculator("Divide create 32-bit stack", "df","f0");
+  	//run("Image Calculator...", "image1=df operation=Divide image2=f0 create 32-bit stack");
+  	rename("dff1");
+  	run("Multiply...", "stack value=100");
+ 	run("Gaussian Blur...", "radius=1 stack");
+ 	dff_id = getImageID();
+
+  	run("Brightness/Contrast...");
+  	setMinAndMax(0, 100);
+	
+	original_path_length = lengthOf(original_path)
+	new_path = substring(original_path, 0, original_path_length - 4) + "_dFF.tif";
+	saveAs("Tiff", new_path);
+	runMacro("CloseAllWindows");
+  
+} // end macro

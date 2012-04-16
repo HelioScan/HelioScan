@@ -1,0 +1,5 @@
+<config_data>
+  <device_name>cam1</device_name>
+  <camera_type>RGB</camera_type>
+  <connection_type>USB</connection_type>
+</config_data>

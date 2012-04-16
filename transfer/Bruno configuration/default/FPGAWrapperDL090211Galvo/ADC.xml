@@ -1,0 +1,5 @@
+<config_data>
+  <bit_file>80MHz for PXI-7813R</bit_file>
+  <hifo_box_version>1</hifo_box_version>
+  <ADC_clock_phase>0</ADC_clock_phase>
+</config_data>

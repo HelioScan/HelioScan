@@ -1,0 +1,13 @@
+<config_data>
+  <rangeoffset_processor_configuration>frame_scan</rangeoffset_processor_configuration>
+  <number_of_channels>2</number_of_channels>
+  <autoscale_cluster>
+    <autoscale_histogram>true</autoscale_histogram>
+    <channel_1_min>0</channel_1_min>
+    <channel_1_max>65535</channel_1_max>
+    <channel_2_min>0</channel_2_min>
+    <channel_2_max>65535</channel_2_max>
+    <channel_3_min>0</channel_3_min>
+    <channel_3_max>65535</channel_3_max>
+  </autoscale_cluster>
+</config_data>

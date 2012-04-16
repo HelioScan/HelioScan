@@ -1,0 +1,58 @@
+- ExperimentController: settings file Funktionalität erstellen
+- Display: settings file Funktionalität
+- get_config_cluster überall erstellen
+- settings_cluster bei allen Komponenten, sowie get_settings_cluster
+- check whether it's possible to not use a special statechart for FrameScan mode anymore (use existing scaffold instead)
+
+
+- ClockDL090202FPGA:provide_OME_DATA: ref zu FPGAWrapper einfügen und FPGAWrapper:provide_OME_DATA aufrufen
+- GenericClock:provdie_OME_DATA: alle Werte als SoftwareParams schreiben
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fehlercode-Enum:
+- all checkin-Functions
+
+
+GenericImageAssembler_statechart - assembling state:
+replace Microscope:get_scan_mode with GenericScanMode:checkout
+
+
+ScanHead:stop sent initialise trigger to ImageAssembler
+--> deleted --> check where to put that again (better in to start maybe?)
+
+
+
+coordinate shutdown of everything (sending terminate triggers)
+
+
+
+GenericDisplay:run --> write_to_microscope deleted --> substitute with something
+FrameStackMode:run --> same
+GenericScanHead:run --> same
+Or, in general: do checkin at the beginning of all run methods (similar to intrinsic imaging)?
+
+
+GenericImageAssembler:store_image: previously stored images in microscope
+--> to do: store it in data collection component
+
+
+GenericDisplay:run - timeout case: set number of channels dynamically
+
+
+Scanner-Delay bei Trajectory rausnehmen (wird von den Scannern autonom gehandelt!!!)
+
+configure VIs: ensure that they don't crash when it's a new configuration
+
+auslesen von Frontpanel-Controls von Plugins soll nicht in einzelnen Methoden (wie z.B. update_stack_params.vi), sondern in run.vi (im entspr. Event-Case) stattfinden!

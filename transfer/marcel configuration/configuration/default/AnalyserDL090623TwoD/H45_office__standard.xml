@@ -1,0 +1,27 @@
+<config_data>
+  <segmenter>
+    <class_path>components\Segmenter\GenericSegmenter\GenericSegmenter\GenericSegmenter.lvclass</class_path>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </segmenter>
+  <expression>B</expression>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL091210Raw\TraceProcessorDL091210Raw\TraceProcessorDL091210Raw.lvclass</class_path>
+    <configuration/>
+    <label>raw</label>
+    <settings_name/>
+  </trace_processor_pipeline>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS.lvclass</class_path>
+    <configuration>H45_office__standard</configuration>
+    <label>dS/S</label>
+    <settings_name/>
+  </trace_processor_pipeline>
+  <trace_processor_pipeline>
+    <class_path>components\TraceProcessor\TraceProcessorDL090629Noise\TraceProcessorDL090629Noise\TraceProcessorDL090629Noise.lvclass</class_path>
+    <configuration/>
+    <label>noise</label>
+    <settings_name/>
+  </trace_processor_pipeline>
+</config_data>

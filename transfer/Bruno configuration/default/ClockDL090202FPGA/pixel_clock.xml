@@ -1,0 +1,9 @@
+<configuration_data>
+  <FPGAWrapper>
+    <class_path>components\FPGAWrapper\FPGAWrapperDL090211Galvo\FPGAWrapperDL090211Galvo\FPGAWrapperDL090211Galvo.lvclass</class_path>
+    <configuration>ADC</configuration>
+    <label/>
+    <settings_name/>
+  </FPGAWrapper>
+  <type>pixel clock</type>
+</configuration_data>

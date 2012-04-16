@@ -1,0 +1,205 @@
+'___________________PROGRAM HEADER____________________________________
+'
+'              NAME      :TEST_X_Y_Z_MIT_I_UND_HAND.DMC
+'              DATE      :07.10.2010
+'              PROGRAMMER:P.SPRUNG/A.WARNECKE
+'
+'___________________PROGRAM DESCRIPTION_______________________________
+'
+'              REFERENZPROGRAMM FUER KT310DC,PMT160DC UND
+'              HANDSTEUERUNG. DAS PROGRAMM SUCHT BEIDE
+'              ENDSCHALTER DER X-, Y- UND Z-ACHSE.GIBT DABEI
+'              DEN MAXIMALEN VERFAHRWEG IN COUNTS AUS UND 
+'              SUCHT DEN ERSTEN INDEX DER X- UND Y-ACHSE
+'              VOM NEGATIVEN ENDSCHALTER AUS.STEUERUNG ALLER
+'              ACHSEN VOM HANDREGLER. AUSGABE DER TASTERFARBEN.
+'_____________________________________________________________________
+#REF01
+SHX
+JG20000
+BGX
+MG "SUCHE POSITIVEN ES"
+AMX
+DP0
+JG-20000
+BGX
+MG "SUCHE NEGATIVEN ES"
+AMX
+JG20000
+FIX
+BGX
+AMX
+MG"INDEX GEFUNDEN"
+MG" "
+AMX
+WT1000
+PR200000
+BGX
+AMX
+#REF02
+SHY
+JG,20000
+BGY
+MG "SUCHE POSITIVEN ES"
+AMY
+DP,0
+JG,-20000
+BGY
+MG "SUCHE NEGATIVEN ES"
+AMY
+JG,20000
+FIY
+BGY
+AMY
+MG"INDEX GEFUNDEN"
+MG" "
+AMY
+WT1000
+PR,200000
+BGY
+AMY
+#REF03
+SHZ
+WT100;'                  WARTE BIS REGELUNG SICHER AN
+SB1;'                       LOESE BREMSE
+WT500;'                  WARTE BIS BREMSE SICHER GELOEST
+JG,,50000
+BGZ
+MG "SUCHE POSITIVEN ES"
+AMZ
+DP,,0
+JG,,-50000
+BGZ
+MG "SUCHE NEGATIVEN ES"
+AMZ
+JG,,50000
+PA,,-1570000
+BGZ
+AMZ
+'
+'__________________MAIN BLOCK_________________________________
+'
+#MAIN
+II 5,8;'                                   ENABLE INPUT INTERUPT AT IP 5,6,7,8
+GA DX,DY,DZ;'                        ZUORDNUNG POSITIONWHEEL ZU ACHSE
+GR 10,10,100;'                       UEBERSETZUNGSFAKTOR
+SH
+KD 900,600,500;'                                   SET THE KD
+KP 80,80,75;'                                   SET THE KP
+KI 35,35,28;'                                    SET THE KI
+WT100
+SB1;'                                    BREMSE Z LOESEN
+MG" LOS GEHTS MIT HANDBETRIEB"
+#WLOOP;'                            ENDLOSSCHLEIFE FUER #ININT UND #LIMSWI
+WT 1000
+JP#WLOOP
+EN
+NO__________________INPUT INTERUPT ROUTINE____________________
+#ININT
+II0;'                                                    INTERUPTS SPERREN
+IF(@IN[5]=0);'                                    ROTE TASTE GEDRUECKT
+#CLEAR5;JP #CLEAR5,@IN[5]=0;'         ENTPRELLEN
+GR 0.5,0.5,7;
+MG"FINE (TASTER 1 ROT)"
+ENDIF
+IF(@IN[6]=0);'                                    GRUENE TASTE GEDRUECKT
+#CLEAR6;JP #CLEAR6,@IN[6]=0;'         ENTPRELLEN
+MG"_MIDDLE (TASTER 2 GRUEN)"
+GR 3,3,20;
+ENDIF
+IF(@IN[7]=0);'                                    BLAUE TASTE GEDRUECKT
+#CLEAR7;JP #CLEAR7,@IN[7]=0
+MG"COARSE  (TASTER 3 BLAU)"
+GR 50,50,127;
+ENDIF
+IF(@IN[8]=0);'                                    GELBE TASTE GEDRUECKT
+#CLEAR8;JP #CLEAR8,@IN[8]=0;'         ENTPRELLEN
+MG"TASTER 4 GELB"
+SP,,500000
+PR ,,-700000
+BGZ
+ENDIF
+II5,8;'                                                 INTERUPTS FREISCHALTEN
+RI0;'                                                   CLEAR INTERUPT FLAG
+'
+'_______________________ENDSCHALTER ROUTINE___________________
+#LIMSWI
+JS#LFX,_LFX=0
+JS#LRX,_LRX=0
+JS#LFY,_LFY=0
+JS#LRY,_LRY=0
+JS#LFZ,_LFZ=0
+JS#LRZ,_LRZ=0
+RE
+'_______________________SUBROUTINEN FUER ENDSCHALTER_________
+#LFX
+MG "+ Endschalter X-Achse angefahren"
+AB1;'                                BEWEGUNG MIT DC-MAX. ABBRECHEN
+AMX
+JG-5000
+BGX
+#LOOP01
+JP#LOOP01, _LFX=0
+STX
+AMX
+EN
+'
+#LRX
+MG "- Endschalter X-Achse angefahren"
+AB1
+AMX
+JG5000
+BGX
+#LOOP02
+JP#LOOP02,_LRX=0
+STX
+AMX
+EN
+'
+#LFY
+MG "+ Endschalter Y-Achse angefahren"
+AB1
+AMY
+JG,-5000
+BGY
+#LOOP03
+JP#LOOP03, _LFY=0
+STY
+AMY
+EN
+'
+#LRY
+MG "- Endschalter Y-Achse angefahren"
+AB1
+AMY
+JG,5000
+BGY
+#LOOP04
+JP#LOOP04,_LRY=0
+STY
+AMY
+EN
+'
+#LFZ
+MG "+ Endschalter Z-Achse angefahren"
+AB1
+AMZ
+JG,,-5000
+BGZ
+#LOOP05
+JP#LOOP05, _LFZ=0
+STZ
+AMZ
+EN
+'
+#LRZ
+MG "- Endschalter Z-Achse angefahren"
+AB1
+AMZ
+JG,,5000
+BGZ
+#LOOP06
+JP#LOOP06,_LRZ=0
+STZ
+AMZ
+EN

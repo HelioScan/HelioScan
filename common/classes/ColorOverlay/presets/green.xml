@@ -1,0 +1,31 @@
+<presets_save_cluster>
+  <_hot_pixels>0</_hot_pixels>
+  <_cold_pixels>0</_cold_pixels>
+  <color_lower_limit>16860</color_lower_limit>
+  <color_upper_limit>16711680</color_upper_limit>
+  <color>true</color>
+  <start_color>0</start_color>
+  <start_color>0</start_color>
+  <start_color>0</start_color>
+  <start_color>0</start_color>
+  <end_color>0</end_color>
+  <end_color>255</end_color>
+  <end_color>0</end_color>
+  <end_color>0</end_color>
+  <array_of_cursors>
+    <cursor_position>0</cursor_position>
+    <cursor_position>127</cursor_position>
+  </array_of_cursors>
+  <array_of_cursors>
+    <cursor_position>127</cursor_position>
+    <cursor_position>127</cursor_position>
+  </array_of_cursors>
+  <array_of_cursors>
+    <cursor_position>0</cursor_position>
+    <cursor_position>127</cursor_position>
+  </array_of_cursors>
+  <array_of_cursors>
+    <cursor_position>0</cursor_position>
+    <cursor_position>127</cursor_position>
+  </array_of_cursors>
+</presets_save_cluster>

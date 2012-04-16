@@ -1,0 +1,9 @@
+<config_data>
+  <serial_port>COM1</serial_port>
+  <step>5E-7</step>
+  <step>5E-7</step>
+  <step>1.6667E-8</step>
+  <speed>0.0025</speed>
+  <speed>0.0025</speed>
+  <speed>0.001</speed>
+</config_data>

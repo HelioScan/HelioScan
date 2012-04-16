@@ -1,0 +1,18 @@
+<config_cluster>
+  <LSID>
+    <identifier>IFWNXKSKOMNJAI</identifier>
+    <revision>1</revision>
+  </LSID>
+  <manufacturer_specification>
+    <manufacturer>Nikon</manufacturer>
+    <model/>
+    <serial_number/>
+    <lot_number/>
+  </manufacturer_specification>
+  <lens_NA>0.8</lens_NA>
+  <nominal_magnification>40</nominal_magnification>
+  <calibrated_magnification>40</calibrated_magnification>
+  <working_distance>0.0035</working_distance>
+  <correction>UV</correction>
+  <immersion>Oil</immersion>
+</config_cluster>

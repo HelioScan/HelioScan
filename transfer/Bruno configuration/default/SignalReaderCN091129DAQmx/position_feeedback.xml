@@ -1,0 +1,14 @@
+<config_data>
+  <physical_channel>PositionInput/ai0</physical_channel>
+  <physical_channel>PositionInput/ai1</physical_channel>
+  <maximum_input_value>10</maximum_input_value>
+  <minimum_input_value>-10</minimum_input_value>
+  <clock_source>/PositionInput/PXI_Trig3</clock_source>
+  <timeout>0</timeout>
+  <maximum_sampling_rate>500000</maximum_sampling_rate>
+  <buffer_size>0</buffer_size>
+  <translation_factors>10000</translation_factors>
+  <translation_factors>10000</translation_factors>
+  <translation_offsets>10000</translation_offsets>
+  <translation_offsets>10000</translation_offsets>
+</config_data>

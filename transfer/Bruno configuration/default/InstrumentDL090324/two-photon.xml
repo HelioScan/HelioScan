@@ -1,0 +1,30 @@
+<config_data>
+  <detectors>
+    <class_path>components\Detector\DetectorYK090623DAQmxAnalog\DetectorYK090623DAQmxAnalog\DetectorYK090623DAQmxAnalog.lvclass</class_path>
+    <configuration>PMT1</configuration>
+    <label/>
+    <settings_name/>
+  </detectors>
+  <detectors>
+    <class_path>components\Detector\DetectorYK090623DAQmxAnalog\DetectorYK090623DAQmxAnalog\DetectorYK090623DAQmxAnalog.lvclass</class_path>
+    <configuration>PMT2</configuration>
+    <label/>
+    <settings_name/>
+  </detectors>
+  <light_source>
+    <class_path>components\LightSource\GenericLightSource\GenericLightSource\GenericLightSource.lvclass</class_path>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </light_source>
+  <microscope>
+    <class_path>components\Microscope\GenericMicroscope\GenericMicroscope\GenericMicroscope.lvclass</class_path>
+    <configuration/>
+    <label/>
+    <settings_name/>
+  </microscope>
+  <LSID>
+    <identifier>BXMCRLKCHZIFLK</identifier>
+    <revision>1</revision>
+  </LSID>
+</config_data>

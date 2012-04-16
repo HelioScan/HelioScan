@@ -1,0 +1,33 @@
+<config_data>
+  <hardware_settings>
+    <comm_port>COM2</comm_port>
+    <switch_laser_on>true</switch_laser_on>
+    <open_shutter>true</open_shutter>
+    <wavelength>8.7E-7</wavelength>
+    <delay_before_read_ms>100</delay_before_read_ms>
+    <flow_control>1</flow_control>
+    <stop_bits>10</stop_bits>
+    <data_bits>8</data_bits>
+    <baud_rate>9600</baud_rate>
+    <parity_0none>None</parity_0none>
+  </hardware_settings>
+  <OME>
+    <LSID>
+      <identifier>BGZBZIHDYQJTXP</identifier>
+      <revision>2</revision>
+    </LSID>
+    <manufacturer_specification>
+      <manufacturer>Spectra Physics</manufacturer>
+      <model>MaiTai HP</model>
+      <serial_number/>
+      <lot_number/>
+    </manufacturer_specification>
+    <frequency_multiplication>1</frequency_multiplication>
+    <tuneable>true</tuneable>
+    <repetition_rate>8E+7</repetition_rate>
+    <pump_laser_configuration/>
+    <laser_medium>TiSapphire</laser_medium>
+    <pulse>ModeLocked</pulse>
+    <type>SolidState</type>
+  </OME>
+</config_data>

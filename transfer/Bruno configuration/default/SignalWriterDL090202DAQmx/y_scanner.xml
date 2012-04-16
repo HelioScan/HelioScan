@@ -1,0 +1,12 @@
+<config_data>
+  <physical_channel>ScanOutputCard/ao1</physical_channel>
+  <timing_source>/ScanOutputCard/PXI_Trig3</timing_source>
+  <lag_>1E-10</lag_>
+  <maximum_sampling_rate>8.33E+8</maximum_sampling_rate>
+  <output_type>analog</output_type>
+  <maximum_output_value>5</maximum_output_value>
+  <minimum_output_value>-5</minimum_output_value>
+  <trigger_line/>
+  <edge>rising</edge>
+  <counter/>
+</config_data>

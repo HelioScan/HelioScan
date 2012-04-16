@@ -1,0 +1,20 @@
+<config_data>
+  <DAQmxDigitalOut>
+    <class_path>components\DigitalOut\DigitalOutDL110325DAQmx\DigitalOutDL110325DAQmx\DigitalOutDL110325DAQmx.lvclass</class_path>
+    <configuration>PMTs</configuration>
+    <label/>
+    <settings_name/>
+  </DAQmxDigitalOut>
+  <manufacturer_specification>
+    <manufacturer/>
+    <model/>
+    <serial_number/>
+    <lot_number/>
+  </manufacturer_specification>
+  <type>PMT</type>
+  <LSID>
+    <identifier>DMOMPFIYWRNVNG</identifier>
+    <revision>0</revision>
+  </LSID>
+  <specify_voltage>false</specify_voltage>
+</config_data>

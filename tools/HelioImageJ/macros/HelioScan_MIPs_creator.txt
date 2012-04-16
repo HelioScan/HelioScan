@@ -1,0 +1,26 @@
+// Author: Dominik Langer
+// Latest change: 2010/03/09
+// Purpose: Creates Maximum-Intensity-Projection files from all TIFF files in a directory (works for 16bit HelioScan movie files).
+
+macro "Create MIPs" {
+	sourceDir = getDirectory("Choose Source Directory");
+	destinationDir = getDirectory("Choose Destination Directory");
+
+	list = getFileList(sourceDir);
+
+
+	for (i  = 0; i < list.length; i++)
+	{
+		showProgress(i + 1, list.length);
+		if (endsWith(list[i], "tif"))
+		{
+			openPath = sourceDir + list[i];
+			savePath = destinationDir + "MAX_" + list[i];
+			open(openPath);
+			run("Z Project...", "projection=[Max Intensity]");
+			saveAs("Tiff", savePath);
+		}
+		runMacro("CloseAllWindows");
+	}
+  
+} // end macro

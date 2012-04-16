@@ -1,0 +1,40 @@
+﻿Build started 12.10.2011 19:05:37.
+     1>Project "C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Fiberscope_support_dll\Fiberscope_support_dll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\Fiberscope_support_dll.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\Fiberscope_support_dll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\National Instruments\LabVIEW 2011\cintools" /I"C:\Program Files\National Instruments\Vision\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FIBERSCOPE_SUPPORT_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Fiberscope_support_dll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\National Instruments\LabVIEW 2011\cintools" /I"C:\Program Files\National Instruments\Vision\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FIBERSCOPE_SUPPORT_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\National Instruments\LabVIEW 2011\cintools" /I"C:\Program Files\National Instruments\Vision\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D FIBERSCOPE_SUPPORT_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Fiberscope_support_dll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Fiberscope_support_dll.cpp
+         Fiberscope_support_dll.cpp
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Fiberscope_support_dll.dll.embed.manifest.res" Debug\Fiberscope_support_dll_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\National Instruments\Vision\Lib\MSVC" /LIBPATH:"C:\Program Files\National Instruments\LabVIEW 2011\cintools" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Fiberscope_support_dll.def" /MANIFEST /ManifestFile:"Debug\Fiberscope_support_dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.lib" /MACHINE:X86 /DLL Debug\Fiberscope_support_dll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\Fiberscope_support_dll.obj
+         Debug\stdafx.obj
+            Creating library C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.lib and object C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.exp
+       Manifest:
+         Deleting file "Debug\Fiberscope_support_dll.dll.embed.manifest".
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Fiberscope_support_dll.dll.embed.manifest" /manifest Debug\Fiberscope_support_dll.dll.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Fiberscope_support_dll.dll.embed.manifest.res" Debug\Fiberscope_support_dll_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\National Instruments\Vision\Lib\MSVC" /LIBPATH:"C:\Program Files\National Instruments\LabVIEW 2011\cintools" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Fiberscope_support_dll.def" /MANIFEST /ManifestFile:"Debug\Fiberscope_support_dll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.lib" /MACHINE:X86 /DLL Debug\Fiberscope_support_dll.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\Fiberscope_support_dll.obj
+         Debug\stdafx.obj
+            Creating library C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.lib and object C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.exp
+         Fiberscope_support_dll.vcxproj -> C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Debug\Fiberscope_support_dll.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\Fiberscope_support_dll.unsuccessfulbuild".
+         Touching "Debug\Fiberscope_support_dll.lastbuildstate".
+     1>Done Building Project "C:\helioscan\tools\Fiberscope_RK110722\Fiberscope_support_dll\Fiberscope_support_dll\Fiberscope_support_dll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88

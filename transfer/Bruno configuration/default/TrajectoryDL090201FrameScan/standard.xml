@@ -1,0 +1,4 @@
+<config_data>
+  <scan_cutoff_fraction>0.1</scan_cutoff_fraction>
+  <retrace_fraction>0.1</retrace_fraction>
+</config_data>

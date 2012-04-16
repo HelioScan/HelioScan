@@ -1,0 +1,83 @@
+
+
+//if threshold has been set it's used, otherwise lower threshold is set to 175
+getThreshold(threshMin, threshMax);
+
+threshMin=35;
+threshMax=255;	
+	
+	
+//get current image details
+currentTitle = getTitle();
+currentID=getImageID();
+run("Grays");
+//Duplicate the image
+run("Select All");
+run("Duplicate...", "title=threshold");
+thresholdID=getImageID();
+run("Invert");
+//filter to remove noise. Uses median filter to preserve edges
+selectImage(thresholdID);
+run("Median...", "radius=4");
+selectImage(thresholdID);
+
+//sets the threshold. These have been determeined by me empirically from the image you sent.
+//setThreshold(threshMin, 255);
+selectImage(thresholdID);
+
+//change image to binary based on threshold values
+run("Threshold", "thresholded remaining");
+
+//run watershed function to separate touching objects - this is not perfect but pretty good.
+run("Grays");
+run("Watershed");
+
+//run particle analysisto genrate data and image of object outlines
+selectImage(thresholdID);
+run("Analyze Particles...", "minimum=50 maximum=50000 bins=256 show=Masks exclude clear record");
+
+
+
+//rename outline image window and invert it (i.e. B&W to W&B)
+
+outlinesID=getImageID();
+run("Rename...", "title=Outlines");
+//run("Invert");
+
+//close thresholded image
+selectImage(thresholdID);
+run("Close");
+
+//select original image and duplicate
+selectImage(currentID);
+run("Duplicate...", "title=Overlay");
+//run("Invert");
+overlayID=getImageID();
+
+//subtract the outline image to aid the final contrast
+run("Image Calculator...", "image1=Overlay operation=Subtract image2=Outlines");
+
+//Convert to RGB
+run("RGB Color");
+
+//Select outline image
+selectImage(outlinesID);
+
+//turn it black and red
+run("Red");
+
+//make it RGB
+run("RGB Color");
+
+//add outlines to the copy of the original
+
+run("Image Calculator...", "image1=Overlay operation=Add image2=Outlines");
+
+newTitle = "overlay_" +currentTitle;
+run("Rename...", "title="+newTitle);
+//select and close the outline image
+selectImage(outlinesID);
+run("Close");
+selectImage(currentID);
+//run("Invert");
+selectImage(overlayID);

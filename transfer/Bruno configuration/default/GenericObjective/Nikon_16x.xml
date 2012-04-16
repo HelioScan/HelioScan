@@ -1,0 +1,18 @@
+<config_cluster>
+  <LSID>
+    <identifier>QHPNDJEILVKCSQ</identifier>
+    <revision>1</revision>
+  </LSID>
+  <manufacturer_specification>
+    <manufacturer>Nikon</manufacturer>
+    <model>16x NA 0.8</model>
+    <serial_number/>
+    <lot_number/>
+  </manufacturer_specification>
+  <lens_NA>0.8</lens_NA>
+  <nominal_magnification>16</nominal_magnification>
+  <calibrated_magnification>16</calibrated_magnification>
+  <working_distance>0.003</working_distance>
+  <correction>UV</correction>
+  <immersion>WaterDipping</immersion>
+</config_cluster>

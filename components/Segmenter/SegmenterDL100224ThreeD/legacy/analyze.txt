@@ -1,0 +1,15 @@
+// This is a comman line macro that runs the
+// particle anlyzer on a specified image.
+  path = getArgument();
+  if (path=="")
+      exit("No argument!");  
+  print("opening "+path);
+  open(path);
+  if (nImages==0)
+    exit("\"" + path + "\" is not an image");
+  run("Set Measurements...", "area mean circularity decimal=3");
+  print("analyzing particles");
+  run("Threshold", "stack");
+  run("Analyze Particles...", "size=0 show=Nothing display clear stack");
+  run("Close");
+  print("done");

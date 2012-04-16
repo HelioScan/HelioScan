@@ -1,0 +1,5 @@
+open rsbweb.nih.gov
+cd pub/image-j
+bin
+get ij.jar
+bye 

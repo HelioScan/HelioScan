@@ -1,0 +1,20 @@
+<wizard>
+  <step>
+    <class_path>components\Trajectory\TrajectoryCN090716SpiralScan\TrajectoryCN090716SpiralScan\TrajectoryCN090716SpiralScan.lvclass</class_path>
+    <configuration>standard</configuration>
+    <label/>
+    <settings_name/>
+  </step>
+  <step>
+    <class_path>components\ImageAssembler\ImageAssemblerDL090211Frame\ImageAssemblerDL090211Frame\ImageAssemblerDL090211Frame.lvclass</class_path>
+    <configuration>line_scan</configuration>
+    <label/>
+    <settings_name/>
+  </step>
+  <step>
+    <class_path>components\ImagingMode\ImagingModeDL100901FlexTrajectory\ImagingModeDL100901FlexTrajectory\ImagingModeDL100901FlexTrajectory.lvclass</class_path>
+    <configuration>spiral_3D</configuration>
+    <label/>
+    <settings_name/>
+  </step>
+</wizard>

@@ -1,0 +1,6 @@
+<config_data>
+  <physical_channel>Dev2/ao0</physical_channel>
+  <minimum_voltage>0</minimum_voltage>
+  <maximum_voltage>1</maximum_voltage>
+  <default_voltage>0.6</default_voltage>
+</config_data>

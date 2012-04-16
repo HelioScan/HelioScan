@@ -1,0 +1,3 @@
+
+getPixelSize(unit, pw, ph, pd);
+run("3D Project...", "projection='Brightest Point' axis=Y-Axis slice="+pd+" initial=0 total=360 rotation=10 lower=1 upper=255 opacity=20 surface=100 interior=80 interpolate");

@@ -1,0 +1,6 @@
+<config_data>
+  <physical_channel>ScanOutputCard/ao1</physical_channel>
+  <minimum_voltage>0</minimum_voltage>
+  <maximum_voltage>5</maximum_voltage>
+  <default_voltage>0</default_voltage>
+</config_data>

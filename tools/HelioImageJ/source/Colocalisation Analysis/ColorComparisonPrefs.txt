@@ -1,0 +1,13 @@
+#ColorComparison_ Plugin Preferences
+#Fri Apr 15 12:42:19 EDT 2005
+SHOWPALETTE=false
+LODEGREE=120
+WEIGHT=false
+MODE=2
+TITLE=Polar Map
+GRAPH=false
+INTENSITY=0
+HIDEGREE=-120
+THRESHOLD=10.0
+BINS=15
+SHOWTITLE=false

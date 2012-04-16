@@ -1,0 +1,80 @@
+
+
+
+
+
+
+camera -> read_data.vi: obtain_latest_instance von imageAssembler (mit Flag auf true) + send_image ***
+
+
+
+camera DAQ: initialise.vi: Fallunterscheidung RGB/Grayscale --> image_type entsprechend... ***
+
+camera DAQ private Data: zusätzlich array mit images ("channel images") ***********************************
+camera DAQ initialise: 
+- falls RGB-Kamera: 3 mal Bild createn und in channel images schreiben (vom Typ GrayScale (Single)) --> mittels For-Loop mit N=3  ***
+- falls Grayscale-Kamera: leeren IMage-Array in channel images schreiben ****
+
+camera DAQ terminate: über channel images loopen und jeweils Image:destroy.vi aufrufen     **********
+
+Camera DAQ, read_data.vi: Case structure zur Unterscheidung grayScale oder RGB:
+- grayscale: image zu Array mit 1 Element umwandeln (mittels Build Array)	***
+- RGB: image aufsplitten (mittel Exctract Color Planes) und in channel images schreiben. ***
+
+
+
+Camera mode, start_sweep.vi:
+- look at FrameScanMode/start_scanning.vi and integrate content              *********
+- plus: send start trigger to DAQ (obtain_latest_instance mit flag auf true) and to image assembler (dasselbe)   *********
+
+Camera mode, stop_sweep.vi
+- look at FrameScanMode/stop_scanning.vi and integrate content  ***
+- plus: send stop trigger to DAQ and image assembler          *****
+
+
+
+GenericImageAssembler:initialise.vi --> neu anlegen (mittels override):
+- call to parent			************************
+- for-Loop mit N = Number of Channels: jeweils Image:create.vi aufrufen und in Member Variable image (channels) ablegen        *************
+
+GenericImageAssembler:terminate.vi --> neu anlegne (mittels override): ***************
+- destroy image queue (force-Destroy-flag auf true) and get any images that are still in queue ***************
+- oben erhaltene Images mergen mit image (channels) (mittels build array) --> image array *********************
+- for-Loop über oben erhaltenen Image-Array und Image:destroy.vi aufrufen.	************
+- leeren Image-Array in image (channels) schreiben	***************
+- call to parent	***********
+
+GenericImageAssembler:fetch_data.vi --> aus Queue geholtes Image(-Array) kopieren nach image(channels)  ********
+
+
+
+
+
+
+
+BinningImageAssembler:test.vi: neues Control für Frequenz einführen (mit Unit!)
+- Differenz von TimeStamps ergibt Sekunden (aber ohne Unit!) --> mit 1s (Konstante mit Unit) multiplizieren
+
+
+BinningImageAssembler:insert.vi 
+1. fetch (bereits da)
+2. Differenz aus TimeStamp von bisherigem Bild (raw channels) und neuem Bild (image(channels))
+- wenn Differenz grösser TimeWindow: 											
+1. bisheriges Bild downsampeln (raw channels aus Scaffold)						
+2. Downgesampeltes Bild weiterschicken (display, datacollection); proceed an Scanmode schicken		// img noch weiterleiten im richtigen case
+3. neues Bild in raw channels aus Scaffold kopieren.							// still to do. evtl. anders geloest
+4. Iterator zurücksetzen
+- wenn Differenz kleiner TimeWindow: neues Bild in richtigem Verhältnis (iterator!) mit bisherigem Bild (raw channels) verrechnen und in raw channels schreiben:
+z.B., wenn neues Bild gleich 4. Bild: Image:multiply bisheriges Bild mit Faktor 3, Image:Add neues Bild, Image:Divide mit Divisor 4.	// beware of iterator in casestructure 
+- Iterator-Variable aus Scaffold verwenden; iterator.vi in BinningImageASsembler überschreiben mit eigener Logik (zeitbasiert)		// img muss noch dividiert werden
+
+
+
+
+Scan mode:
+- config cluster erweitern           ***************************
+- config cluster: specifications für sub-components in ein zusätzliches Cluster "sub-components" schachteln       ***************************
+- configure.vi und construct.vi überprüfen: stimmen die cluster-Unbundlings noch, nachdem das config-Cluster verändert wurde?	***************
+- configure.vi entsprechend erweitern	*************************************************
+- construct.vi entsprechend erweitern (microscope component instanziieren und senden).	********************************
+

@@ -1,0 +1,7 @@
+// This is a command line macro that counts 
+// the number of lines in a text file.
+  path = getArgument();
+  text = File.openAsString(path);
+  lines = split(text, "\n");
+  print("Line count: "+lines.length);
+

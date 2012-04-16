@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fiberscope_support_dll", "Fiberscope_support_dll\Fiberscope_support_dll.vcxproj", "{2606EAE6-5937-43EA-A18F-BD8EE785838E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2606EAE6-5937-43EA-A18F-BD8EE785838E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2606EAE6-5937-43EA-A18F-BD8EE785838E}.Debug|Win32.Build.0 = Debug|Win32
+		{2606EAE6-5937-43EA-A18F-BD8EE785838E}.Release|Win32.ActiveCfg = Release|Win32
+		{2606EAE6-5937-43EA-A18F-BD8EE785838E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

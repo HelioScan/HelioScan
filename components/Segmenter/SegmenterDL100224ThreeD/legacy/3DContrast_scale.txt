@@ -1,0 +1,103 @@
+macro "3DContrast" {
+// 
+// command line macro to prepare image stack for 3D segmentation
+// assumes RGB.tif file containing  OGB-1/SR101 stain 
+// first calculates difference channels (neurons), then does flatfield, then does local contrast enhancement
+//
+// author: Fritjof Helmchen
+// Date: 21.1.2008
+	
+	tmppath = "P:\\SOFTWARE\\Development\\ImageJ_Macros\\MacroRunner\\"   // temporary folder for calculations
+	flag_enhance = 0;		// perform local contrast enhancement (flag=1) or not (flag=0)
+
+	path = getArgument();
+	fname = File.getName(path);
+	path = path+".tif";
+  	if (path=="")
+     		 exit("No argument!");  
+	if (File.exists(path)==0)
+     		 exit("File does not exist!");  
+	print("opening "+path);
+	open(path);  	
+
+	fpath = File.directory;
+	
+	print(fpath);
+	print(fname);
+	
+	run("RGB Split");
+
+	w = getWidth;
+      h = getHeight;
+
+	imageCalculator("Subtract create stack", path+" (green)",path+" (red)");
+	
+	print("running flat field ...");
+	siz=w/5;
+
+	run("Pseudo Flatfield   ", "mean="+siz+" process use"); 	// window size of width/5 
+			
+	mm=0;
+	for (n=1; n<=nSlices; n++) {
+         	setSlice(n);
+          	getStatistics(area, mean, min, max, std, histogram);
+		mm+=mean;
+     	}
+	mm/=nSlices;
+
+	run("Subtract...", "stack value="+mm);
+	
+	if (path=="") {
+		print("enhancing local contrast ...");
+		EnhanceLocalContrast(w/5, 0.5, true);	//  window size of width/5; saturation 5% allowed; use stack histogram - true
+	}
+
+	run("Reslice [/]...", "input=2.05 output=1.000 start=Top");
+	run("Reslice [/]...", "input=1.000 output=1.000 start=Top");
+	run("Scale...", "x=0.5 y=0.5 interpolate process create");
+	setSlice(1); run("Select All"); run("Copy"); run("Add Slice"); run("Paste");
+	setSlice(nSlices); run("Select All"); run("Copy"); run("Add Slice"); run("Paste");
+
+	run("WriteAnalyze", "save=["+tmppath+fname+"_todo.img]");
+	
+	saveAs("Tiff", fpath+fname+"_diff.tif");
+
+	selectImage(path+" (green)");
+	saveAs("Tiff", tmppath+fname+"_bright.tif");
+
+} // end macro "3DContrast" 
+
+//****************************************************//
+
+function EnhanceLocalContrast(width, satpercent, usestk) {
+//
+// applies enhance contrast locally in ROIs of size "width" until the entire image has been processed
+// when applied to image stacks contrast will be enhance throughout the stack
+// usestk=0  individual plane histogram will be used; usestk=1 stack histogram will be used
+//
+// author: Fritjof Helmchen
+// Date: 19.1.2008
+	
+	w = getWidth;
+      h = getHeight;
+	
+	nmax=floor(maxOf(w,h)/width)+1;
+	xx=0; yy=0;
+
+	setBatchMode(true);
+	for (i=0; i<nmax; i++) {
+		for (j=0; j<nmax; j++) {
+			makeRectangle(xx,yy, width, width);
+			if (usestk) {
+				run("Enhance Contrast", "saturated="+satpercent+" normalize normalize_all use");
+			} else {
+				run("Enhance Contrast", "saturated="+satpercent+" normalize normalize_all");
+			}
+			xx+=width; 
+		}
+		xx=0;
+		yy+=width;
+	}
+} // end function "EnhanceLocalContrast" 
+
+//****************************************************//

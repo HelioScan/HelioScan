@@ -1,0 +1,17 @@
+// This is a command line macro that processes
+// all the tiff images in a specified directory.
+  dir = getArgument();
+  if (dir=="")
+      dir = getDirectory("Select a Directory");
+  if (!endsWith(dir, File.separator))
+      dir = dir + File.separator;
+  list = getFileList(dir);
+  run("Set Measurements...", "area mean display redirect=None display");
+  for (i=0; i<list.length; i++) {
+     if (endsWith(list[i], ".tif")) {
+         open(dir+list[i]);
+         run("Measure");
+     }
+  }
+
+

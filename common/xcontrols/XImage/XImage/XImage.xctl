@@ -1,0 +1,182 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="10008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*5!!!*Q(C=\&gt;7^&lt;2N"%)&lt;BD\9#!9I)O!#$,5Q$#FC#,X6C9&amp;JA3A-+#'5-*X2INM!7JA7WQ"&lt;/\S\(BY.BCIE%/^#&gt;FD`@\MY_P&amp;O=J(\=3X=;&lt;RU0,R[NPQU:(`Y_=*Q[8_D`8;'P&gt;JERV:XXVSJ6\P,W2T#.+N$=.ZMSL84V^YVTXR8W^@\:Q"O(XI`XY^]?WZO&lt;^-XX\%,N152,7N#=:GJ,D5G?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ0UE&amp;\H)21YJ74R:+#G;&amp;%A'1V(SEHA34_**0(R6YEE]C3@R*"['+0%EHM34?")0UZ2Y%E`C34S*BV*&gt;EPUERZ.Y++`!%XA#4_!*0#SJQ"-!AM7#QE%2'!I[AQ_"*`!%(DYK]!3?Q".Y!A`&gt;#DS"*`!%HM$$F(Z6IGP;39[(-H)]DM@R/"\(1WEZ(M@D?"S0YW%Z/2\(YS#=":XC%/2-=A9Y8RS0Y_&amp;.DM@R/"\(YXDI[H@)_Z6JGH;3YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-G'I/-Q0$QVX?,^&lt;M587,^F'LTKD;F;L/J.J&amp;K=[BOOOJGKG[3[O+L,KLK9KEOAOL(K&gt;!KD'I2V?1W5'&gt;?4\1D\5$&lt;U4;UA&lt;;GL7D,.P76"Z\0:ZV/*RW02RU/"_VW/WUW'QX$I06[L&gt;6KJ?6S/4U'0H./$Y4,=WH,Z`WD&amp;M_UJ[`@^E`$JZ`0QZ=@_]'#PO^&lt;@6SU-7`UP`1`?$&lt;KA_:VO5;`!%/]&lt;81!!!!!</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">XControl 1</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Property Name="NI_IconEditor" Type="Str">49 48 48 49 56 48 48 50 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 13 43 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 12 185 0 0 0 0 0 0 0 0 0 0 12 158 0 40 0 0 12 152 0 0 12 0 0 0 0 0 0 32 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 255 204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 86 73 32 73 99 111 110 100 1 0 2 0 0 0 0 0 0 0 6 88 73 109 97 103 101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 10 0 0
+
+</Property>
+	<Item Name="methods" Type="Folder">
+		<Item Name="method_load image.vi" Type="Method VI" URL="../method_load image.vi"/>
+		<Item Name="method_load ROIs.vi" Type="Method VI" URL="../method_load ROIs.vi"/>
+		<Item Name="method_overlay_clear.vi" Type="Method VI" URL="../method_overlay_clear.vi"/>
+		<Item Name="method_redraw.vi" Type="Method VI" URL="../method_redraw.vi"/>
+		<Item Name="method_save ROIs.vi" Type="Method VI" URL="../method_save ROIs.vi"/>
+	</Item>
+	<Item Name="properties" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="last action" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">last action</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">last action</Property>
+			<Item Name="get_last_action.vi" Type="Property VI" URL="../get_last_action.vi"/>
+		</Item>
+		<Item Name="Image:has image loaded?" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">has image loaded?</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:has image loaded?</Property>
+			<Item Name="get_image_loaded_status.vi" Type="Property VI" URL="../get_image_loaded_status.vi"/>
+		</Item>
+		<Item Name="Image:current frame" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">current frame</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:current frame</Property>
+			<Item Name="get_current_frame_index.vi" Type="Property VI" URL="../get_current_frame_index.vi"/>
+			<Item Name="set_current_frame_index.vi" Type="Property VI" URL="../set_current_frame_index.vi"/>
+		</Item>
+		<Item Name="Image:number of frames" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">number of frames</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:number of frames</Property>
+			<Item Name="get_number_of_frames.vi" Type="Property VI" URL="../get_number_of_frames.vi"/>
+		</Item>
+		<Item Name="Image:Size:x resolution" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Image properties:x resolution</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:Size:x resolution</Property>
+			<Item Name="get_x_resolution.vi" Type="Property VI" URL="../get_x_resolution.vi"/>
+		</Item>
+		<Item Name="Image:Size:y resolution" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Image properties:y resolution</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:Size:y resolution</Property>
+			<Item Name="get_y_resolution.vi" Type="Property VI" URL="../get_y_resolution.vi"/>
+		</Item>
+		<Item Name="Image:start path" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Image:start path</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:start path</Property>
+			<Item Name="set_start_path.vi" Type="Property VI" URL="../set_start_path.vi"/>
+		</Item>
+		<Item Name="Offset:XPath for x offset" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XPath for x offset</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset:XPath for x offset</Property>
+			<Item Name="set_xpath_for_x_offset.vi" Type="Property VI" URL="../set_xpath_for_x_offset.vi"/>
+		</Item>
+		<Item Name="Offset:XPath for y offset" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XPath for y offset</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset:XPath for y offset</Property>
+			<Item Name="set_xpath_for_y_offset.vi" Type="Property VI" URL="../set_xpath_for_y_offset.vi"/>
+		</Item>
+		<Item Name="Offset:XPath for z offset" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XPath for z offset</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset:XPath for z offset</Property>
+			<Item Name="XPath for z offset Write 5.vi" Type="Property VI" URL="../XPath for z offset Write 5.vi"/>
+		</Item>
+		<Item Name="PointCollection:point colours" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Property</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">PointCollection:point colours</Property>
+			<Item Name="set_point_colours.vi" Type="Property VI" URL="../set_point_colours.vi"/>
+		</Item>
+		<Item Name="PointCollection:point radius" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">pointRadius</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">PointCollection:point radius</Property>
+			<Item Name="get_point_radius.vi" Type="Property VI" URL="../get_point_radius.vi"/>
+			<Item Name="set_point_radius.vi" Type="Property VI" URL="../set_point_radius.vi"/>
+		</Item>
+		<Item Name="PointCollection:selected point ID" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">selectedPoint</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">PointCollection:selected point ID</Property>
+			<Item Name="get_selected_point_ID.vi" Type="Property VI" URL="../get_selected_point_ID.vi"/>
+			<Item Name="set_selected_point_ID.vi" Type="Property VI" URL="../set_selected_point_ID.vi"/>
+		</Item>
+		<Item Name="ROI:color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ROI Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:color</Property>
+			<Item Name="get_ROI_color.vi" Type="Property VI" URL="../get_ROI_color.vi"/>
+			<Item Name="set_ROI_color.vi" Type="Property VI" URL="../set_ROI_color.vi"/>
+		</Item>
+		<Item Name="ROI:enable numbering of ROIs" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">enable numbering of ROIs</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:enable numbering of ROIs</Property>
+			<Item Name="get_enable_numbering.vi" Type="Property VI" URL="../get_enable_numbering.vi"/>
+			<Item Name="set_enable_numbering.vi" Type="Property VI" URL="../set_enable_numbering.vi"/>
+		</Item>
+		<Item Name="ROI:mode" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">roi mode</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:mode</Property>
+			<Item Name="set_ROI_mode.vi" Type="Property VI" URL="../set_ROI_mode.vi"/>
+		</Item>
+		<Item Name="ROI:number of ROIs" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">number of ROIs</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:number of ROIs</Property>
+			<Item Name="get_number_of_ROIs.vi" Type="Property VI" URL="../get_number_of_ROIs.vi"/>
+		</Item>
+		<Item Name="ROI:ROI Tools Palette visible" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ROI Tools visible</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:ROI Tools Palette visible</Property>
+			<Item Name="get_ROI_visible_tools.vi" Type="Property VI" URL="../get_ROI_visible_tools.vi"/>
+			<Item Name="set_ROI_visible_tools.vi" Type="Property VI" URL="../set_ROI_visible_tools.vi"/>
+		</Item>
+		<Item Name="ROI:ROIs" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ROIs</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:ROIs</Property>
+			<Item Name="get_ROIs.vi" Type="Property VI" URL="../get_ROIs.vi"/>
+			<Item Name="set_ROIs.vi" Type="Property VI" URL="../set_ROIs.vi"/>
+		</Item>
+		<Item Name="ROI:ROIs (um)" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ROIs (um)</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ROI:ROIs (um)</Property>
+			<Item Name="get_ROIs_in_um.vi" Type="Property VI" URL="../get_ROIs_in_um.vi"/>
+			<Item Name="set_ROIs_in_um.vi" Type="Property VI" URL="../set_ROIs_in_um.vi"/>
+		</Item>
+		<Item Name="XControl:size" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XControl:size</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">XControl:size</Property>
+			<Item Name="get_xcontrol_size.vi" Type="Property VI" URL="../get_xcontrol_size.vi"/>
+			<Item Name="set_xcontrol_size.vi" Type="Property VI" URL="../set_xcontrol_size.vi"/>
+		</Item>
+		<Item Name="XML:XML_description" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XML description</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">XML:XML_description</Property>
+			<Item Name="get_XML_description.vi" Type="Property VI" URL="../get_XML_description.vi"/>
+		</Item>
+		<Item Name="Overlay" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">overlay</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Overlay</Property>
+			<Item Name="set_overlay.vi" Type="Property VI" URL="../set_overlay.vi"/>
+		</Item>
+	</Item>
+	<Item Name="subVIs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="draw_manual_overlay.vi" Type="VI" URL="../draw_manual_overlay.vi"/>
+		<Item Name="draw_pointCollection.vi" Type="VI" URL="../draw_pointCollection.vi"/>
+		<Item Name="extract_offset.vi" Type="VI" URL="../extract_offset.vi"/>
+		<Item Name="header_dialog.vi" Type="VI" URL="../header_dialog.vi"/>
+		<Item Name="load_ROIs.vi" Type="VI" URL="../load_ROIs.vi"/>
+		<Item Name="number_ROIs.vi" Type="VI" URL="../number_ROIs.vi"/>
+		<Item Name="save ROIs.vi" Type="VI" URL="../save ROIs.vi"/>
+		<Item Name="search_overlay.vi" Type="VI" URL="../search_overlay.vi"/>
+	</Item>
+	<Item Name="type definitions" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="calibration_cluster.ctl" Type="VI" URL="../calibration_cluster.ctl"/>
+		<Item Name="control_refs_cluster.ctl" Type="VI" URL="../control_refs_cluster.ctl"/>
+		<Item Name="last_action_enum.ctl" Type="VI" URL="../last_action_enum.ctl"/>
+		<Item Name="overlays_cluster.ctl" Type="VI" URL="../overlays_cluster.ctl"/>
+		<Item Name="ROI_frames_cluster.ctl" Type="VI" URL="../ROI_frames_cluster.ctl"/>
+		<Item Name="ROI_mode_enum.ctl" Type="VI" URL="../ROI_mode_enum.ctl"/>
+		<Item Name="ROImicrons_frames_cluster.ctl" Type="VI" URL="../ROImicrons_frames_cluster.ctl"/>
+		<Item Name="xpath_cluster.ctl" Type="VI" URL="../xpath_cluster.ctl"/>
+	</Item>
+	<Item Name="data.ctl" Type="Ability VI" URL="../data.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+	</Item>
+	<Item Name="facade.vi" Type="Ability VI" URL="../facade.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+	</Item>
+	<Item Name="init.vi" Type="Ability VI" URL="../init.vi">
+		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+	</Item>
+	<Item Name="state.ctl" Type="Ability VI" URL="../state.ctl">
+		<Property Name="NI.XItem.Name" Type="Str">State</Property>
+	</Item>
+</XControl>

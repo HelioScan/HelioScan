@@ -1,0 +1,14 @@
+// Author: Dominik Langer, Brain Research Institute, University of Zurich
+// Version: 2009/12/07, 1:07pm
+// Purpose: Loops through images of a stack and optimises their range/offset. Note that the image is converted to 8bit.
+
+
+
+run("Stack to Images");
+for(i = 1; i <= nImages; i++)
+{
+	selectImage(i);
+	run("Enhance Contrast", "saturated=0.5");
+	run("8-bit");
+}
+run("Images to Stack");

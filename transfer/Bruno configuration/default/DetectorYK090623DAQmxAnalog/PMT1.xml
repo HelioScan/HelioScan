@@ -1,0 +1,20 @@
+<config_data>
+  <manufacturer_specification>
+    <manufacturer>Hamamatsu</manufacturer>
+    <model>H10770pa</model>
+    <serial_number/>
+    <lot_number/>
+  </manufacturer_specification>
+  <type>PMT</type>
+  <LSID>
+    <identifier>ESROIVPLQWCJFS</identifier>
+    <revision>1</revision>
+  </LSID>
+  <default_voltage>0.6</default_voltage>
+  <analog_out>
+    <class_path/>
+    <configuration>PMT1</configuration>
+    <label/>
+    <settings_name/>
+  </analog_out>
+</config_data>

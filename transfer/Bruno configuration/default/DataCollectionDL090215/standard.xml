@@ -1,0 +1,8 @@
+<config_data>
+  <saving_format>
+    <channels_in_same_file>false</channels_in_same_file>
+    <format>uint16</format>
+  </saving_format>
+  <autosave_default>true</autosave_default>
+  <OME_default>true</OME_default>
+</config_data>

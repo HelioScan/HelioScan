@@ -1,0 +1,9 @@
+- doesn't work on H37right PC
+- does work on Adrians PC 
+--> it's not local vs. farm compiling
+--> the chassis/card isn't broken
+- camera card taken out of H37r PC: doesn't work still
+- serial port card also taken out: still doesn't work
+--> it's not interference with these other cards
+- card now in third PXIe slot from top: still not working
+- card now in fourth PXIe slot from top: still not working

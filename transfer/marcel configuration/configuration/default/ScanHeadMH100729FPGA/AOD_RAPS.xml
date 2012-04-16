@@ -1,0 +1,23 @@
+<configuration_data>
+  <LSID>
+    <identifier/>
+    <revision>0</revision>
+  </LSID>
+  <visibility>
+    <Zoom>false</Zoom>
+    <RotateX>false</RotateX>
+    <RotateY>false</RotateY>
+    <TranslateX>false</TranslateX>
+    <TranslateY>false</TranslateY>
+    <TranslateZ>false</TranslateZ>
+  </visibility>
+  <subcomponent_specifications>
+    <intensity_modifier>
+      <class_path>components\AnalogOut\AnalogOutDL101207DAQmx\AnalogOutDL101207DAQmx\AnalogOutDL101207DAQmx.lvclass</class_path>
+      <configuration>H45_AOD</configuration>
+      <label/>
+      <settings_name>user-defined</settings_name>
+    </intensity_modifier>
+  </subcomponent_specifications>
+  <translation_factor>0.01</translation_factor>
+</configuration_data>

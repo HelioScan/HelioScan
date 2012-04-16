@@ -1,0 +1,10 @@
+=========== IMPORTANT ==================================================================
+
+When you implement a ScanMode component that is a child class of this scaffold component, you have to proceed as follows:
+1. Create a new project.
+2. Add GenericScanMode.lvlcass to the project
+3. Add ScanModeDL090923Scaffold_statechart to the project.
+4. Add ScanModeDL090923Scaffold.lvclass to the project.
+5. Create the new class for your own component.
+
+If you do not act exactly to this procedure, you might end up in problems with a broken statechart!!!!

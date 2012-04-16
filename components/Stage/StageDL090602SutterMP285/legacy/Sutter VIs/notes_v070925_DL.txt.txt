@@ -1,0 +1,6 @@
+The original VISA MP-285 Get Position.vi from time to time failed to retrieve the Sutter position, resulting in an error.
+This seems to be the reason why the Sutter did not work in the stack modus of the scanning software from time to time!
+The VISA MP-285 Get Position.vi has been improved by Hansjörg & Dominik to avoid that error.
+--> Stack modus of the scanning software using the Sutter seems to work fine now.
+
+DL, 25th of September 2007
