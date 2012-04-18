@@ -562,6 +562,9 @@
 				<Item Name="F336576646327CF5414671EEEDE9E85E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F336576646327CF5414671EEEDE9E85E"/>
 			</Item>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../../common/utilities/bool_to_enable_state.vi"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
@@ -569,10 +572,12 @@
 			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/channels_cluster.ctl"/>
 			<Item Name="command_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/grabber/command_enum.ctl"/>
 			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../../common/classes/Image/Image/comparison_operator_enum.ctl"/>
+			<Item Name="complementary_color.vi" Type="VI" URL="../../../../common/utilities/complementary_color.vi"/>
 			<Item Name="component_path_clusters.ctl" Type="VI" URL="../../../../common/classes/GenericComponent/GenericComponent/component_path_clusters.ctl"/>
 			<Item Name="component_specification_dialog.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog.vi"/>
 			<Item Name="component_specification_dialog_with_user.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog_with_user.vi"/>
 			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../../common/utilities/conditional_error_clearer.vi"/>
+			<Item Name="configuration_cluster_framescan.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/configuration_cluster_framescan.ctl"/>
 			<Item Name="configuration_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/configuration_cluster_raps.ctl"/>
 			<Item Name="configuration_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/configuration_paths_cluster.ctl"/>
 			<Item Name="controls_refs.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/clusters/controls_refs.ctl"/>
@@ -587,6 +592,7 @@
 			<Item Name="error_codes.ctl" Type="VI" URL="../../../../common/enumerations/error_codes.ctl"/>
 			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../../common/classes/ErrorController/ErrorController/ErrorController.lvclass"/>
 			<Item Name="find_best_fit.vi" Type="VI" URL="../../../../common/utilities/find_best_fit.vi"/>
+			<Item Name="FPGAWrapperMH120124FrameScan_PXI7813R.lvclass" Type="LVClass" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/FPGAWrapperMH120124FrameScan_PXI7813R.lvclass"/>
 			<Item Name="GenericAdapter.lvclass" Type="LVClass" URL="../../../Adapter/GenericAdapter/GenericAdapter/GenericAdapter.lvclass"/>
 			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
 			<Item Name="GenericClock.lvclass" Type="LVClass" URL="../../../Clock/GenericClock/GenericClock/GenericClock.lvclass"/>
@@ -614,6 +620,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LSID_cluster.ctl" Type="VI" URL="../../../../common/clusters/LSID_cluster.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
 			<Item Name="make_path_relative.vi" Type="VI" URL="../../../../common/utilities/make_path_relative.vi"/>
@@ -644,6 +652,7 @@
 			<Item Name="run_mode_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/run_mode_enum.ctl"/>
 			<Item Name="save_configuration.vi" Type="VI" URL="../../../../common/utilities/save_configuration.vi"/>
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
+			<Item Name="settings_cluster_framescan.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/settings_cluster_framescan.ctl"/>
 			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
@@ -677,17 +686,8 @@
 			<Item Name="XImage.xctl" Type="XControl" URL="../../../../common/xcontrols/XImage/XImage/XImage.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="FPGAWrapperMH120124FrameScan_PXI7813R.lvclass" Type="LVClass" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/FPGAWrapperMH120124FrameScan_PXI7813R.lvclass"/>
-			<Item Name="configuration_cluster_framescan.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/configuration_cluster_framescan.ctl"/>
-			<Item Name="settings_cluster_framescan.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124FrameScan_PXI7813R/settings_cluster_framescan.ctl"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
-			<Item Name="complementary_color.vi" Type="VI" URL="../../../../common/utilities/complementary_color.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
