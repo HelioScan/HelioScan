@@ -19,22 +19,17 @@
 	</Item>
 	<Item Name="properties" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="last action" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">last action</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">last action</Property>
-			<Item Name="get_last_action.vi" Type="Property VI" URL="../get_last_action.vi"/>
-		</Item>
-		<Item Name="Image:has image loaded?" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">has image loaded?</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:has image loaded?</Property>
-			<Item Name="get_image_loaded_status.vi" Type="Property VI" URL="../get_image_loaded_status.vi"/>
-		</Item>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Image:current frame" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">current frame</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:current frame</Property>
 			<Item Name="get_current_frame_index.vi" Type="Property VI" URL="../get_current_frame_index.vi"/>
 			<Item Name="set_current_frame_index.vi" Type="Property VI" URL="../set_current_frame_index.vi"/>
+		</Item>
+		<Item Name="Image:has image loaded?" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">has image loaded?</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:has image loaded?</Property>
+			<Item Name="get_image_loaded_status.vi" Type="Property VI" URL="../get_image_loaded_status.vi"/>
 		</Item>
 		<Item Name="Image:number of frames" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">number of frames</Property>
@@ -56,6 +51,11 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:start path</Property>
 			<Item Name="set_start_path.vi" Type="Property VI" URL="../set_start_path.vi"/>
 		</Item>
+		<Item Name="last action" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">last action</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">last action</Property>
+			<Item Name="get_last_action.vi" Type="Property VI" URL="../get_last_action.vi"/>
+		</Item>
 		<Item Name="Offset:XPath for x offset" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XPath for x offset</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset:XPath for x offset</Property>
@@ -70,6 +70,11 @@
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">XPath for z offset</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Offset:XPath for z offset</Property>
 			<Item Name="XPath for z offset Write 5.vi" Type="Property VI" URL="../XPath for z offset Write 5.vi"/>
+		</Item>
+		<Item Name="Overlay" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">overlay</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Overlay</Property>
+			<Item Name="set_overlay.vi" Type="Property VI" URL="../set_overlay.vi"/>
 		</Item>
 		<Item Name="PointCollection:point colours" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Property</Property>
@@ -139,10 +144,10 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">XML:XML_description</Property>
 			<Item Name="get_XML_description.vi" Type="Property VI" URL="../get_XML_description.vi"/>
 		</Item>
-		<Item Name="Overlay" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">overlay</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Overlay</Property>
-			<Item Name="set_overlay.vi" Type="Property VI" URL="../set_overlay.vi"/>
+		<Item Name="Image:image path" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Image:image path</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image:image path</Property>
+			<Item Name="get_image_path.vi" Type="Property VI" URL="../get_image_path.vi"/>
 		</Item>
 	</Item>
 	<Item Name="subVIs" Type="Folder">
