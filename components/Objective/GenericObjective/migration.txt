@@ -1,0 +1,4 @@
+3.3.4 --> 3.4
+2012/04/12: configuration 
+- everything removed but calibratedMagnification
+- calibratedMagnification renamed to magnification
