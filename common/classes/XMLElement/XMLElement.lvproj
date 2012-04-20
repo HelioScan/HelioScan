@@ -49,7 +49,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DOMUserDefRef.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/DOMUserDefRef.rc"/>
+			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../utilities/conditional_error_clearer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -167,7 +167,6 @@
 				<Item Name="Get Array Element Default Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element Default Data__ogtk.vi"/>
 				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
 				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
 				<Item Name="Get Cluster Element Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element Names__ogtk.vi"/>
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
@@ -180,7 +179,8 @@
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CSG)__ogtk.vi"/>
@@ -348,6 +348,7 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -541,11 +542,9 @@
 			<Item Name="GenericTrajectory.lvclass" Type="LVClass" URL="../../../../components/Trajectory/GenericTrajectory/GenericTrajectory/GenericTrajectory.lvclass"/>
 			<Item Name="get_paths.vi" Type="VI" URL="../../../utilities/get_paths.vi"/>
 			<Item Name="get_project_path.vi" Type="VI" URL="../../../utilities/get_project_path.vi"/>
-			<Item Name="get_user.vi" Type="VI" URL="../../../utilities/get_user.vi"/>
 			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../Image/Image/Image.lvclass"/>
-			<Item Name="LSID_cluster.ctl" Type="VI" URL="../../../clusters/LSID_cluster.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../utilities/make_path_absolute.vi"/>
 			<Item Name="make_path_relative.vi" Type="VI" URL="../../../utilities/make_path_relative.vi"/>
@@ -561,13 +560,11 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Notebook.lvclass" Type="LVClass" URL="../../NoteBook/Notebook/Notebook.lvclass"/>
-			<Item Name="offset_request.ctl" Type="VI" URL="../../../clusters/offset_request.ctl"/>
 			<Item Name="origin_type_enum.ctl" Type="VI" URL="../../Image/Image/origin_type_enum.ctl"/>
 			<Item Name="pixel_coordinate_cluster.ctl" Type="VI" URL="../../../clusters/pixel_coordinate_cluster.ctl"/>
 			<Item Name="pixel_raw_data_array.ctl" Type="VI" URL="../../../arrays/pixel_raw_data_array.ctl"/>
 			<Item Name="plugin_specification.ctl" Type="VI" URL="../../../clusters/plugin_specification.ctl"/>
 			<Item Name="populate_config_or_settings_combo.vi" Type="VI" URL="../../../utilities/populate_config_or_settings_combo.vi"/>
-			<Item Name="populate_users.vi" Type="VI" URL="../../../utilities/populate_users.vi"/>
 			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../clusters/range_offset_cluster.ctl"/>
 			<Item Name="read_configuration.vi" Type="VI" URL="../../../utilities/read_configuration.vi"/>
 			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../utilities/read_settings_file_dialog.vi"/>
@@ -576,10 +573,10 @@
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../clusters/settings_specification_cluster.ctl"/>
-			<Item Name="SoftwareParameter.lvclass" Type="LVClass" URL="../../SoftwareParameter/SoftwareParameter/SoftwareParameter.lvclass"/>
 			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../arrays/space_vector_array.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../utilities/split_string.vi"/>
+			<Item Name="string_to_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/string_to_main_trigger.vi"/>
 			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../utilities/strip_path_multiple.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
