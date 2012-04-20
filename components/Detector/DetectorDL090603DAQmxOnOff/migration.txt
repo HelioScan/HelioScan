@@ -1,0 +1,5 @@
+3.3.4 --> 3.4
+2012/04/12: configuration 
+- manufacturer specification removed
+- type removed
+- LSID removed
