@@ -49,6 +49,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+		<Item Name="get_status.vi" Type="VI" URL="../get_status.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!)1FJ=S"I98"Q?4]!/E"Q!"Y!!"I95X2B:W6.3$%Q-$-Q-52.1SZM&gt;G.M98.T!!!55X2B:W6.3$%Q-$-Q-52.1S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I95X2B:W6.3$%Q-$-Q-52.1SZM&gt;G.M98.T!!!45X2B:W6.3$%Q-$-Q-52.1S"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!E!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082393104</Property>
+		</Item>
 	</Item>
 	<Item Name="DMC Command VIs" Type="Folder">
 		<Item Name="COMMAND_GetError.vi" Type="VI" URL="../COMMAND_GetError.vi">
