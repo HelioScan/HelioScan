@@ -402,8 +402,9 @@
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
 				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
-				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -591,6 +592,7 @@
 				<Item Name="Easy Parse XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Parse XML__JKI EasyXML.vi"/>
 				<Item Name="827DCC2E9B92BEF942016E696461C639" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/827DCC2E9B92BEF942016E696461C639"/>
 				<Item Name="Easy Read XML File__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Easy Read XML File__JKI EasyXML.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
@@ -671,7 +673,43 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="manufacturer_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/manufacturer_specification_cluster.ctl"/>
+			<Item Name="get_paths.vi" Type="VI" URL="../../../../common/utilities/get_paths.vi"/>
+			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
+			<Item Name="configuration_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/configuration_paths_cluster.ctl"/>
+			<Item Name="component_path_clusters.ctl" Type="VI" URL="../../../../common/classes/GenericComponent/GenericComponent/component_path_clusters.ctl"/>
+			<Item Name="make_path_relative.vi" Type="VI" URL="../../../../common/utilities/make_path_relative.vi"/>
+			<Item Name="populate_config_or_settings_combo.vi" Type="VI" URL="../../../../common/utilities/populate_config_or_settings_combo.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
+			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../../common/utilities/strip_path_multiple.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="GenericExperimentController.lvclass" Type="LVClass" URL="../../../ExperimentController/GenericExperimentController/GenericExperimentController/GenericExperimentController.lvclass"/>
+			<Item Name="component_specification_dialog.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog.vi"/>
+			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
+			<Item Name="read_configuration.vi" Type="VI" URL="../../../../common/utilities/read_configuration.vi"/>
+			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/read_settings_file_dialog.vi"/>
+			<Item Name="save_configuration.vi" Type="VI" URL="../../../../common/utilities/save_configuration.vi"/>
+			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
+			<Item Name="GenericCommand.lvclass" Type="LVClass" URL="../../../Command/GenericCommand/GenericCommand/GenericCommand.lvclass"/>
+			<Item Name="GenericImagingMode.lvclass" Type="LVClass" URL="../../../ImagingMode/GenericImagingMode/GenericImagingMode/GenericImagingMode.lvclass"/>
+			<Item Name="GenericDisplay.lvclass" Type="LVClass" URL="../../../Display/GenericDisplay/GenericDisplay/GenericDisplay.lvclass"/>
+			<Item Name="GenericDataCollection.lvclass" Type="LVClass" URL="../../../DataCollection/GenericDataCollection/GenericDataCollection/GenericDataCollection.lvclass"/>
+			<Item Name="GenericStimulator.lvclass" Type="LVClass" URL="../../../Stimulator/GenericStimulator/GenericStimulator/GenericStimulator.lvclass"/>
+			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
+			<Item Name="GenericInstrument.lvclass" Type="LVClass" URL="../../../Instrument/GenericInstrument/GenericInstrument/GenericInstrument.lvclass"/>
+			<Item Name="GenericStage.lvclass" Type="LVClass" URL="../../../Stage/GenericStage/GenericStage/GenericStage.lvclass"/>
+			<Item Name="error_codes.ctl" Type="VI" URL="../../../../common/enumerations/error_codes.ctl"/>
 			<Item Name="Processed Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/Processed Data.ctl"/>
 			<Item Name="coord_conversion.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/coord_conversion.vi"/>
 			<Item Name="make_color_index_array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/make_color_index_array.vi"/>
