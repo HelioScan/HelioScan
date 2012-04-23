@@ -15,6 +15,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="migration.txt" Type="Document" URL="../migration.txt"/>
 		<Item Name="GenericImageAssembler.lvclass" Type="LVClass" URL="../../GenericImageAssembler/GenericImageAssembler/GenericImageAssembler.lvclass"/>
 		<Item Name="ImageAssemblerDL090211Scaffold.lvclass" Type="LVClass" URL="../../ImageAssemblerDL090211Scaffold/ImageAssemblerDL090211Scaffold/ImageAssemblerDL090211Scaffold.lvclass"/>
 		<Item Name="ImageAssemblerDL090211Frame.lvclass" Type="LVClass" URL="../ImageAssemblerDL090211Frame/ImageAssemblerDL090211Frame.lvclass"/>
@@ -575,7 +576,6 @@
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../../common/arrays/space_vector_array.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
 			<Item Name="System" Type="VI" URL="System">
