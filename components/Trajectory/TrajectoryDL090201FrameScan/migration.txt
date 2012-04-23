@@ -1,0 +1,5 @@
+3.3.4 --> 3.4
+2012/04/23: configuration 
+- scan_cutoff_fraction changed to x_scan_cutoff_fraction
+- retrace_fraction changed to x_retrace_fraction
+- new element added: y_retrace_fraction

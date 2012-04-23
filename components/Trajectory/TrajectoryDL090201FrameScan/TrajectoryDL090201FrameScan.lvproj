@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="config_files" Type="Folder"/>
+		<Item Name="migration.txt" Type="Document" URL="../migration.txt"/>
 		<Item Name="GenericTrajectory.lvclass" Type="LVClass" URL="../../GenericTrajectory/GenericTrajectory/GenericTrajectory.lvclass"/>
 		<Item Name="TrajectoryDL091126GenericVoxel.lvclass" Type="LVClass" URL="../../TrajectoryDL091126GenericVoxel/TrajectoryDL091126GenericVoxel/TrajectoryDL091126GenericVoxel.lvclass"/>
 		<Item Name="TrajectoryDL090201FrameScan.lvclass" Type="LVClass" URL="../TrajectoryDL090201FrameScan/TrajectoryDL090201FrameScan.lvclass"/>
@@ -536,8 +537,6 @@
 				<Item Name="LVAttenuationTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAttenuationTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="axes.ctl" Type="VI" URL="../../../../common/legacy/axes.ctl"/>
@@ -610,7 +609,6 @@
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
 			<Item Name="solve_quadratic_equation.vi" Type="VI" URL="../../TrajectoryDL091126GenericVoxel/TrajectoryDL091126GenericVoxel/solve_quadratic_equation.vi"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../../common/arrays/space_vector_array.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
 			<Item Name="System" Type="VI" URL="System">
