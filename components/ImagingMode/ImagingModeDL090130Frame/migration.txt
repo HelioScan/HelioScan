@@ -1,0 +1,3 @@
+3.3.4 --> 3.4
+2012/04/24: settings
+- new node added: FrameSettings/SpeedConstant
