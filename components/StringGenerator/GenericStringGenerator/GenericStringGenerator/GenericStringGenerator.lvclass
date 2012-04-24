@@ -38,19 +38,6 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="component type" Type="Property Definition">
-		<Property Name="NI.ClassItem.Property.LongName" Type="Str">New Folder</Property>
-		<Property Name="NI.ClassItem.Property.ShortName" Type="Str">component type</Property>
-		<Item Name="get_cmp_type_name.vi" Type="VI" URL="../get_cmp_type_name.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;@!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/9W^N='^O:7ZU)(2Z='5!!%:!=!!?!!!A(E&gt;F&lt;G6S;7.4&gt;(*J&lt;G&gt;(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!'E&gt;F&lt;G6S;7.4&gt;(*J&lt;G&gt;(:7ZF=G&amp;U&lt;X)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!A(E&gt;F&lt;G6S;7.4&gt;(*J&lt;G&gt;(:7ZF=G&amp;U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!'5&gt;F&lt;G6S;7.4&gt;(*J&lt;G&gt;(:7ZF=G&amp;U&lt;X)A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
-		</Item>
-	</Item>
 	<Item Name="create.vi" Type="VI" URL="../create.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!"'1(!!(A!!)"Z(:7ZF=GFD5X2S;7ZH2W6O:8*B&gt;'^S,GRW9WRB=X-!!"J(:7ZF=GFD5X2S;7ZH2W6O:8*B&gt;'^S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"%1(!!(A!!)"Z(:7ZF=GFD5X2S;7ZH2W6O:8*B&gt;'^S,GRW9WRB=X-!!"F(:7ZF=GFD5X2S;7ZH2W6O:8*B&gt;'^S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
