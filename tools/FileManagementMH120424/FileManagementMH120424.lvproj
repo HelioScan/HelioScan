@@ -10,8 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="type definitions" Type="Folder">
+			<Item Name="references.ctl" Type="VI" URL="../FileManagementMH120424/references.ctl"/>
+			<Item Name="task_enum.ctl" Type="VI" URL="../FileManagementMH120424/task_enum.ctl"/>
+		</Item>
 		<Item Name="consumer.vi" Type="VI" URL="../FileManagementMH120424/consumer.vi"/>
-		<Item Name="references.ctl" Type="VI" URL="../FileManagementMH120424/references.ctl"/>
 		<Item Name="run.vi" Type="VI" URL="../FileManagementMH120424/run.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
