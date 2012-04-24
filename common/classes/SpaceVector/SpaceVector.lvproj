@@ -13,9 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../SpaceVector/SpaceVector.lvclass"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../arrays/space_vector_array.ctl"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
