@@ -507,7 +507,6 @@
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
@@ -605,9 +604,9 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="gate_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/gate_cluster.ctl"/>
 			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/gate_parameters_cluster.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
