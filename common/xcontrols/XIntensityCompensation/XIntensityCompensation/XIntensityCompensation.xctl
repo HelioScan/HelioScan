@@ -14,6 +14,7 @@
 	<Item Name="subVIs" Type="Folder">
 		<Item Name="interpolate.vi" Type="VI" URL="../interpolate.vi"/>
 		<Item Name="look_up_intensity.vi" Type="VI" URL="../look_up_intensity.vi"/>
+		<Item Name="fit_exponential.vi" Type="VI" URL="../fit_exponential.vi"/>
 	</Item>
 	<Item Name="type definitions" Type="Folder">
 		<Item Name="control_refs.ctl" Type="VI" URL="../control_refs.ctl"/>
