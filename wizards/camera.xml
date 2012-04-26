@@ -18,12 +18,6 @@
     <settings_name/>
   </step>
   <step>
-    <class_path>components\Objective\GenericObjective\GenericObjective\GenericObjective.lvclass</class_path>
-    <configuration>objective</configuration>
-    <label/>
-    <settings_name/>
-  </step>
-  <step>
     <class_path>components\Display\DisplayDL090216\DisplayDL090216\DisplayDL090216.lvclass</class_path>
     <configuration>video_camera</configuration>
     <label/>
