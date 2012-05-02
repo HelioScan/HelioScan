@@ -2679,7 +2679,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_framescan</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">54</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">56</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_framescan</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
@@ -2715,7 +2715,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">27</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">28</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>

@@ -42,6 +42,9 @@
 			</Item>
 			<Item Name="FPGAWrapperMH120124FrameScan_PXI7813R.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGAWrapperMH120124FrameScan_PXI7813R.lvbitx"/>
 			<Item Name="FPGAWrapperMH120124RAPS_PXI7813R.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGAWrapperMH120124RAPS_PXI7813R.lvbitx"/>
+			<Item Name="gate_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/gate_cluster.ctl"/>
+			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../common_typedefs/gate_parameters_cluster.ctl"/>
+			<Item Name="inverse_enum.ctl" Type="VI" URL="../../fpgaVIsAndControls/inverse_enum.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
