@@ -2648,7 +2648,6 @@
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="grabber_framescan" Type="EXE">
@@ -2715,7 +2714,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">31</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">33</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
