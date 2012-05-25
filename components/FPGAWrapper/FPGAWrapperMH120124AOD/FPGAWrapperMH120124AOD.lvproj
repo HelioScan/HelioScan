@@ -2628,9 +2628,9 @@
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
 			<Item Name="FPGA_frame" Type="Document" URL="../FPGA Bitfiles/FPGA_frame"/>
-			<Item Name="FPGA_RAPS" Type="Document" URL="../FPGA Bitfiles/FPGA_RAPS"/>
 			<Item Name="ni.dex.rc" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
+			<Item Name="FPGA_RAPS" Type="VI" URL="../FPGA Bitfiles/FPGA_RAPS"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="grabber_framescan" Type="EXE">
@@ -2661,7 +2661,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_framescan</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">59</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">60</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_framescan</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
@@ -2697,7 +2697,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">40</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">42</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
