@@ -15,6 +15,7 @@
 		<Item Name="AnalysisRaps2.lvclass" Type="LVClass" URL="../AnalysisRaps2.lvclass"/>
 		<Item Name="Image.lvclass" Type="LVClass" URL="../../../common/classes/Image/Image/Image.lvclass"/>
 		<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../common/classes/ImageCollection/ImageCollection/ImageCollection.lvclass"/>
+		<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../common/libraries/TIFFManagement/TIFFManagement.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -458,7 +459,6 @@
 			</Item>
 			<Item Name="target_format_enum.ctl" Type="VI" URL="../../../common/classes/Image/Image/target_format_enum.ctl"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
-			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../common/libraries/TIFFManagement/TIFFManagement.lvlib"/>
 			<Item Name="type_enum.ctl" Type="VI" URL="../../../common/classes/ImageCollection/ImageCollection/type_enum.ctl"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../common/enumerations/x_y_z_enumeration.ctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
