@@ -116,6 +116,10 @@ __declspec(dllexport) int readPageGeneral(char* path, int page, void* buffer)
 							TIFFReadEncodedStrip(tif, stripCount, &(((uint32*)buffer)[stripCount * stripSize / 4]), stripSize);
 							break;
 						default:
+							for (int pixelCounter = 0; pixelCounter < 1000; pixelCounter++)
+							{
+								((uint16*)buffer)[pixelCounter] = 7;
+							}
 							return (0);
 					}
 					break;
@@ -123,6 +127,10 @@ __declspec(dllexport) int readPageGeneral(char* path, int page, void* buffer)
 					TIFFReadEncodedStrip(tif, stripCount, &(((uint8*)buffer)[stripCount * stripSize]), stripSize);
 					break;
 				default:
+					for (int pixelCounter = 0; pixelCounter < 1000; pixelCounter++)
+					{
+						((uint16*)buffer)[pixelCounter] = 5;
+					}
 					return (0);
 			}
 		}
