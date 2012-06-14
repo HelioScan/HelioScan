@@ -193,7 +193,7 @@ __declspec(dllexport) int writeSinglePage(char* path, uint32 width, uint32 heigh
 
 	bytesPerSample = bitsPerSample / 8;
 
-	TIFFSetField(tif, TIFFTAG_SUBFILETYPE, 0);
+	//TIFFSetField(tif, TIFFTAG_SUBFILETYPE, 0);
 	TIFFSetField(tif, TIFFTAG_IMAGEWIDTH, width);  // set the width of the image
 	TIFFSetField(tif, TIFFTAG_IMAGELENGTH, height);    // set the height of the image
 	TIFFSetField(tif, TIFFTAG_PHOTOMETRIC, 1); // black is zero
@@ -203,9 +203,11 @@ __declspec(dllexport) int writeSinglePage(char* path, uint32 width, uint32 heigh
 
 
    // set the strip size of the file to be size of one row of pixels
-	stripSize = TIFFDefaultStripSize(tif, width * samplesPerPixel * height);
-    TIFFSetField(tif, TIFFTAG_ROWSPERSTRIP, width);
-	numberOfStrips = width * height / stripSize;
+	//stripSize = TIFFDefaultStripSize(tif, width * samplesPerPixel * height);
+	stripSize = TIFFDefaultStripSize(tif, width * samplesPerPixel);
+    TIFFSetField(tif, TIFFTAG_ROWSPERSTRIP, 1);
+	//numberOfStrips = width * height / stripSize;
+	numberOfStrips = height;
 
 	for (tstrip_t stripCount = 0; stripCount < numberOfStrips; stripCount++)
 	{
@@ -284,6 +286,7 @@ __declspec(dllexport) int writeMultiPage(char* path, char* descriptionFilePath, 
 		TIFFSetField(tif, TIFFTAG_IMAGELENGTH, height);    // set the height of the image
 		TIFFSetField(tif, TIFFTAG_SAMPLESPERPIXEL, samplesPerPixel);   // set number of channels per pixel
 		TIFFSetField(tif, TIFFTAG_BITSPERSAMPLE, bitsPerSample);    // set the size of the channels
+		TIFFSetField(tif, TIFFTAG_PHOTOMETRIC, 1); // black is zero
 		TIFFSetField(tif, TIFFTAG_IMAGEDESCRIPTION, description); // set the image description
 
 	   // set the strip size of the file to be size of one row of pixels
