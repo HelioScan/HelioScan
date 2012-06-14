@@ -89,24 +89,24 @@ int findTIFFPage(TIFF *tif, int page)
 __declspec(dllexport) int readPageGeneral(char* path, int page, void* buffer)
 {
 	TIFF *tif=TIFFOpen(path, "r");
-	fstream logFile;
+	/*fstream logFile;
 	logFile.open ("log.txt", fstream::out);
 	logFile << "entering readPageGeneral...\n";
-	logFile << "page: " << page << "\n";
+	logFile << "page: " << page << "\n";*/
 	int pageFound = findTIFFPage(tif, page);
 	if (pageFound)
 	{		
-		logFile << "Page found...\n";
+		//logFile << "Page found...\n";
 		// Read in the possibly multiple strips
 		tsize_t stripSize = TIFFStripSize (tif);
-		logFile << "stripSize: " << stripSize;
+		//logFile << "stripSize: " << stripSize << "\n";
 		tstrip_t numberOfStrips = TIFFNumberOfStrips (tif);
-		logFile << "numberOfStrips: " << numberOfStrips << "\n";
+		//logFile << "numberOfStrips: " << numberOfStrips << "\n";
 		uint16 bitsPerSample, samplesPerPixel;
 		TIFFGetField(tif, TIFFTAG_BITSPERSAMPLE, &bitsPerSample);	// get bit size
 		TIFFGetField(tif, TIFFTAG_SAMPLESPERPIXEL, &samplesPerPixel);	// get channels
-		logFile << "bitsPerSample: " << bitsPerSample << "\n";
-		logFile << "samplesPerPixel: " << samplesPerPixel << "\n";
+		//logFile << "bitsPerSample: " << bitsPerSample << "\n";
+		//logFile << "samplesPerPixel: " << samplesPerPixel << "\n";
 
 		for (tstrip_t stripCount = 0; stripCount < numberOfStrips; stripCount++)
 		{
@@ -125,7 +125,7 @@ __declspec(dllexport) int readPageGeneral(char* path, int page, void* buffer)
 							TIFFReadEncodedStrip(tif, stripCount, &(((uint32*)buffer)[stripCount * stripSize / 4]), stripSize);
 							break;
 						default:
-							logFile << "!!!bitsPerSample not correct!!!\n";
+							//logFile << "!!!bitsPerSample not correct!!!\n";
 							return (0);
 					}
 					break;
@@ -133,7 +133,7 @@ __declspec(dllexport) int readPageGeneral(char* path, int page, void* buffer)
 					TIFFReadEncodedStrip(tif, stripCount, &(((uint8*)buffer)[stripCount * stripSize]), stripSize);
 					break;
 				default:
-					logFile << "!!!samplesPerPixel not correct!!!\n";
+					//logFile << "!!!samplesPerPixel not correct!!!\n";
 					return (0);
 			}
 		}
