@@ -37,6 +37,19 @@
 		</Item>
 	</Item>
 	<Item Name="accessors" Type="Folder">
+		<Item Name="number of channels" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">number of channels</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">number of channels</Property>
+			<Item Name="get_number_of_channels.vi" Type="VI" URL="../get_number_of_channels.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"F!!Q!3&lt;H6N9G6S)'^G)'.I97ZO:7RT!!"+1(!!(A!!)S&amp;4;7&gt;O97R3:7&amp;E:8*$4D!Z-4%S/52"57VY,GRW9WRB=X-!(6.J:WZB&lt;&amp;*F972F=E./-$ER-4)Z2%&amp;2&lt;8AA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!3E"Q!"Y!!#-B5WFH&lt;G&amp;M5G6B:'6S1UYQ/4%R-DF%16&amp;N?#ZM&gt;G.M98.T!"R4;7&gt;O97R3:7&amp;E:8*$4D!Z-4%S/52"57VY)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+			</Item>
+		</Item>
 		<Item Name="get_config_cluster.vi" Type="VI" URL="../get_config_cluster.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;8!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"Z!5RBD&lt;WZG;7=A9WRV=X2F=C!I&gt;G&amp;S;7&amp;O&gt;#E!!$Z!=!!?!!!D)6.J:WZB&lt;&amp;*F972F=E./-$ER-4)Z2%&amp;2&lt;8AO&lt;(:D&lt;'&amp;T=Q!22W6O:8*J9V"M&gt;7&gt;J&lt;C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!)S&amp;4;7&gt;O97R3:7&amp;E:8*$4D!Z-4%S/52"57VY,GRW9WRB=X-!%%&gt;F&lt;G6S;7.1&lt;(6H;7YA;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -55,15 +68,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		</Item>
-		<Item Name="get_number_of_channels.vi" Type="VI" URL="../get_number_of_channels.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"F!!Q!3&lt;H6N9G6S)'^G)'.I97ZO:7RT!!"+1(!!(A!!)S&amp;4;7&gt;O97R3:7&amp;E:8*$4D!Z-4%S/52"57VY,GRW9WRB=X-!(6.J:WZB&lt;&amp;*F972F=E./-$ER-4)Z2%&amp;2&lt;8AA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!3E"Q!"Y!!#-B5WFH&lt;G&amp;M5G6B:'6S1UYQ/4%R-DF%16&amp;N?#ZM&gt;G.M98.T!"R4;7&gt;O97R3:7&amp;E:8*$4D!Z-4%S/52"57VY)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
 	<Item Name="initialise.vi" Type="VI" URL="../initialise.vi">

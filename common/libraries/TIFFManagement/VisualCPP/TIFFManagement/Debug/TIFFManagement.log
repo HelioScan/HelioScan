@@ -1,0 +1,22 @@
+﻿Build started 14.06.2012 15:09:38.
+     1>Project "C:\HelioScan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement\TIFFManagement.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TIFFManagement.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\TIFFManagement.unsuccessfulbuild".
+         Touching "Debug\TIFFManagement.lastbuildstate".
+     1>Done Building Project "C:\HelioScan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement\TIFFManagement.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

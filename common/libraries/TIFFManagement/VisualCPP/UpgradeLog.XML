@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TIFFManagement">
+</Property><Property Name="Solution File" Value="C:\helioscan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement.sln">
+</Property><Property Name="Date" Value="Mittwoch, 13. Juni 2012">
+</Property><Property Name="Time" Value="18:59">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="TIFFManagement.sln" Description="File successfully backed up as C:\helioscan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement.sln.old">
+</Event><Event ErrorLevel="0" Project="TIFFManagement" Source="TIFFManagement\TIFFManagement.vcproj" Description="Converting project file 'C:\helioscan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement\TIFFManagement.vcproj'.">
+</Event><Event ErrorLevel="1" Project="TIFFManagement" Source="TIFFManagement\TIFFManagement.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="TIFFManagement" Source="TIFFManagement\TIFFManagement.vcproj" Description="Done converting to new project file 'C:\helioscan_git\common\libraries\TIFFManagement\VisualCPP\TIFFManagement\TIFFManagement.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="TIFFManagement" Source="TIFFManagement\TIFFManagement.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="TIFFManagement.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="TIFFManagement.sln" Description="Converted">
+</Event></UpgradeLog>
