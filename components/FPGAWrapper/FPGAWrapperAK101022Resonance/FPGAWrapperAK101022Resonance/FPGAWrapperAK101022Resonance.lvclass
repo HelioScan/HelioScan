@@ -25,19 +25,6 @@
 	</Item>
 	<Item Name="accessors" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="channel offsets" Type="Property Definition">
-			<Property Name="NI.ClassItem.Property.LongName" Type="Str">channel offsets</Property>
-			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">channel offsets</Property>
-			<Item Name="set_channel_offsets.vi" Type="VI" URL="../set_channel_offsets.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(5!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!G*%:12U&amp;8=G&amp;Q='6S15MR-$%Q-D*3:8.P&lt;G&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'E:12U&amp;@15MR-$%Q-D*3:8.P&lt;G&amp;O9W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!"Q!*9WBB&lt;GZF&lt;#!Q!!^!"Q!*9WBB&lt;GZF&lt;#!R!!^!"Q!*9WBB&lt;GZF&lt;#!S!!^!"Q!*9WBB&lt;GZF&lt;#!T!%5!]=PA#$M!!!!"&amp;'.I97ZO:7RT8W.M&gt;8.U:8)O9X2M!#B!5!!%!!=!#!!*!!I5='FY:7QA&gt;G&amp;M&gt;76T)'.M&gt;8.U:8)!!%J!=!!?!!!G*%:12U&amp;8=G&amp;Q='6S15MR-$%Q-D*3:8.P&lt;G&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!'5:12U&amp;@15MR-$%Q-D*3:8.P&lt;G&amp;O9W5A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!,!!Q#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!.!!!!!!</Property>
-				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
-			</Item>
-		</Item>
 		<Item Name="triggered?" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">triggered?</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">triggered?</Property>
