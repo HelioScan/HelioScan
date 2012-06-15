@@ -601,6 +601,7 @@
 			<Item Name="GenericDisplay.lvclass" Type="LVClass" URL="../../../Display/GenericDisplay/GenericDisplay/GenericDisplay.lvclass"/>
 			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
 			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
