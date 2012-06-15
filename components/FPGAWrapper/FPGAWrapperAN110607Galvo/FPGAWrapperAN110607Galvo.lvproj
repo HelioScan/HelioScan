@@ -2746,9 +2746,6 @@ Force InitializationArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegister
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -2909,7 +2906,6 @@ Force InitializationArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegister
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
 			<Item Name="calibration.ctl" Type="VI" URL="../../../../common/clusters/calibration.ctl"/>
-			<Item Name="channels_cluster.ctl" Type="VI" URL="../../common_typedefs/channels_cluster.ctl"/>
 			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../../common/classes/Image/Image/comparison_operator_enum.ctl"/>
 			<Item Name="component_path_clusters.ctl" Type="VI" URL="../../../../common/classes/GenericComponent/GenericComponent/component_path_clusters.ctl"/>
 			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../../common/utilities/conditional_error_clearer.vi"/>
@@ -3006,14 +3002,14 @@ Force InitializationArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegister
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
 			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
 			<Item Name="niFpgaDynamicAddResources.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaDynamicAddResources.vi"/>
-			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
 			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviWhatTheDeviceIsDoing.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/nirviWhatTheDeviceIsDoing.ctl"/>
 			<Item Name="nirio_resource_hc.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/nirio_resource_hc.ctl"/>
 			<Item Name="niLvFpga_Open_PXIe-7962R.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/PXIe-7962R/niLvFpga_Open_PXIe-7962R.vi"/>
-			<Item Name="niLvFpga_Reset_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Reset_Dynamic.vi"/>
 			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
