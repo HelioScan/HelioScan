@@ -77,6 +77,19 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
 		</Item>
+		<Item Name="enable clocks?" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">enable clocks?</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">enable clocks?</Property>
+			<Item Name="set_clock_status.vi" Type="VI" URL="../set_clock_status.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;,!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='E&gt;F&lt;G6S;7.'5%&gt;"6X*B=("F=CZM&gt;G.M98.T!!!72W6O:8*J9U:12U&amp;8=G&amp;Q='6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51#%/:7ZB9GRF)'.M&lt;W.L=T]!!$R!=!!?!!!='E&gt;F&lt;G6S;7.'5%&gt;"6X*B=("F=CZM&gt;G.M98.T!!!62W6O:8*J9U:12U&amp;8=G&amp;Q='6S)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+			</Item>
+		</Item>
 		<Item Name="set_gate_parameters.vi" Type="VI" URL="../set_gate_parameters.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='E&gt;F&lt;G6S;7.'5%&gt;"6X*B=("F=CZM&gt;G.M98.T!!!72W6O:8*J9U:12U&amp;8=G&amp;Q='6S)'^V&gt;!!!(5!;!!%!!A!"!"&amp;S:8"F&gt;'FU;7^O)("F=GFP:!!41"I!!1!#!!%!"G^G:H.F&gt;!!!'U!%!"6O&gt;7VC:8)A&lt;W9A=G6Q:82J&gt;'FP&lt;H-!%5!$!!ND&lt;'^D;S"J&lt;G2F?!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"V!'A!"!!,``Q!2=(6M=WFO:S"G=G6R&gt;76O9XE!&amp;U!%!""O&gt;7VC:8)A&lt;W9A=(6M=W6T!!!]1(!!(A!!("J(:7ZF=GFD2F"(16&gt;S98"Q:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;5&gt;F&lt;G6S;7.'5%&gt;"6X*B=("F=C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!9!"Q!)!!E!#A!,!!Q!$1)!!(A!!!U)!!!!!!!!!!!!!)U,!!!1!!!!#!!!!"!!!!!1!!!!#!!!!"!!!!!1!!!!E!!!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
