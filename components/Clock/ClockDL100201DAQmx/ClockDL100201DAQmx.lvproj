@@ -13,7 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="GenericClock.lvclass" Type="LVClass" URL="../../GenericClock/GenericClock/GenericClock.lvclass"/>
 		<Item Name="ClockDL100201DAQmx.lvclass" Type="LVClass" URL="../ClockDL100201DAQmx/ClockDL100201DAQmx.lvclass"/>
-		<Item Name="ClockDL090202FPGA.lvclass" Type="LVClass" URL="../../ClockDL090202FPGA/ClockDL090202FPGA/ClockDL090202FPGA.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -653,7 +652,6 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="GenericFPGAWrapper.lvclass" Type="LVClass" URL="../../../FPGAWrapper/GenericFPGAWrapper/GenericFPGAWrapper/GenericFPGAWrapper.lvclass"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
