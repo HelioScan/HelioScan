@@ -40,7 +40,8 @@
 			<Item Name="ellipsoid_parameters_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/ellipsoid_parameters_cluster.ctl"/>
 			<Item Name="FPGA_frame.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_frame.lvbitx"/>
 			<Item Name="FPGA_framescan_reference.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/FPGA_framescan_reference.ctl"/>
-			<Item Name="FPGA_RAPS" Type="VI" URL="../../../../../../FPGAWrapperMH120124AOD/FPGA Bitfiles/FPGA_RAPS"/>
+			<Item Name="FPGA_RAPS.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_RAPS.lvbitx"/>
+			<Item Name="FPGA_raps_reference.ctl" Type="VI" URL="../FPGA_raps_reference.ctl"/>
 			<Item Name="gate_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/gate_cluster.ctl"/>
 			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../common_typedefs/gate_parameters_cluster.ctl"/>
 			<Item Name="inverse_enum.ctl" Type="VI" URL="../../fpgaVIsAndControls/inverse_enum.ctl"/>
