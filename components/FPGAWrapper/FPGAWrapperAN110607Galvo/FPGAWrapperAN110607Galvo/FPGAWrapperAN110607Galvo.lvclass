@@ -23,6 +23,19 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="accessors" Type="Folder">
+		<Item Name="clocks enabled?" Type="Property Definition">
+			<Property Name="NI.ClassItem.Property.LongName" Type="Str">clocks enabled?</Property>
+			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">clocks enabled?</Property>
+			<Item Name="set_clock_enabled_state.vi" Type="VI" URL="../set_clock_enabled_state.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%J!=!!?!!!C)%:12U&amp;8=G&amp;Q='6S15YR-4!W-$&gt;(97RW&lt;SZM&gt;G.M98.T!!!=2F"(16&gt;S98"Q:8*"4D%R-$9Q.U&gt;B&lt;(:P)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51#%/:7ZB9GRF)'.M&lt;W.L=T]!!%B!=!!?!!!C)%:12U&amp;8=G&amp;Q='6S15YR-4!W-$&gt;(97RW&lt;SZM&gt;G.M98.T!!!&lt;2F"(16&gt;S98"Q:8*"4D%R-$9Q.U&gt;B&lt;(:P)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#3!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			</Item>
+		</Item>
 		<Item Name="FPGA VI ref" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">FPGA VI ref</Property>
 			<Property Name="NI.ClassItem.Property.ShortName" Type="Str">FPGA VI ref</Property>
