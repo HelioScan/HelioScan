@@ -18,40 +18,45 @@
 		<Item Name="RAPS grabber" Type="Folder">
 			<Item Name="grabber_raps.vi" Type="VI" URL="../grabber_raps.vi"/>
 			<Item Name="initialise_raps.vi" Type="VI" URL="../initialise_raps.vi"/>
+			<Item Name="process.vi" Type="VI" URL="../process.vi"/>
 			<Item Name="update_raps.vi" Type="VI" URL="../update_raps.vi"/>
 		</Item>
 		<Item Name="type definitions" Type="Folder">
+			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../common_typedefs/channels_cluster.ctl"/>
 			<Item Name="command_enum.ctl" Type="VI" URL="../command_enum.ctl"/>
+			<Item Name="configuration_cluster_framescan.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/configuration_cluster_framescan.ctl"/>
+			<Item Name="configuration_cluster_raps.ctl" Type="VI" URL="../../FPGAWrapperMH120124RAPS_PXI7813R/configuration_cluster_raps.ctl"/>
+			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
+			<Item Name="ellipsoid_parameters_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/ellipsoid_parameters_cluster.ctl"/>
+			<Item Name="FPGA_framescan_reference.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/FPGA_framescan_reference.ctl"/>
+			<Item Name="FPGA_raps_reference.ctl" Type="VI" URL="../FPGA_raps_reference.ctl"/>
+			<Item Name="gate_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/gate_cluster.ctl"/>
+			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../common_typedefs/gate_parameters_cluster.ctl"/>
+			<Item Name="gui_refs.ctl" Type="VI" URL="../gui_refs.ctl"/>
+			<Item Name="inverse_enum.ctl" Type="VI" URL="../../fpgaVIsAndControls/inverse_enum.ctl"/>
+			<Item Name="motion_correction_cluster.ctl" Type="VI" URL="../motion_correction_cluster.ctl"/>
 			<Item Name="network_streaming_queues_cluster.ctl" Type="VI" URL="../network_streaming_queues_cluster.ctl"/>
+			<Item Name="settings_cluster_framescan.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/settings_cluster_framescan.ctl"/>
+			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../../FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
 			<Item Name="status_enum.ctl" Type="VI" URL="../status_enum.ctl"/>
 		</Item>
 		<Item Name="grabber.ico" Type="Document" URL="../grabber.ico"/>
+		<Item Name="set_process_priority.vi" Type="VI" URL="../../../../../common/utilities/set_process_priority.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Flush And Wait Empty Condition.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Flush And Wait Empty Condition.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../common_typedefs/channels_cluster.ctl"/>
-			<Item Name="configuration_cluster_framescan.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/configuration_cluster_framescan.ctl"/>
-			<Item Name="configuration_cluster_raps.ctl" Type="VI" URL="../../FPGAWrapperMH120124RAPS_PXI7813R/configuration_cluster_raps.ctl"/>
-			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
-			<Item Name="ellipsoid_parameters_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/ellipsoid_parameters_cluster.ctl"/>
 			<Item Name="FPGA_frame.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_frame.lvbitx"/>
-			<Item Name="FPGA_framescan_reference.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/FPGA_framescan_reference.ctl"/>
 			<Item Name="FPGA_RAPS.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_RAPS.lvbitx"/>
-			<Item Name="FPGA_raps_reference.ctl" Type="VI" URL="../FPGA_raps_reference.ctl"/>
-			<Item Name="gate_cluster.ctl" Type="VI" URL="../../fpgaVIsAndControls/gate_cluster.ctl"/>
-			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../common_typedefs/gate_parameters_cluster.ctl"/>
-			<Item Name="inverse_enum.ctl" Type="VI" URL="../../fpgaVIsAndControls/inverse_enum.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="set_process_priority.vi" Type="VI" URL="../../../../../common/utilities/set_process_priority.vi"/>
-			<Item Name="settings_cluster_framescan.ctl" Type="VI" URL="../../FPGAWrapperMH120124FrameScan_PXI7813R/settings_cluster_framescan.ctl"/>
-			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../../FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -92,8 +97,6 @@
 				<Property Name="TgtF_targetfileName" Type="Str">grabber_framescan.exe</Property>
 			</Item>
 			<Item Name="RAPS" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/D/Program Files/National Instruments/LabVIEW 2010/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/D/Program Files/National Instruments/LabVIEW 2010/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{6A8C0214-930A-4890-A4C1-E4EE6FCA7FEE}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{98E24571-01C6-4F3C-89D8-AA693AFB045F}</Property>
