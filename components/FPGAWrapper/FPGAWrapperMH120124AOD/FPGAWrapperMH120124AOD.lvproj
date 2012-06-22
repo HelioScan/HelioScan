@@ -33,6 +33,9 @@
 			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
 			<Item Name="status_enum.ctl" Type="VI" URL="../grabber/status_enum.ctl"/>
 			<Item Name="FPGA_raps_reference.ctl" Type="VI" URL="../grabber/FPGA_raps_reference.ctl"/>
+			<Item Name="inverse_enum.ctl" Type="VI" URL="../fpgaVIsAndControls/inverse_enum.ctl"/>
+			<Item Name="motion_correction_cluster.ctl" Type="VI" URL="../grabber/motion_correction_cluster.ctl"/>
+			<Item Name="gui_refs.ctl" Type="VI" URL="../grabber/gui_refs.ctl"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -2005,9 +2008,6 @@
 		<Item Name="GenericFPGAWrapper.lvclass" Type="LVClass" URL="../../GenericFPGAWrapper/GenericFPGAWrapper/GenericFPGAWrapper.lvclass"/>
 		<Item Name="FPGAWrapperMH120124FrameScan_PXI7813R.lvclass" Type="LVClass" URL="../FPGAWrapperMH120124FrameScan_PXI7813R/FPGAWrapperMH120124FrameScan_PXI7813R.lvclass"/>
 		<Item Name="FPGAWrapperMH120124RAPS_PXI7813R.lvclass" Type="LVClass" URL="../FPGAWrapperMH120124RAPS_PXI7813R/FPGAWrapperMH120124RAPS_PXI7813R.lvclass"/>
-		<Item Name="inverse_enum.ctl" Type="VI" URL="../fpgaVIsAndControls/inverse_enum.ctl"/>
-		<Item Name="motion_correction_cluster.ctl" Type="VI" URL="../grabber/motion_correction_cluster.ctl"/>
-		<Item Name="gui_refs.ctl" Type="VI" URL="../grabber/gui_refs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -2536,7 +2536,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
@@ -2673,7 +2672,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">57</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">58</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
