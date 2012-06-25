@@ -2516,7 +2516,6 @@
 			</Item>
 			<Item Name="FPGA_frame.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGA_frame.lvbitx"/>
 			<Item Name="FPGA_RAPS.lvbitx" Type="Document" URL="../FPGA Bitfiles/FPGA_RAPS.lvbitx"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -2605,7 +2604,8 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="ellipsoid_parameters_cluster.ctl" Type="VI" URL="../fpgaVIsAndControls/ellipsoid_parameters_cluster.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="grabber_framescan" Type="EXE">
@@ -2636,7 +2636,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_framescan</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">73</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">74</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_framescan</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
@@ -2672,7 +2672,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">59</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">60</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
