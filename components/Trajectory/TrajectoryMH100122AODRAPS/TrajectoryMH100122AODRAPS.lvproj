@@ -670,8 +670,8 @@
 			<Item Name="gate_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/gate_cluster.ctl"/>
 			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/gate_parameters_cluster.ctl"/>
 			<Item Name="inverse_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/inverse_enum.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
