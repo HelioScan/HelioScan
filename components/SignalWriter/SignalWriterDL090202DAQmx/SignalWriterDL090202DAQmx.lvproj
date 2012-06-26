@@ -294,9 +294,6 @@
 				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
-				<Item Name="NI_SC_LVSCCommonFiles.lvlib" Type="Library" URL="/&lt;vilib&gt;/Statechart/Common/NI_SC_LVSCCommonFiles.lvlib"/>
-				<Item Name="SCRT SDV Rtn.vi" Type="VI" URL="/&lt;vilib&gt;/Statechart/Infrastructure/RTStatechart/Dbg/SCRT SDV Rtn.vi"/>
-				<Item Name="SCRT Dbg Rtn.vi" Type="VI" URL="/&lt;vilib&gt;/Statechart/Infrastructure/RTStatechart/Dbg/SCRT Dbg Rtn.vi"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
@@ -316,6 +313,14 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/Vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
@@ -589,8 +594,6 @@
 				<Item Name="Index 2D Array Elements (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U16)__ogtk.vi"/>
 				<Item Name="Index 2D Array Elements (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U32)__ogtk.vi"/>
 				<Item Name="Index 2D Array Elements (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (Variant)__ogtk.vi"/>
-				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
-				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 				<Item Name="Empty 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Empty 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Empty 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I64)__ogtk.vi"/>
@@ -657,8 +660,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="error_codes.ctl" Type="VI" URL="../../../../common/enumerations/error_codes.ctl"/>
-			<Item Name="global_variables.vi" Type="VI" URL="../../../../main/labview_source/main/global_variables.vi"/>
-			<Item Name="config_type_enum.ctl" Type="VI" URL="../../../../common/enumerations/config_type_enum.ctl"/>
 			<Item Name="GenericClock.lvclass" Type="LVClass" URL="../../../Clock/GenericClock/GenericClock/GenericClock.lvclass"/>
 			<Item Name="run_mode_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/run_mode_enum.ctl"/>
 			<Item Name="read_configuration.vi" Type="VI" URL="../../../../common/utilities/read_configuration.vi"/>
@@ -670,10 +671,7 @@
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../../common/utilities/conditional_error_clearer.vi"/>
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
-			<Item Name="main_statechart.lvsc" Type="LVStatechart" URL="../../../../main/labview_source/main/main_statechart.lvsc"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
-			<Item Name="SoftwareParameter.lvclass" Type="LVClass" URL="../../../../common/classes/SoftwareParameter/SoftwareParameter/SoftwareParameter.lvclass"/>
-			<Item Name="populate_config_combos.vi" Type="VI" URL="../../../../common/utilities/populate_config_combos.vi"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../../common/classes/Image/Image/Image.lvclass"/>
 			<Item Name="calibration.ctl" Type="VI" URL="../../../../common/clusters/calibration.ctl"/>
 			<Item Name="find_best_fit.vi" Type="VI" URL="../../../../common/utilities/find_best_fit.vi"/>
@@ -694,11 +692,9 @@
 			<Item Name="GenericAdapter.lvclass" Type="LVClass" URL="../../../Adapter/GenericAdapter/GenericAdapter/GenericAdapter.lvclass"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../../common/arrays/space_vector_array.ctl"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../../common/enumerations/x_y_z_enumeration.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="pixel_raw_data_array.ctl" Type="VI" URL="../../../../common/arrays/pixel_raw_data_array.ctl"/>
-			<Item Name="offset_request.ctl" Type="VI" URL="../../../../common/clusters/offset_request.ctl"/>
 			<Item Name="GenericExperimentController.lvclass" Type="LVClass" URL="../../../ExperimentController/GenericExperimentController/GenericExperimentController/GenericExperimentController.lvclass"/>
 			<Item Name="counter_settings_cluster.ctl" Type="VI" URL="../../../../common/clusters/counter_settings_cluster.ctl"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
@@ -706,7 +702,6 @@
 			<Item Name="mean_values_2Darray.vi" Type="VI" URL="../../../../common/utilities/mean_values_2Darray.vi"/>
 			<Item Name="Notebook.lvclass" Type="LVClass" URL="../../../../common/classes/NoteBook/Notebook/Notebook.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
-			<Item Name="trigger_type_enum.ctl" Type="VI" URL="../../../../common/enumerations/trigger_type_enum.ctl"/>
 			<Item Name="GenericComponent.lvclass" Type="LVClass" URL="../../../../common/classes/GenericComponent/GenericComponent/GenericComponent.lvclass"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="configuration_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/configuration_paths_cluster.ctl"/>
@@ -715,27 +710,48 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="GenericInstrument.lvclass" Type="LVClass" URL="../../../Instrument/GenericInstrument/GenericInstrument/GenericInstrument.lvclass"/>
-			<Item Name="top_level_config_cluster.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/clusters/top_level_config_cluster.ctl"/>
-			<Item Name="get_component_readiness.vi" Type="VI" URL="../../../../main/labview_source/main/get_component_readiness.vi"/>
-			<Item Name="display_slider.vi" Type="VI" URL="../../../../main/labview_source/main/display_slider.vi"/>
-			<Item Name="set_component_readiness.vi" Type="VI" URL="../../../../main/labview_source/main/set_component_readiness.vi"/>
-			<Item Name="initialise_main.vi" Type="VI" URL="../../../../main/labview_source/main/initialise_main.vi"/>
-			<Item Name="load_top_level_configuration.vi" Type="VI" URL="../../../../main/labview_source/configuration/load_top_level_configuration.vi"/>
 			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../../common/classes/ErrorController/ErrorController/ErrorController.lvclass"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="GenericStage.lvclass" Type="LVClass" URL="../../../Stage/GenericStage/GenericStage/GenericStage.lvclass"/>
-			<Item Name="populate_users.vi" Type="VI" URL="../../../../common/utilities/populate_users.vi"/>
-			<Item Name="change_objective.vi" Type="VI" URL="../../../../main/labview_source/main/change_objective.vi"/>
 			<Item Name="GenericImageAssembler.lvclass" Type="LVClass" URL="../../../ImageAssembler/GenericImageAssembler/GenericImageAssembler/GenericImageAssembler.lvclass"/>
 			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../../common/classes/Image/Image/comparison_operator_enum.ctl"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
 			<Item Name="GenericDAQ.lvclass" Type="LVClass" URL="../../../DAQ/GenericDAQ/GenericDAQ/GenericDAQ.lvclass"/>
-			<Item Name="daqmx.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
 			<Item Name="plugin_specification.ctl" Type="VI" URL="../../../../common/clusters/plugin_specification.ctl"/>
-			<Item Name="LSID_cluster.ctl" Type="VI" URL="../../../../common/clusters/LSID_cluster.ctl"/>
 			<Item Name="functional_global_action_enum.ctl" Type="VI" URL="../../../../common/enumerations/functional_global_action_enum.ctl"/>
+			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
+			<Item Name="component_specification_dialog_with_user.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog_with_user.vi"/>
+			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
+			<Item Name="populate_config_or_settings_combo.vi" Type="VI" URL="../../../../common/utilities/populate_config_or_settings_combo.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
+			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../../common/utilities/strip_path_multiple.vi"/>
+			<Item Name="GenericCommand.lvclass" Type="LVClass" URL="../../../Command/GenericCommand/GenericCommand/GenericCommand.lvclass"/>
+			<Item Name="GenericToplevelComponent.lvclass" Type="LVClass" URL="../../../../common/classes/GenericToplevelComponent/GenericToplevelComponent/GenericToplevelComponent.lvclass"/>
+			<Item Name="GenericImagingMode.lvclass" Type="LVClass" URL="../../../ImagingMode/GenericImagingMode/GenericImagingMode/GenericImagingMode.lvclass"/>
+			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
+			<Item Name="string_to_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/string_to_main_trigger.vi"/>
+			<Item Name="trigger_type_enum.ctl" Type="VI" URL="../../../../common/classes/GenericToplevelComponent/GenericToplevelComponent/trigger_type_enum.ctl"/>
+			<Item Name="GenericDisplay.lvclass" Type="LVClass" URL="../../../Display/GenericDisplay/GenericDisplay/GenericDisplay.lvclass"/>
+			<Item Name="GenericDataCollection.lvclass" Type="LVClass" URL="../../../DataCollection/GenericDataCollection/GenericDataCollection/GenericDataCollection.lvclass"/>
+			<Item Name="GenericStimulator.lvclass" Type="LVClass" URL="../../../Stimulator/GenericStimulator/GenericStimulator/GenericStimulator.lvclass"/>
+			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
+			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
+			<Item Name="component_specification_dialog.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog.vi"/>
+			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/read_settings_file_dialog.vi"/>
+			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
+			<Item Name="top-level_component_type_enum.ctl" Type="VI" URL="../../../../common/enumerations/top-level_component_type_enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
