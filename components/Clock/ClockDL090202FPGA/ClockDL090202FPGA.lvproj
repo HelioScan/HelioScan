@@ -569,7 +569,6 @@
 			<Item Name="GenericImagingMode.lvclass" Type="LVClass" URL="../../../ImagingMode/GenericImagingMode/GenericImagingMode/GenericImagingMode.lvclass"/>
 			<Item Name="GenericDataCollection.lvclass" Type="LVClass" URL="../../../DataCollection/GenericDataCollection/GenericDataCollection/GenericDataCollection.lvclass"/>
 			<Item Name="GenericStimulator.lvclass" Type="LVClass" URL="../../../Stimulator/GenericStimulator/GenericStimulator/GenericStimulator.lvclass"/>
-			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/channels_cluster.ctl"/>
 			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
 			<Item Name="component_specification_dialog.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog.vi"/>

@@ -1,0 +1,3 @@
+2012/06/21: configuration, added the following to the end:
+<integration_delay_pixels>0</integration_delay_pixels>
+<integration_delay_iterations>0</integration_delay_iterations>
