@@ -485,7 +485,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Property.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Overlay Property.ctl"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -513,61 +512,21 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="2D_rotate.vi" Type="VI" URL="../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../common/utilities/bool_to_enable_state.vi"/>
-			<Item Name="Box.lvclass" Type="LVClass" URL="../../../common/classes/Box/Box/Box.lvclass"/>
 			<Item Name="calibration.ctl" Type="VI" URL="../../../common/clusters/calibration.ctl"/>
-			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../common/classes/Image/Image/comparison_operator_enum.ctl"/>
-			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../common/utilities/conditional_error_clearer.vi"/>
-			<Item Name="controls_refs.ctl" Type="VI" URL="../../../main/labview_source/type_definitions/clusters/controls_refs.ctl"/>
-			<Item Name="create_random_string.vi" Type="VI" URL="../../../common/utilities/create_random_string.vi"/>
-			<Item Name="dimension_order_enum.ctl" Type="VI" URL="../../../common/classes/ImageCollection/ImageCollection/dimension_order_enum.ctl"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../common/classes/ErrorController/ErrorController/ErrorController.lvclass"/>
-			<Item Name="find_best_fit.vi" Type="VI" URL="../../../common/utilities/find_best_fit.vi"/>
-			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../common/classes/Image/Image/Image.lvclass"/>
-			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../common/classes/ImageCollection/ImageCollection/ImageCollection.lvclass"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
-			<Item Name="mean_values_2Darray.vi" Type="VI" URL="../../../common/utilities/mean_values_2Darray.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="OME_parameters_cluster.ctl" Type="VI" URL="../../../common/classes/ImageCollection/ImageCollection/OME_parameters_cluster.ctl"/>
-			<Item Name="origin_type_enum.ctl" Type="VI" URL="../../../common/classes/Image/Image/origin_type_enum.ctl"/>
-			<Item Name="pixel_coordinate_cluster.ctl" Type="VI" URL="../../../common/clusters/pixel_coordinate_cluster.ctl"/>
-			<Item Name="pixel_lookup_mode_enum.ctl" Type="VI" URL="../../../common/enumerations/pixel_lookup_mode_enum.ctl"/>
 			<Item Name="PointCollection.lvclass" Type="LVClass" URL="../../../common/classes/PointCollection/PointCollection/PointCollection.lvclass"/>
-			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../common/clusters/range_offset_cluster.ctl"/>
 			<Item Name="ROImicrons_cluster.ctl" Type="VI" URL="../../../common/xcontrols/XImage/XImage/ROImicrons_cluster.ctl"/>
-			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../common/utilities/strip_path_multiple.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="target_format_enum.ctl" Type="VI" URL="../../../common/classes/Image/Image/target_format_enum.ctl"/>
-			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
-			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../common/libraries/TIFFManagement/TIFFManagement.lvlib"/>
-			<Item Name="type_enum.ctl" Type="VI" URL="../../../common/classes/ImageCollection/ImageCollection/type_enum.ctl"/>
-			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../common/enumerations/x_y_z_enumeration.ctl"/>
 			<Item Name="XImage.xctl" Type="XControl" URL="../../../common/xcontrols/XImage/XImage/XImage.xctl"/>
-			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
