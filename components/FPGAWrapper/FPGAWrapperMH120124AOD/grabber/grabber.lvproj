@@ -20,6 +20,7 @@
 			<Item Name="grabber_raps.vi" Type="VI" URL="../grabber_raps.vi"/>
 			<Item Name="initialise_raps.vi" Type="VI" URL="../initialise_raps.vi"/>
 			<Item Name="process.vi" Type="VI" URL="../process.vi"/>
+			<Item Name="process_2.vi" Type="VI" URL="../process_2.vi"/>
 			<Item Name="replace_zero_elements.vi" Type="VI" URL="../replace_zero_elements.vi"/>
 			<Item Name="update_raps.vi" Type="VI" URL="../update_raps.vi"/>
 		</Item>
@@ -116,7 +117,7 @@
 				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/executable/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/grabber.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B6DDBFCE-A583-4A64-A7B7-13F3030F53CE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E4ADC76-0E0E-4EB9-8654-DDEDBE89F649}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/frame scan grabber/grabber_framescan.vi</Property>
@@ -126,9 +127,10 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Brain Research Institute</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RAPS</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">8</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">RAPS</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 Brain Research Institute</Property>
