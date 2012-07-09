@@ -1,61 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="10008000">
-	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="utf.calculate.project.code.coverage" Type="Bool">false</Property>
-	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
-	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
-	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
-	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
-	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
-	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
-	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
-	<Property Name="utf.create.editor.path" Type="Path"></Property>
-	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
-	<Property Name="utf.create.precision" Type="UInt">6</Property>
-	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
-	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
-	<Property Name="utf.create.testpath.path" Type="Path"></Property>
-	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
-	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
-	<Property Name="utf.create.type" Type="UInt">0</Property>
-	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
-	<Property Name="utf.passwords" Type="Bin">%!#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!!!!!!!!</Property>
-	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
-	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
-	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
-	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
-	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
-	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
-	<Property Name="utf.report.errors" Type="Bool">true</Property>
-	<Property Name="utf.report.failed" Type="Bool">true</Property>
-	<Property Name="utf.report.html.create" Type="Bool">false</Property>
-	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
-	<Property Name="utf.report.html.view" Type="Bool">false</Property>
-	<Property Name="utf.report.passed" Type="Bool">true</Property>
-	<Property Name="utf.report.skipped" Type="Bool">true</Property>
-	<Property Name="utf.report.sortby" Type="UInt">1</Property>
-	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
-	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
-	<Property Name="utf.report.summary" Type="Bool">true</Property>
-	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
-	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
-	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
-	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
-	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
-	<Property Name="utf.run.changed.timestamp" Type="Bin">%!#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
-	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
-	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
-	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
-	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
-	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
-	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
-	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
-	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
-	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
-	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -66,8 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
-		<Item Name="XImage.xctl" Type="XControl" URL="../XImage/XImage.xctl"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="PositionSignals.lvclass" Type="LVClass" URL="../PositionSignals/PositionSignals.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -541,7 +485,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Overlay Property.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Overlay Property.ctl"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -569,60 +512,21 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="2D_rotate.vi" Type="VI" URL="../../../utilities/2D_rotate.vi"/>
-			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
-			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../utilities/bool_to_enable_state.vi"/>
-			<Item Name="Box.lvclass" Type="LVClass" URL="../../../classes/Box/Box/Box.lvclass"/>
-			<Item Name="calibration.ctl" Type="VI" URL="../../../clusters/calibration.ctl"/>
-			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../classes/Image/Image/comparison_operator_enum.ctl"/>
-			<Item Name="conditional_error_clearer.vi" Type="VI" URL="../../../utilities/conditional_error_clearer.vi"/>
-			<Item Name="controls_refs.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/clusters/controls_refs.ctl"/>
-			<Item Name="create_random_string.vi" Type="VI" URL="../../../utilities/create_random_string.vi"/>
-			<Item Name="dimension_order_enum.ctl" Type="VI" URL="../../../classes/ImageCollection/ImageCollection/dimension_order_enum.ctl"/>
-			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../classes/ErrorController/ErrorController/ErrorController.lvclass"/>
-			<Item Name="find_best_fit.vi" Type="VI" URL="../../../utilities/find_best_fit.vi"/>
-			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
-			<Item Name="Image.lvclass" Type="LVClass" URL="../../../classes/Image/Image/Image.lvclass"/>
-			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../classes/ImageCollection/ImageCollection/ImageCollection.lvclass"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
-			<Item Name="mean_values_2Darray.vi" Type="VI" URL="../../../utilities/mean_values_2Darray.vi"/>
+			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
+			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../common/utilities/bool_to_enable_state.vi"/>
+			<Item Name="calibration.ctl" Type="VI" URL="../../../common/clusters/calibration.ctl"/>
+			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../common/classes/ErrorController/ErrorController/ErrorController.lvclass"/>
+			<Item Name="Image.lvclass" Type="LVClass" URL="../../../common/classes/Image/Image/Image.lvclass"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="OME_parameters_cluster.ctl" Type="VI" URL="../../../classes/ImageCollection/ImageCollection/OME_parameters_cluster.ctl"/>
-			<Item Name="origin_type_enum.ctl" Type="VI" URL="../../../classes/Image/Image/origin_type_enum.ctl"/>
-			<Item Name="pixel_coordinate_cluster.ctl" Type="VI" URL="../../../clusters/pixel_coordinate_cluster.ctl"/>
-			<Item Name="pixel_lookup_mode_enum.ctl" Type="VI" URL="../../../enumerations/pixel_lookup_mode_enum.ctl"/>
-			<Item Name="PointCollection.lvclass" Type="LVClass" URL="../../../classes/PointCollection/PointCollection/PointCollection.lvclass"/>
-			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../clusters/range_offset_cluster.ctl"/>
-			<Item Name="ROImicrons_cluster.ctl" Type="VI" URL="../XImage/ROImicrons_cluster.ctl"/>
-			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../utilities/strip_path_multiple.vi"/>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="PointCollection.lvclass" Type="LVClass" URL="../../../common/classes/PointCollection/PointCollection/PointCollection.lvclass"/>
+			<Item Name="ROImicrons_cluster.ctl" Type="VI" URL="../../../common/xcontrols/XImage/XImage/ROImicrons_cluster.ctl"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="target_format_enum.ctl" Type="VI" URL="../../../classes/Image/Image/target_format_enum.ctl"/>
-			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
-			<Item Name="TIFFManagement.lvlib" Type="Library" URL="../../../libraries/TIFFManagement/TIFFManagement.lvlib"/>
-			<Item Name="type_enum.ctl" Type="VI" URL="../../../classes/ImageCollection/ImageCollection/type_enum.ctl"/>
-			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../enumerations/x_y_z_enumeration.ctl"/>
-			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../classes/XMLElement/XMLElement/XMLElement.lvclass"/>
+			<Item Name="XImage.xctl" Type="XControl" URL="../../../common/xcontrols/XImage/XImage/XImage.xctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
