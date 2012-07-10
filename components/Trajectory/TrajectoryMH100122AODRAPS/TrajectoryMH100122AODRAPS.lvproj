@@ -554,9 +554,9 @@
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
 				<Item Name="IMAQ Convert ROI to Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert ROI to Rectangle"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
-			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../../common/utilities/bool_to_enable_state.vi"/>
 			<Item Name="complementary_color.vi" Type="VI" URL="../../../../common/utilities/complementary_color.vi"/>
 			<Item Name="component_path_clusters.ctl" Type="VI" URL="../../../../common/classes/GenericComponent/GenericComponent/component_path_clusters.ctl"/>
 			<Item Name="component_specification_dialog_with_user.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog_with_user.vi"/>
@@ -603,6 +603,15 @@
 			<Item Name="XImage.xctl" Type="XControl" URL="../../../../common/xcontrols/XImage/XImage/XImage.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
+			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/channels_cluster.ctl"/>
+			<Item Name="command_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/grabber/command_enum.ctl"/>
+			<Item Name="configuration_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/configuration_cluster_raps.ctl"/>
+			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
+			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
+			<Item Name="gate_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/gate_cluster.ctl"/>
+			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/gate_parameters_cluster.ctl"/>
+			<Item Name="inverse_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/inverse_enum.ctl"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -615,17 +624,15 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
+			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../../common/utilities/bool_to_enable_state.vi"/>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
 			<Item Name="calibration.ctl" Type="VI" URL="../../../../common/clusters/calibration.ctl"/>
-			<Item Name="channels_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/channels_cluster.ctl"/>
-			<Item Name="command_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/grabber/command_enum.ctl"/>
 			<Item Name="comparison_operator_enum.ctl" Type="VI" URL="../../../../common/classes/Image/Image/comparison_operator_enum.ctl"/>
 			<Item Name="component_specification_dialog.vi" Type="VI" URL="../../../../common/utilities/component_specification_dialog.vi"/>
-			<Item Name="configuration_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/configuration_cluster_raps.ctl"/>
 			<Item Name="create_random_string.vi" Type="VI" URL="../../../../common/utilities/create_random_string.vi"/>
-			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
 			<Item Name="error_codes.ctl" Type="VI" URL="../../../../common/enumerations/error_codes.ctl"/>
 			<Item Name="find_best_fit.vi" Type="VI" URL="../../../../common/utilities/find_best_fit.vi"/>
 			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
@@ -654,7 +661,6 @@
 			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/read_settings_file_dialog.vi"/>
 			<Item Name="save_configuration.vi" Type="VI" URL="../../../../common/utilities/save_configuration.vi"/>
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
-			<Item Name="settings_cluster_raps.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/FPGAWrapperMH120124RAPS_PXI7813R/settings_cluster_raps.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
@@ -667,11 +673,6 @@
 			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
 			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../../common/enumerations/x_y_z_enumeration.ctl"/>
-			<Item Name="gate_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/gate_cluster.ctl"/>
-			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/gate_parameters_cluster.ctl"/>
-			<Item Name="inverse_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/inverse_enum.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
