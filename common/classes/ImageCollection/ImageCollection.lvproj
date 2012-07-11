@@ -277,6 +277,9 @@
 				<Item Name="Get Cluster Elements TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Elements TDs__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -430,7 +433,6 @@
 			<Item Name="pixel_coordinate_cluster.ctl" Type="VI" URL="../../../clusters/pixel_coordinate_cluster.ctl"/>
 			<Item Name="pixel_lookup_mode_enum.ctl" Type="VI" URL="../../../enumerations/pixel_lookup_mode_enum.ctl"/>
 			<Item Name="range_offset_cluster.ctl" Type="VI" URL="../../../clusters/range_offset_cluster.ctl"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../arrays/space_vector_array.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="target_format_enum.ctl" Type="VI" URL="../../Image/Image/target_format_enum.ctl"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
@@ -438,7 +440,6 @@
 			<Item Name="type_enum.ctl" Type="VI" URL="../ImageCollection/type_enum.ctl"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../enumerations/x_y_z_enumeration.ctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../XMLElement/XMLElement/XMLElement.lvclass"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../ErrorController/ErrorController/ErrorController.lvclass"/>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
@@ -456,6 +457,7 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

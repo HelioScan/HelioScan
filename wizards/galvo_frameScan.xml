@@ -24,7 +24,7 @@
     <settings_name/>
   </step>
   <step>
-    <class_path>components\FPGAWrapper\FPGAWrapperDL090211Galvo\FPGAWrapperDL090211Galvo_grabber\FPGAWrapperDL090211Galvo_grabber.lvclass</class_path>
+    <class_path>components\FPGAWrapper\FPGAWrapperDL090211Galvo\FPGAWrapperDL090211Galvo\FPGAWrapperDL090211Galvo.lvclass</class_path>
     <configuration>ADC</configuration>
     <label/>
     <settings_name/>
