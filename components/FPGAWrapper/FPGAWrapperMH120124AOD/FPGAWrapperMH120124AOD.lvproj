@@ -14,14 +14,20 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="grabber" Type="Folder">
+			<Item Name="RAPS" Type="Folder">
+				<Item Name="grabber_raps.vi" Type="VI" URL="../grabber/grabber_raps.vi"/>
+				<Item Name="initialise_raps.vi" Type="VI" URL="../grabber/initialise_raps.vi"/>
+				<Item Name="update_raps.vi" Type="VI" URL="../grabber/update_raps.vi"/>
+				<Item Name="process.vi" Type="VI" URL="../grabber/process.vi"/>
+				<Item Name="grabber_mc_split_data.vi" Type="VI" URL="../grabber/grabber_mc_split_data.vi"/>
+				<Item Name="replace_zero_elements.vi" Type="VI" URL="../grabber/replace_zero_elements.vi"/>
+			</Item>
+			<Item Name="frame" Type="Folder">
+				<Item Name="grabber_framescan.vi" Type="VI" URL="../grabber/grabber_framescan.vi"/>
+				<Item Name="initialise_framescan.vi" Type="VI" URL="../grabber/initialise_framescan.vi"/>
+				<Item Name="update_framescan.vi" Type="VI" URL="../grabber/update_framescan.vi"/>
+			</Item>
 			<Item Name="grabber.ico" Type="Document" URL="../grabber/grabber.ico"/>
-			<Item Name="grabber_framescan.vi" Type="VI" URL="../grabber/grabber_framescan.vi"/>
-			<Item Name="grabber_raps.vi" Type="VI" URL="../grabber/grabber_raps.vi"/>
-			<Item Name="initialise_framescan.vi" Type="VI" URL="../grabber/initialise_framescan.vi"/>
-			<Item Name="initialise_raps.vi" Type="VI" URL="../grabber/initialise_raps.vi"/>
-			<Item Name="update_framescan.vi" Type="VI" URL="../grabber/update_framescan.vi"/>
-			<Item Name="update_raps.vi" Type="VI" URL="../grabber/update_raps.vi"/>
-			<Item Name="process.vi" Type="VI" URL="../grabber/process.vi"/>
 		</Item>
 		<Item Name="type defs" Type="Folder">
 			<Item Name="command_enum.ctl" Type="VI" URL="../grabber/command_enum.ctl"/>
@@ -2502,6 +2508,7 @@
 				<Item Name="CC44AD91BA55028CB2EC25FEDAA0662A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CC44AD91BA55028CB2EC25FEDAA0662A"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="channels_cluster.ctl" Type="VI" URL="../../common_typedefs/channels_cluster.ctl"/>
 			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
@@ -2604,8 +2611,7 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="grabber_framescan" Type="EXE">
@@ -2629,7 +2635,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{078ABA34-90B8-4F64-977F-E9CF0C7E2BF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/grabber/grabber_framescan.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/grabber/frame/grabber_framescan.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -2662,17 +2668,18 @@
 				<Property Name="Destination[1].path" Type="Path">../NI_AB_PROJECTNAME/grabber/executable/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/grabber/grabber.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{078ABA34-90B8-4F64-977F-E9CF0C7E2BF1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{527D4413-692E-42C1-8E40-0C84EC88804D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/grabber/grabber_raps.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/grabber/RAPS/grabber_raps.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">60</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">65</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
