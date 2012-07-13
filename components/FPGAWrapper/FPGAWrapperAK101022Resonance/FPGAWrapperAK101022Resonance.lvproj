@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="10008000">
 	<Property Name="varPersistentID:{14970D01-BCA2-4C8A-B6CE-223CF6CDBEC9}" Type="Ref">/My Computer/grabber/grabber variables.lvlib/FPGA buffer overflow?</Property>
+	<Property Name="varPersistentID:{227E3E57-879A-46F8-8976-4DC1120876B3}" Type="Ref">/My Computer/grabber/grabber variables.lvlib/z-driver array</Property>
 	<Property Name="varPersistentID:{8D69EF4A-9949-4DED-BE93-578EAD574961}" Type="Ref">/My Computer/grabber/grabber variables.lvlib/scan specification</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -1399,8 +1400,8 @@
 			<Item Name="get_time.vi" Type="VI" URL="../../../../common/utilities/get_time.vi"/>
 			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../../common/classes/Image/Image/Image.lvclass"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="main.lvbitx" Type="Document" URL="../../../../../../../../HelioScan_devel/components/FPGAWrapper/FPGAWrapperAK101022Resonance/FPGA Bitfiles/main.lvbitx"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="main.lvbitx" Type="Document" URL="../FPGA Bitfiles/main.lvbitx"/>
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
 			<Item Name="make_path_relative.vi" Type="VI" URL="../../../../common/utilities/make_path_relative.vi"/>
@@ -1408,7 +1409,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
