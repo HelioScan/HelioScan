@@ -51,13 +51,19 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Flush And Wait Empty Condition.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Flush And Wait Empty Condition.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="2DGaussianRotationModel.vi" Type="VI" URL="../../../../../../helioscan-3.6.0/tools/PSFAnalyzerMH110526/PSFAnalyzerMH110526/2DGaussianRotationModel.vi"/>
 			<Item Name="FPGA_frame.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_frame.lvbitx"/>
 			<Item Name="FPGA_RAPS.lvbitx" Type="Document" URL="../../FPGA Bitfiles/FPGA_RAPS.lvbitx"/>
+			<Item Name="gaussian_fit.vi" Type="VI" URL="../../../../../../helioscan-3.6.0/tools/PSFAnalyzerMH110526/PSFAnalyzerMH110526/gaussian_fit.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -132,7 +138,7 @@
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">Brain Research Institute</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RAPS</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">18</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">RAPS</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 Brain Research Institute</Property>
