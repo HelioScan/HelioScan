@@ -619,7 +619,6 @@
 			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
 			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
 			<Item Name="config_data_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/grabber/config_data_cluster.ctl"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
