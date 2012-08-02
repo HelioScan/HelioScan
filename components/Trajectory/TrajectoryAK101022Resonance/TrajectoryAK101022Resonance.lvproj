@@ -536,6 +536,7 @@
 			<Item Name="XComponentSpecification.xctl" Type="XControl" URL="../../../../common/xcontrols/XComponentSpecification/XComponentSpecification/XComponentSpecification.xctl"/>
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
+			<Item Name="FPGAWrapperAK101022Resonance.lvclass" Type="LVClass" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance.lvclass"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -551,10 +552,8 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
 			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
-			<Item Name="FPGAWrapperAK101022Resonance.lvclass" Type="LVClass" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance.lvclass"/>
 			<Item Name="config_data_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/grabber/config_data_cluster.ctl"/>
 			<Item Name="scan_specification_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/scan_specification_cluster.ctl"/>
-			<Item Name="FPGA_reference_control.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance/FPGA_reference_control.ctl"/>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="Box.lvclass" Type="LVClass" URL="../../../../common/classes/Box/Box/Box.lvclass"/>
 			<Item Name="calibration.ctl" Type="VI" URL="../../../../common/clusters/calibration.ctl"/>
