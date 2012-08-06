@@ -22,6 +22,8 @@
 				<Item Name="grabber_mc_split_data.vi" Type="VI" URL="../grabber/grabber_mc_split_data.vi"/>
 				<Item Name="replace_zero_elements.vi" Type="VI" URL="../grabber/replace_zero_elements.vi"/>
 				<Item Name="scale_to_zoom.vi" Type="VI" URL="../grabber/scale_to_zoom.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../grabber/test.vi"/>
+				<Item Name="scale_3_element_find_peak.vi" Type="VI" URL="../grabber/scale_3_element_find_peak.vi"/>
 			</Item>
 			<Item Name="frame" Type="Folder">
 				<Item Name="grabber_framescan.vi" Type="VI" URL="../grabber/grabber_framescan.vi"/>
@@ -2015,6 +2017,7 @@
 		<Item Name="GenericFPGAWrapper.lvclass" Type="LVClass" URL="../../GenericFPGAWrapper/GenericFPGAWrapper/GenericFPGAWrapper.lvclass"/>
 		<Item Name="FPGAWrapperMH120124FrameScan_PXI7813R.lvclass" Type="LVClass" URL="../FPGAWrapperMH120124FrameScan_PXI7813R/FPGAWrapperMH120124FrameScan_PXI7813R.lvclass"/>
 		<Item Name="FPGAWrapperMH120124RAPS_PXI7813R.lvclass" Type="LVClass" URL="../FPGAWrapperMH120124RAPS_PXI7813R/FPGAWrapperMH120124RAPS_PXI7813R.lvclass"/>
+		<Item Name="get_array_position_with_saturation.vi" Type="VI" URL="../grabber/get_array_position_with_saturation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -2509,6 +2512,7 @@
 				<Item Name="CC44AD91BA55028CB2EC25FEDAA0662A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CC44AD91BA55028CB2EC25FEDAA0662A"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="channels_cluster.ctl" Type="VI" URL="../../common_typedefs/channels_cluster.ctl"/>
 			<Item Name="DDS_board_init_cluster.ctl" Type="VI" URL="../fpgaVIsAndControls/DDS_board_init_cluster.ctl"/>
@@ -2612,7 +2616,6 @@
 			<Item Name="XMLElement.lvclass" Type="LVClass" URL="../../../../common/classes/XMLElement/XMLElement/XMLElement.lvclass"/>
 			<Item Name="XUserDropdown.xctl" Type="XControl" URL="../../../../common/xcontrols/XUserDropdown/XUserDropdown/XUserDropdown.xctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="grabber_framescan" Type="EXE">
@@ -2680,7 +2683,7 @@
 				<Property Name="TgtF_companyName" Type="Str">Marcel van 't Hoff</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">grabber_raps</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">65</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">69</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">grabber_raps</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 HIFO</Property>
