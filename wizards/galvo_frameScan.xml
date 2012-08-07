@@ -78,12 +78,6 @@
     <settings_name/>
   </step>
   <step>
-    <class_path>components\DataCollection\DataCollectionDL090215\DataCollectionDL090215\DataCollectionDL090215.lvclass</class_path>
-    <configuration>standard</configuration>
-    <label/>
-    <settings_name/>
-  </step>
-  <step>
     <class_path>components\TraceProcessor\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS\TraceProcessorDL090628DSS.lvclass</class_path>
     <configuration>frame_scan</configuration>
     <label/>
