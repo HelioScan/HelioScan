@@ -554,7 +554,6 @@
 				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
 				<Item Name="IMAQ Convert ROI to Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert ROI to Rectangle"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 			</Item>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
 			<Item Name="complementary_color.vi" Type="VI" URL="../../../../common/utilities/complementary_color.vi"/>
@@ -611,7 +610,6 @@
 			<Item Name="gate_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/gate_cluster.ctl"/>
 			<Item Name="gate_parameters_cluster.ctl" Type="VI" URL="../../../FPGAWrapper/common_typedefs/gate_parameters_cluster.ctl"/>
 			<Item Name="inverse_enum.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperMH120124AOD/fpgaVIsAndControls/inverse_enum.ctl"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -624,7 +622,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="TIFFManagement.dll" Type="Document" URL="../../../../common/libraries/TIFFManagement/VisualCPP/Release/TIFFManagement.dll"/>
 			<Item Name="bool_to_enable_state.vi" Type="VI" URL="../../../../common/utilities/bool_to_enable_state.vi"/>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
@@ -673,6 +670,9 @@
 			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
 			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../../common/enumerations/x_y_z_enumeration.ctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="ni.dex.rc" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
+			<Item Name="lvinput.dll" Type="Document" URL="/D/Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

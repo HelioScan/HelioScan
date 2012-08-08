@@ -1,10 +1,180 @@
 An internal software error has occurred. Please contact National Instruments technical support at ni.com/support with the following information:
+nirviUIDToObject.vi<ERR>
+Error getting object reference for UID.
+All text parsed:
 
-Error 1000 occurred at an unidentified location
+<CodeGenErr>
+<ErrorCode>-61060</ErrorCode>
+<DynamicText><TreeLineInfo><LineInfo><ErrorInfoCallback><VIPath>C:\Program Files (x86)\National Instruments\LabVIEW 2010\vi.lib\rvi\ClientSDK\Core\ErrorReporting\Private\nirviPersistentNameToProjectItemLineInfoCallback.vi</VIPath>
+<Data>zIntensityTuples/{29C03A58-DC8D-4BC7-BAFA-66AFAE4E42D1}/%s</Data>
+</ErrorInfoCallback>
+</LineInfo>
+<TreeInfo><TreeID>ProjItem</TreeID>
+</TreeInfo>
+</TreeLineInfo>
+<TreeLineInfo><LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.z_scan_write.vi_FPGACompileCopy00000021.vi</VIPath>
+<UID>2747</UID>
+<ObjectName>Memory Write &apos;Memory Method Node&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+<TreeInfo><ParentID>ProjItem</ParentID>
+</TreeInfo>
+</TreeLineInfo>
+<TreeLineInfo><LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.z_scan_read.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>194</UID>
+<ObjectName>Memory Read &apos;Memory Method Node&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+<TreeInfo><ParentID>ProjItem</ParentID>
+</TreeInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>
 
-Possible reason(s):
+<CodeGenErr>
+<ErrorCode>-61060</ErrorCode>
+<DynamicText><TreeLineInfo><LineInfo><ErrorInfoCallback><VIPath>C:\Program Files (x86)\National Instruments\LabVIEW 2010\vi.lib\rvi\ClientSDK\Core\ErrorReporting\Private\nirviPersistentNameToProjectItemLineInfoCallback.vi</VIPath>
+<Data>zIntensityTuples/{29C03A58-DC8D-4BC7-BAFA-66AFAE4E42D1}/%s</Data>
+</ErrorInfoCallback>
+</LineInfo>
+<TreeInfo><TreeID>ProjItem</TreeID>
+</TreeInfo>
+</TreeLineInfo>
+<TreeLineInfo><LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.z_scan_write.vi_FPGACompileCopy00000021.vi</VIPath>
+<UID>2747</UID>
+<ObjectName>Memory Write &apos;Memory Method Node&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+<TreeInfo><ParentID>ProjItem</ParentID>
+</TreeInfo>
+</TreeLineInfo>
+<TreeLineInfo><LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.z_scan_read.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>194</UID>
+<ObjectName>Memory Read &apos;Memory Method Node&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+<TreeInfo><ParentID>ProjItem</ParentID>
+</TreeInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>
 
-LabVIEW:  The VI is not in a state compatible with this operation.
+<CodeGenErr>
+<ErrorCode>-61106</ErrorCode>
+<DynamicText><TreeLineInfo><TreeInfo><TreeID>1</TreeID>
+</TreeInfo>
+<LineInfo><VI><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</VIPath>
+<Name>NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</Name>
+</VI>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>2</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2803</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>3</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2816</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>
 
+<CodeGenErr>
+<ErrorCode>-61106</ErrorCode>
+<DynamicText><TreeLineInfo><TreeInfo><TreeID>1</TreeID>
+</TreeInfo>
+<LineInfo><VI><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</VIPath>
+<Name>NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</Name>
+</VI>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>2</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2803</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>3</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2816</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>
 
-Method Name: <b>Generate VHDL</b>
+<CodeGenErr>
+<ErrorCode>-61106</ErrorCode>
+<DynamicText><TreeLineInfo><TreeInfo><TreeID>1</TreeID>
+</TreeInfo>
+<LineInfo><VI><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</VIPath>
+<Name>NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</Name>
+</VI>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>2</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2803</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>3</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2816</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>
+
+<CodeGenErr>
+<ErrorCode>-61106</ErrorCode>
+<DynamicText><TreeLineInfo><TreeInfo><TreeID>1</TreeID>
+</TreeInfo>
+<LineInfo><VI><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</VIPath>
+<Name>NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi</Name>
+</VI>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>2</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2803</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+<TreeLineInfo><TreeInfo><TreeID>3</TreeID>
+<ParentID>1</ParentID>
+</TreeInfo>
+<LineInfo><DiagramObject><VIPath>C:\NIFPGA\compilation\FPGAWrapperAK101_PXI-7813R_main_C0C9511F\MungedForFPGA\NI.Munge.main.vi_FPGACompileCopy00000001.vi</VIPath>
+<UID>2816</UID>
+<ObjectName>SubVI: &apos;NI.Munge.generate_DAC_voltages.vi_FPGACompileCopy00000001.vi&apos;</ObjectName>
+</DiagramObject>
+</LineInfo>
+</TreeLineInfo>
+</DynamicText>
+</CodeGenErr>

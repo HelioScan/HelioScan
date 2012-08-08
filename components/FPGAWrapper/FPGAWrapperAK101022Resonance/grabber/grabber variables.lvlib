@@ -12,7 +12,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">scan_specification_cluster.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../scan_specification_cluster.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*N;1)!!"!!A!!!!!!2!"&amp;!"A!,?#"B&lt;8"M;82V:'5!'U!'!"6Y)(*F=W^M&gt;82J&lt;WYA+("J?'6M=SE!*U!'!#&amp;Y)'^G:H.F&gt;#"G&lt;(EN:G^S&gt;W&amp;S:#!I;82F=G&amp;U;7^O=SE!*5!'!"ZY)'^G:H.F&gt;#"G&lt;(EN9G&amp;D;S!I;82F=G&amp;U;7^O=SE!!#&amp;!"A!&lt;?3"S:8.P&lt;(6U;7^O)#BO=CYA&lt;W9A&lt;'FO:8-J!"&amp;!"A!,?3"T&gt;'6Q)(.J?G5!'U!'!"2J&gt;'6S982J&lt;WZT)("F=C"Q;8BF&lt;!!!&amp;U!$!""O&gt;7VC:8)A&lt;W9A:H*B&lt;76T!!!81!9!%8EA&lt;W:G=W6U)#BQ;8BF&lt;(-J!$.!"A!M&lt;H6N9G6S)'^G)(EN9H*B;W5A&lt;'FO:8-A)#BC:7:P=G5A?3VG&lt;(EN9G&amp;D;SE!!#V!"A!H&lt;H6N9G6S)(EN9H*B;W5A&lt;'FO:8-A+'&amp;G&gt;'6S)(EN:GRZ,7*B9WMJ!#&amp;!"A!;&lt;H6N9G6S)'^G)(EN:GRZ,7*B9WMA=X2F=(-!!"&amp;!"A!,?C"T&gt;'6Q)(.J?G5!'5!'!".O=CYA&lt;W9A)'*S:7&amp;L:H*B&lt;76T!"^!"A!9&lt;H)O)'^G)':S97VF)(*F='6U;82J&lt;WZT!!!71#%2=WBB=GMA&gt;'^P&gt;'AA&lt;7^E:4]!:1$RS_5)81!!!!%?=W.B&lt;F^T='6D;7:J9W&amp;U;7^O8W.M&gt;8.U:8)O9X2M!$Z!5!!1!!!!!1!#!!-!"!!&amp;!!9!"Q!)!!E!#A!,!!Q!$1!/!!]3=W.B&lt;C"T='6D;7:J9W&amp;U;7^O!!!"!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*W=A)!!"!!A!!!!!!1!"&amp;!"A!,?#"B&lt;8"M;82V:'5!'U!'!"6Y)(*F=W^M&gt;82J&lt;WYA+("J?'6M=SE!*U!'!#&amp;Y)'^G:H.F&gt;#"G&lt;(EN:G^S&gt;W&amp;S:#!I;82F=G&amp;U;7^O=SE!*5!'!"ZY)'^G:H.F&gt;#"G&lt;(EN9G&amp;D;S!I;82F=G&amp;U;7^O=SE!!#&amp;!"A!&lt;?3"S:8.P&lt;(6U;7^O)#BO=CYA&lt;W9A&lt;'FO:8-J!"&amp;!"A!,?3"T&gt;'6Q)(.J?G5!'U!'!"2J&gt;'6S982J&lt;WZT)("F=C"Q;8BF&lt;!!!&amp;U!$!""O&gt;7VC:8)A&lt;W9A:H*B&lt;76T!!!81!9!%8EA&lt;W:G=W6U)#BQ;8BF&lt;(-J!$.!"A!M&lt;H6N9G6S)'^G)(EN9H*B;W5A&lt;'FO:8-A)#BC:7:P=G5A?3VG&lt;(EN9G&amp;D;SE!!#V!"A!H&lt;H6N9G6S)(EN9H*B;W5A&lt;'FO:8-A+'&amp;G&gt;'6S)(EN:GRZ,7*B9WMJ!#&amp;!"A!;&lt;H6N9G6S)'^G)(EN:GRZ,7*B9WMA=X2F=(-!!"&gt;!"A!1&lt;'FO:8-A='6S)(IA=X2F=!!!)U!'!"RO&gt;7VC:8)A&lt;W9A?C^J&lt;H2F&lt;H.J&gt;(EA&gt;(6Q&lt;'6T!!!P1!-!+7ZV&lt;7*F=C"P:C"S:8"F&gt;'FU;7^O=S!I&gt;G^M&gt;7VF=S"P=C"Q&lt;'&amp;O:8-J!'-!]=QY03Q!!!!"(H.D97Z@=X"F9WFG;7.B&gt;'FP&lt;F^D&lt;(6T&gt;'6S,G.U&lt;!!]1&amp;!!$Q!!!!%!!A!$!!1!"1!'!!=!#!!*!!I!#Q!-!!U!$B*T9W&amp;O)(.Q:7.J:GFD982J&lt;WY!!!%!$Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="FPGA buffer overflow?" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -21,14 +21,5 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"!!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="z-driver array" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"!!A!!!!!!#!!V!!A!(4H6N:8*J9Q!=1%!!!@````]!!!Z"=H*B?3"P:C"*&lt;H1R.A!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

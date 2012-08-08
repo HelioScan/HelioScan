@@ -43,7 +43,7 @@
   </step>
   <step>
     <class_path>components\DigitalOut\DigitalOutDL110325DAQmx\DigitalOutDL110325DAQmx\DigitalOutDL110325DAQmx.lvclass</class_path>
-    <configuration>frame_scan</configuration>
+    <configuration>shutter</configuration>
     <label/>
     <settings_name/>
   </step>
