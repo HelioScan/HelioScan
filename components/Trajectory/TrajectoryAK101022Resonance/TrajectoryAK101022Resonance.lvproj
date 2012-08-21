@@ -600,7 +600,6 @@
 			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../../common/enumerations/x_y_z_enumeration.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="ni.dex.rc" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/ni.dex.rc"/>
 			<Item Name="FPGA_reference_control.ctl" Type="VI" URL="../../../FPGAWrapper/FPGAWrapperAK101022Resonance/FPGAWrapperAK101022Resonance/FPGA_reference_control.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
