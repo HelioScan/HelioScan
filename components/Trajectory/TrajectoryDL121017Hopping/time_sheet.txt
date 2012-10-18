@@ -1,0 +1,1 @@
+DL, 18.10.2012, 19.07-19.20: Created project and class file, set inheritance.
