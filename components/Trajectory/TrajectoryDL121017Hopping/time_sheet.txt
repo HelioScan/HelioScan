@@ -4,4 +4,4 @@ DL, 18.10.2012, 11.33-40: Created key methods for override.
 
 DL, 18.10.2012, 15.16-15.50 and 
 DL, 18.10.2012, 16:35-16:52 R1 and R3 fulfilled.
-DL, 19.10.2012, 11:23-
+DL, 19.10.2012, 11:23-13.43: R1-R3 fulfilled; XSettings included.
