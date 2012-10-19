@@ -178,8 +178,6 @@
 				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CSG)__ogtk.vi"/>
@@ -347,7 +345,6 @@
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0FB02B368E167E9D3D84FEBADCBA5E24" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0FB02B368E167E9D3D84FEBADCBA5E24"/>
@@ -582,8 +579,8 @@
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../../common/classes/Image/Image/Image.lvclass"/>
 			<Item Name="ImageCollection.lvclass" Type="LVClass" URL="../../../../common/classes/ImageCollection/ImageCollection/ImageCollection.lvclass"/>
 			<Item Name="is_index_in_list.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/is_index_in_list.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
+			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="make_color_index_array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/make_color_index_array.vi"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
