@@ -1,3 +1,7 @@
 DL, 17.10.2012, 19.07-19.20: Created project and class file, set inheritance.
+
 DL, 18.10.2012, 11.33-40: Created key methods for override.
-DL, 18.10.2012, 15.16-15.50, 16:35-16:52: R1 and R3 fulfilled.
+
+DL, 18.10.2012, 15.16-15.50 and 
+DL, 18.10.2012, 16:35-16:52 R1 and R3 fulfilled.
+DL, 19.10.2012, 11:23-
