@@ -8,3 +8,4 @@ DL, 19.10.2012, 11:23-13.43: R1-R3 fulfilled; XSettings included.
 MH, 21.10.2012, 16:20-19:16: Created the spiral method. Not yet finished
 MH, 21.10.2012, 19:50-20:40: Tried the double Fermat's spiral, but need to implement better the rotation.
 MH, 21.10.2012, 23:45-01:15: Double Fermat spiral works. Now only angular input has to be set and more settings
+MH, 22.10.2012, 23:00-00:00: R5 fulfilled, R4 semi-fulfilled: Added SpaceVector angular input. Spirals take now settings. Still have to look into timings.
