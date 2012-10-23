@@ -9,3 +9,4 @@ MH, 21.10.2012, 16:20-19:16: Created the spiral method. Not yet finished
 MH, 21.10.2012, 19:50-20:40: Tried the double Fermat's spiral, but need to implement better the rotation.
 MH, 21.10.2012, 23:45-01:15: Double Fermat spiral works. Now only angular input has to be set and more settings
 MH, 22.10.2012, 23:00-00:00: R5 fulfilled, R4 semi-fulfilled: Added SpaceVector angular input. Spirals take now settings. Still have to look into timings.
+MH, 23.10.2012, 23:00-00:10: R4 fulfilled. Calculation is done taking into account the hopping and activation time. This can lead to very long trajectories and thus calculation times.
