@@ -626,7 +626,6 @@
 			<Item Name="read_configuration.vi" Type="VI" URL="../../../../common/utilities/read_configuration.vi"/>
 			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/read_settings_file_dialog.vi"/>
 			<Item Name="save_configuration.vi" Type="VI" URL="../../../../common/utilities/save_configuration.vi"/>
-			<Item Name="write_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/write_settings_file_dialog.vi"/>
 			<Item Name="GenericAdapter.lvclass" Type="LVClass" URL="../../../Adapter/GenericAdapter/GenericAdapter/GenericAdapter.lvclass"/>
 			<Item Name="pixel_lookup_mode_enum.ctl" Type="VI" URL="../../../../common/enumerations/pixel_lookup_mode_enum.ctl"/>
 			<Item Name="OME_parameters_cluster.ctl" Type="VI" URL="../../../../common/classes/ImageCollection/ImageCollection/OME_parameters_cluster.ctl"/>
