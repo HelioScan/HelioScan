@@ -531,7 +531,6 @@
 			<Item Name="ErrorController.lvclass" Type="LVClass" URL="../../../../common/classes/ErrorController/ErrorController/ErrorController.lvclass"/>
 			<Item Name="find_best_fit.vi" Type="VI" URL="../../../../common/utilities/find_best_fit.vi"/>
 			<Item Name="GenericAdapter.lvclass" Type="LVClass" URL="../../../Adapter/GenericAdapter/GenericAdapter/GenericAdapter.lvclass"/>
-			<Item Name="GenericAnalogOut.lvclass" Type="LVClass" URL="../../../AnalogOut/GenericAnalogOut/GenericAnalogOut/GenericAnalogOut.lvclass"/>
 			<Item Name="GenericAnalyser.lvclass" Type="LVClass" URL="../../../Analyser/GenericAnalyser/GenericAnalyser/GenericAnalyser.lvclass"/>
 			<Item Name="GenericClock.lvclass" Type="LVClass" URL="../../../Clock/GenericClock/GenericClock/GenericClock.lvclass"/>
 			<Item Name="GenericCommand.lvclass" Type="LVClass" URL="../../../Command/GenericCommand/GenericCommand/GenericCommand.lvclass"/>
@@ -554,7 +553,6 @@
 			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../../common/classes/Image/Image/Image.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvinput.dll"/>
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
 			<Item Name="make_path_relative.vi" Type="VI" URL="../../../../common/utilities/make_path_relative.vi"/>
@@ -579,7 +577,6 @@
 			<Item Name="read_settings_file_dialog.vi" Type="VI" URL="../../../../common/utilities/read_settings_file_dialog.vi"/>
 			<Item Name="run_mode_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/run_mode_enum.ctl"/>
 			<Item Name="save_configuration.vi" Type="VI" URL="../../../../common/utilities/save_configuration.vi"/>
-			<Item Name="ScanHeadMH100729FPGA.lvclass" Type="LVClass" URL="../../ScanHeadMH100729FPGA/ScanHeadMH100729FPGA/ScanHeadMH100729FPGA.lvclass"/>
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
