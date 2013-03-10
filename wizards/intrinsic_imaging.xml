@@ -24,12 +24,6 @@
     <settings_name/>
   </step>
   <step>
-    <class_path>components\Analyser\AnalyserDL090623TwoD\AnalyserDL090623TwoD\AnalyserDL090623TwoD.lvclass</class_path>
-    <configuration>intrinsic</configuration>
-    <label/>
-    <settings_name/>
-  </step>
-  <step>
     <class_path>components\ImagingMode\ImagingModeMG091111IntrinsicImaging\ImagingModeMG091111IntrinsicImaging\ImagingModeMG091111IntrinsicImaging.lvclass</class_path>
     <configuration>standard</configuration>
     <label/>
