@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper]{book}
+
+\usepackage{style}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+
+\title{User Guide for HelioScan 3}
+\author[1]{Dominik Langer\thanks{langer@distr.io}}
+\author[1,2]{Marcel van 't Hoff\thanks{vanthoff@distr.io}}
+\author[3]{Andreas Keller\thanks{andi@ini.ethz.ch}}
+\author[3]{Marco Tedaldi\thanks{tedaldi@hifo.uzh.ch}}
+\author[3]{Hansjörg Kasper\thanks{kasper@hifo.uzh.ch}}
+\author[3]{Fritjof Helmchen\thanks{helmchen@hifo.uzh.ch}}
+\affil[1]{Distrio, Zurich, Switzerland}
+\affil[2]{European Laboratory for Non-Linear Spectroscopy, Florence, Italy}
+\affil[2]{Institute of Neuroinformatics, ETH Zurich, Switzerland}
+\affil[3]{Brain Research Institute, University of Zurich, Switzerland}
+
+\renewcommand\Authands{ and }
+
+\begin{document}
+  
+\maketitle
+
+\newpage
+\include{abbreviations}
+
+\include{./chapters/license/main}
+\include{./chapters/introduction/main}
+\include{./chapters/requirements/main}
+\include{./chapters/installing/main}
+\include{./chapters/configuring/main}
+\include{./chapters/using/main}
+\include{./chapters/troubleShooting/main}
+\include{./chapters/videoCamera/main}
+\include{./chapters/intrinsicImaging/main}
+
+\cleardoublepage 
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{helioscan}{}
+\bibliographystyle{plain}
+
+\end{document}

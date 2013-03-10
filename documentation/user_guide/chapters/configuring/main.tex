@@ -1,0 +1,15 @@
+\chapter{Configuring HelioScan}
+
+A \HS application assembles at run time from individual components. The \HS main \ac{VI} loads so-called \acp{TLC}, which in turn may load subcomponents, which may again load their own subcomponents and so on. Which components are to be loaded as well as further parameters determining the run-time behaviour of components, is determined by configuration files. The user has to create these configuration files prior to use to customise \HS according to his microscope hardware as well as his experimental needs.
+
+
+
+\section{Preparing steps}\label{sec:configuration_preparingSteps}
+Navigate into the \HS directory and create two subdirectories named "configuration" and "settings". Inside the configuration subdirectory, create a directory named "default". This directory will hold all configuration files for a default configuration of HelioScan. If you require different configurations for different users, create a subfolder for each user inside the configuration subdirectory.
+
+\section{Configuration wizard}\label{sec:configuring_configurationWizard}
+Configuration wizards provide a structured path of configuring HelioScan for a specific purpose (e.g., frame scan mode with galvanometric mirrors). They assist the user in creating configuration files by assuming a specific combination of software components and guiding through a series of steps. The use of a configuration wizard provides a good starting point, especially for the less experienced user.
+
+\section{Configuration manager}\label{sec:configuring_configurationManager}
+
+\section{Configuration files}

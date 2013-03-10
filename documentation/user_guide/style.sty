@@ -1,0 +1,144 @@
+% ------------------------------------------------------
+% File name: main.sty
+% Authors:
+% - originally written by Jan Huisken, 2000
+% - modified by Christoph Engelbrecht, 2009
+% - modified by Dominik Langer, 2011 and 2013
+% ------------------------------------------------------
+
+% -- shortcuts -------------------------------------
+
+\usepackage{xspace}           % space after commands
+
+\newcommand{\LV}{LabVIEW\xspace}
+\newcommand{\HS}{HelioScan\xspace}
+\newcommand{\invivo}{\textit{in vivo}\xspace}
+\newcommand{\Invivo}{\textit{In vivo}\xspace}
+\newcommand{\invitro}{\textit{in vitro}\xspace}
+\newcommand{\Invitro}{\textit{In vitro}\xspace}
+\newenvironment{mathlinespread}{\linespread{1.0}}{\linespread{1.5}}
+\newcommand{\prettySCref}[2]{Figure \ref{#1}\subref*{#1_#2} on page \pageref{#1}}
+\newcommand{\paragraphNoInd}{\noindent\vspace{5mm}}
+
+
+% -- formulas -------------------------------------
+
+\usepackage{amsmath}
+
+% -- URLs -----------------------------------------
+
+\usepackage{url}
+
+
+% -- language -------------------------------------
+
+\usepackage[german,british]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\hyphenation{Dominik Langer Fritjof Helmchen Kevan Martin Jean-Marc Fritschy} % don't hyphenate these words
+
+
+% -- font -------------------------------------------
+
+\usepackage{lmodern} 	% scalable font family "Latin Modern"
+\usepackage{verbatim}  	% for programming language code
+\usepackage{wasysym} 	% additional characters
+\usepackage{dsfont}		% for mathematical sets
+\newcommand{\UnderscoreCommands}{\do\include \do\label \do\ref \do\prettyref \do\cite}
+\usepackage[strings]{underscore}	% allow _ as underscore
+\newcommand{\heliocomp}[1]{{\tt #1}}
+\newcommand{\heliofolder}[1]{{\tt #1}}
+\newcommand{\heliofile}[1]{{\tt #1}}
+\usepackage{fixltx2e}	% make \textsubscript available
+\usepackage{color}		% coloured text
+
+
+% -- custom colours ------------------------------
+
+\definecolor{orange}{RGB}{255,127,0}
+\definecolor{darkgreen}{RGB}{0,120,0}
+\definecolor{violet}{RGB}{120,0,120}
+
+
+% -- units ------------------------------------------
+
+\usepackage[load-configurations=abbreviations, load-configurations=binary]{siunitx} 	% SI units including greek magnifiers/demagnifiers
+\usepackage{units} 	% physical units
+\DeclareSIUnit[number-unit-product = {}]{\sample}{S}	% "sample" ("S") unit (as in 50 MS)
+
+% -- chemistry ------------------------------------
+
+\usepackage[version=3]{mhchem}	% chemical formulae and equations
+\DeclareSIUnit\Molar{\textsc{m}}
+
+% -- references, footnotes, citations -----------
+
+\usepackage{prettyref} 	% intradocument references
+\newrefformat{eq}{equation \textup{\ref{#1}} on page \pageref{#1}}	% redefine equation references
+\newrefformat{chap}{Chapter \textup{\ref{#1}}}	% redefine chapter references
+%\usepackage{titleref} 	% cross-reference section titles		ATTENTION: THIS SCREWS UP THE NUMBERING OF SCFIGURES!!!!
+\usepackage[font=footnotesize]{caption} % footnotes
+\usepackage{natbib} 	%replaces \include{cite} % citations
+
+% -- figures ----------------------------------------
+
+\usepackage{graphicx}
+\usepackage{graphics} 
+\usepackage{sidecap}	% side-legends (for figures and tables)
+\usepackage{subfig}	% create figures made of subfigures
+
+% -- acronyms -------------------------------------
+
+\usepackage{relsize}		% required for acronyms to be slightly smaller than surrounding text
+\usepackage[smaller, printonlyused]{acronym}	% automatic creation of acronym list
+
+% -- lists --------------------------------------------
+
+\usepackage{paralist}
+\usepackage{enumitem}
+
+% square symbol for unordered lists:
+\newcommand{\localtextbulletone}{\raisebox{.45ex}{\rule{.8ex}{.8ex}}}
+\renewcommand{\labelitemi}{\localtextbulletone}
+
+
+% -- tables -----------------------------------------
+
+\usepackage{booktabs} 	% publication quality tables in LaTeX
+\usepackage{tabularx}
+
+% -- page style ------------------------------------
+
+\usepackage{a4wide} 	% to have less wide margins
+\usepackage{flafter}	% forces floats to where they are defined
+\usepackage{setspace}	% customise line spacing
+
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\voffset = 0cm
+
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\huge \bf}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{1cm}
+
+%\parindent0pt
+
+
+%\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+%%\linespread{1.5}
+%\pagestyle{headings}
+%
+%%\makeatletter
+%\renewcommand{\@makechapterhead}[1]{%
+%\vspace*{0 pt}%
+%{\setlength{\parindent}{0pt} \raggedright \normalfont
+%\bfseries\Huge
+%\ifnum \value{secnumdepth}>1
+%   \if@mainmatter\thechapter.\ \fi%
+%\fi
+%#1\par\nobreak\vspace{40 pt}}}
+%%\makeatother
+
+
+% -----------------------------------------------------

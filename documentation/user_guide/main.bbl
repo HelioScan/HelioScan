@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{Langer2011}
+D.~Langer.
+\newblock {\em A flexible software framework and post hoc cell type
+  discrimination for \invivo two-photon calcium imaging of neuronal population
+  activity}.
+\newblock Phd thesis, 2011.
+
+\bibitem{Langer2013}
+D.~Langer, M.~van~'t Hoff, A.J. Keller, C.~Nagaraja, O.A. Pfäffli, M.~Göldi,
+  H.~Kasper, and F.~Helmchen.
+\newblock Helioscan: a software framework for controlling in vivo microscopy
+  setups with high hardware flexibility, functional diversity and
+  extendibility.
+\newblock {\em J Neurosci Meth}, 2013.
+
+\end{thebibliography}

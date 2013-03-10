@@ -1,0 +1,144 @@
+\chapter{Intrinsic optical imaging}
+
+\section{Hardware requirements}
+
+\subsection{Image acquisition}\label{sec:intrinsic_hardware_acquisition}
+To perform intrinsic optical image with \HS, you need a camera and a way to interface the camera to your set-up PC that is supported by the National Instruments  \acs{IMAQ} driver package\footnote{The \textit{Industrial Camera Advisor} from National Instruments can help you identifying a suitable device: \url{sine.ni.com/apps/utf8/nipc.specs?action=search&asid=1102}}.
+
+Since the intrinsic optical signal is very small (in the range of half a promille reflectance change), it is essential to have a camera that can discriminate a high number of brightness levels per pixel. A black-and-white camera with 12 bits per pixel is recommended; it can in principle resolve 4096 grey levels, corresponding to an intensity change of \SI{0.2}{\textperthousand} from one level to the next.
+
+\subsubsection{Package A}
+This package has been extensively used at the laboratory of Fritjof Helmchen and has proven to work well. The camera is not offered anymore by Toshiba Teli, however. 
+\begin{itemize}[noitemsep]
+    \item Teli CS3960DCL camera (12 bit per pixel; from Toshiba Teli Corporation)
+    \item \acs{NI} PCI-1426 camera link card (from National Instruments)
+\end{itemize}
+
+\subsubsection{Package B}
+\begin{itemize}[noitemsep]
+	\item Basler avA1000-120km (12 bit per pixel; from Basler AG)\footnote{For details, see \url{http://www.graftek.com/pages/avA1000-120km.htm}}
+	\item \acs{NI} PCI-1426 camera link card (from National Instruments)
+\end{itemize}
+
+\subsection{Illumination}
+In order to visualise the blood vessel pattern, which serves as a reference map to localise the intrinsic optical signal, green light is optimally used. For the acquisition of the intrinsic optical signal, red light is better suited. It is thus useful to have the possibility to switch between green and red light, for example by using a ring with two types of LEDs, such as:
+\begin{itemize}[noitemsep]
+	\item \textit{Green light:} L5-G61N-GT (peak wavelength \SI{525}{\nm}; from Sloan LED)
+    	\item \textit{Red light:} L-7113SRD (peak wavelength \SI{660}{\nm}; from Kingbrith Electronic)
+\end{itemize}
+
+\subsection{Optics}
+Intrinsic optical imaging can be performed directly using an existing in vivo two-photon microscope equipped with a suitable camera. Alternatively, one can built a stand-alone setup for intrinsic optical imaging \cite{Langer2011}.
+
+\subsubsection{Integration into a two-photon microscope}
+To image the back aperture of the microscope objective, an appropriate objective on the camera side is required. A camera objective with zoom functionality is well-suited, such as for example:
+\begin{itemize}
+	\item Monacor 5-50mm 1:1.4 1/3'' CS 
+\end{itemize}
+
+\subsection{Stand-alone intrinsic opical imaging set-up}
+
+\section{Configuration}\label{sec:intrinsic_configuration}
+Please configure first the video camera mode, as it is required to acquire the reference image of the brain surface vasculature \prettyref{sec:ios_experimentProtocol}. Afterwards, continue with configuring the actual intrinsic optical imaging mode as described here.
+
+We recommend to use the configuration wizard (see \prettyref{sec:configuring_configurationWizard}) with the wizard file \textit{intrinsic_imaging}. 
+
+\subsection{Recommended configuration parameters}
+The following configuration parameters can be used.
+
+\subsubsection{DAQ_MG090622Camera}
+\begin{itemize}[noitemsep]
+	\item \textit{Device name:} look it up in the Measurement \& Automation Controller
+ 	\item \textit{Camera type:} gray scale
+	\item \textit{Connection type:} depending on how you connected the camera to your set-up PC (select "CameraLink" in case of the two packages listed in \prettyref{sec:intrinsic_hardware_acquisition}).
+\end{itemize}
+
+\subsubsection{DataCollectionMG091001IntrinsicImaging}
+\begin{itemize}[noitemsep]
+	\item \textit{Multiplication factor:} 100000
+\end{itemize}
+
+\subsubsection{ImageProcessorDL090216RangeOffset}
+\begin{itemize}[noitemsep]
+	\item \textit{Maximum exptected value:} 0.05
+\end{itemize}
+
+\subsubsection{DisplayDL090216}
+\begin{itemize}[noitemsep]
+	\item \textit{Number of channels:} 1
+	\item \textit{Range-and-offset image processor:} intrinsic
+\end{itemize}
+
+\subsubsection{ImagingModeMG091111IntrinsicImaging}
+\begin{itemize}[noitemsep]
+	\item \textit{Instrument:} leave empty
+	\item \textit{DAQ:} "DAQ_MG090622Camera.lvclass with configuration "intrinsic"
+	\item \textit{ImageAssembler:} "ImageAssemblerMG090623Binning.lvclass" (with empty configuration)
+	\item \textit{DataCollection:} "DataCollectionMG091001IntrinsicImaging.lvclass" with configuration "standard"
+	\item \textit{Display:} "DisplayDL090216.lvclass" with configuration "intrinsic"
+	\item \textit{Analyser:} "AnalyserDL090623TwoD.lvclass" with configuration "intrinsic"
+	\item \textit{Stimulator:} leave empty; needs to be configured separately.
+\end{itemize}
+
+\subsubsection{ExperimentController}\label{sec:intrinsic_configuration_experimentController}
+\begin{itemize}[noitemsep]
+	\item \textit{Class file and configuration of Sweep component:} leave empty
+\end{itemize}
+
+\subsubsection{Main configuration}
+\begin{itemize}[noitemsep]
+    \item \textit{ExperimentControllers:} add "ExperimentController090130Interval.lvclass" with configuration "intrinsic"
+    \item \textit{ImagingModes:} add "ImagingMode091111IntrinsicImaging.lvclass" with configuration "standard"
+    \item \textit{Objectives:} Create a configuration for each objective you want to use via the button "Manage objective...". Afterwards, add each objective via the button "Add/remove objectives...". 
+    \item \textit{Stage:} leave empty, unless you have already specified a Stage while configuring another mode
+\end{itemize}
+
+After finishing the configuration wizard, you need to separately configure your Stimulator \ac{TLC} of choice. We recommend to use the configuration manager for this purpose (see \prettyref{sec:configuring_configurationManager}). Also using the Configuration Manager, open again the configuration you created for \verb+ImagingModeMG091111IntrinsicImaging+ and specify the specific Stimulator \ac{TLC} you just configured, including its newly created configuration.
+
+
+\section{Experimental protocol}\label{sec:ios_experimentProtocol}
+
+\subsection{Animal preparation}
+Details of animal preparation are not in the scope of this software manual and need to be read elsewhere (TODO: refs). Here, we only want to stress the three most important points regarding preparations for intrinsic optical imaging:
+\begin{itemize}
+	\item \textit{Transparency:} You need optical access to the brain. Depending on the animal species and age as well as other experimental constraints, you might achieve transparency by a craniotomy above the area of interest or by local thinning of the skull. In the latter case, it is essential to keep the remaining thin layer of skull wet, for example by filling a local chamber above the skull with Ringer solution and thighly sealing with a cover slip and grease. In young mice, merely removing the sking might be sufficient; the Ringer solution might induce enough transparency.
+	\item \textit{Mechanical stability:} It is crucial that you reduce breathing- and heart-beat-induced movements of the brain surface to the minimum. In this respect, skull thinning may have an advantage over a complete craniotomy. In any case, we recommend locally covering the skull around the area of interest with a layer of agarose, slightly pressed down by a microscopy cover slip. In order to keep the agarose.
+	\item \textit{Depth of anaesthesia:} Aneasthesia should be as slight as possible without the animal suffering pain or breathing unsteadily.
+\end{itemize}
+
+\subsection{Acquiring a blood vessel map}\label{sec:intrinsic_protocol_bloodVesselMap}
+At the very beginning of the imaging session, a reference image of the brain surface vasculature needs to be acquired. For this purpose, illumination giving the highest possible contrast between blood vessels and neural tissue is required (green light is well suited). The recommended procedure is as follows.
+\begin{enumerate}
+	\item Mount a low magnification objective (e.g., 4x or 10x) and switch to green light illumination.
+	\item Select the video camera ImagingMode using the ImagingMode selector.
+	\item Adjust the illumination power in \textit{focus mode} to achieve good contrast and avoid saturation.
+	\item Acquire a high-resolution image of the blood vasculature in \textit{single-sweep mode} (e.g. 1000x1000 pixels; obviously, the resolution you choose needs to be supported by your camera). If necessary, this image may serve you to zoom into the actual reference map acquired in the next step.
+	\item Acquire an image at the same resolution (see \prettyref{sec:ios_protocol_intrinsic}) later used for acquiring the intrinsic optical signal. This is the actual reference map on which you will  later overlay the intrinsic optical signal.
+\end{enumerate}
+
+\subsection{Static mapping of the intrinsic optical signal}\label{sec:ios_protocol_staticMapping}
+Now that you are equipped with a reference image with a blood vasculature map, you are ready to record the intrinsic optical signal. Intrinsic optical imaging requires a lot of signal averaging. You will perform measurements in \textit{experiment mode}, with the ExperimentController performing multiple acquisition sweeps for you. Since you did not specify a particular Sweep class (see \prettyref{sec:intrinsic_configuration_experimentController}), the currently selected ImagingMode will be used. The DataColleciton will do the signal averaging for you. 
+
+The recommended procedure is as follows:
+\begin{enumerate}
+	\item Switch to illumination suitable for intrinsic optical imaging (we recommend red light illumination).
+	\item Select the ImagingMode for intrinsic optical imaging in the ImagingMode selector.
+	\item Specify the ImagingMode parameters. The following values have proven to work well for static mapping experiments: a phase duration of \SI{5.0}{\s}, an offset time of \SI{0.5}{\s}, an image resolution of 300x300 pixels, and a frame rate of \SI{5.0}{\Hz}. If you are not interested in a control measurement without stimulation, you can enable the check box \textit{skip control}. \HS will then skip acquisition phase A and directly start with acquisition phase B, thus saving \SI{5}{\s} in case of the parameters mentioned above. We do not recommend to do so, however, since the control measurement allows you to distinguish the actual intrinsic signal more easily from other structures visible on your resulting images.
+	\item Specifiy the ExperimentController parameters. Start with 15 sweeps repeated with a sweep period of \SI{35}{\s}\footnote{The sweep period must be no shorter than the total sum of a the three (or two, if you ommit the control measurement) phases plus the acquisition offset.} The latter should give the intrinsic optical signal enough time to return to base line after a sweep before the next one is started. If you receive good results, you can tweak these parameters in order to save time, for example by reducing the number of sweep and/or the sweep period.
+	\item Specify the Stimulator parameters. These depend on the actual Stimulator class chosen during the configuration process (see \prettyref{sec:intrinsic_configuration}). In any case, it is crucial that stimulation starts only after acquisition phase B has finished. In case of a acqusition phase duration of \SI{5.0}{\s}, this would correspond to a stimulation offset of \SI{10.0}{\s}. Also, you want to stimulate during the entire acquisition phase C. With a phase duration of \SI{5.0}{\s} and an acquisition offset of \SI{0.5}{\s}, a stimulation duration of \SI{5.5}{\s} is required for this purpose.
+	\item If you want to save the acquired data after each sweep, go select the DataCollection \ac{TLC} tab and select the option "autosave sweeps on the fly". This will give you the option to analyse already acquired data offline in case of a hardware or software crash to could prevent you from saving after your experiment has been finished.
+	\item Start acquisition in \textit{experiment mode} and wait until all sweeps have been acquired.
+	\item Select the DataCollection tab to inspect the acquired data. For static mapping of the intrinsic optical signal, select the check boxes "average over time" and "average over sweeps". Switch between the sweep parts "actual measurment" and "control" using the corresponding drop-down menu.
+	\item Specify the saving parameters and push the save button. You can inspect the generated \ac{TIFF} files using ImageJ.
+	\item Repeat the experiment for all stimulation conditions you want to map (e.g., for all whiskers you want to map on the rodent barrel field). 
+	\item Using the overlay tool (accessible via the button "Overlay..." on the DataCollection \ac{GUI}, you can mark the mapped brain regions on the blood
+vessel map acquired in \prettyref{sec:intrinsic_protocol_bloodVesselMap}.
+\end{enumerate}
+
+\subsection{Recording the time course of the intrinsic optical signal}
+
+\section{Data analysis}
+All data saved during an experiment can be found in the \HS data folder, in a subdirectory with the time of saving as its name. Pixel values in the generated \ac{TIFF} files are multiplied with factor and added with an offset in order to fit into the range of 0 to 65385 (16 bit integer data format). Factor and offset and stored in the notebook and part of the file name as well.
+
+The overlay tool mentioned in \prettyref{sec:ios_protocol_staticMapping} can also be started independent from \HS. It can found in the folder \textit{tools\textbackslash IntrinsicAnalyzerMG100121}.
+	
