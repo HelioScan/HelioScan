@@ -6,12 +6,6 @@
     <settings_name/>
   </step>
   <step>
-    <class_path>components\DataCollection\DataCollectionDL090215\DataCollectionDL090215\DataCollectionDL090215.lvclass</class_path>
-    <configuration>standard</configuration>
-    <label/>
-    <settings_name/>
-  </step>
-  <step>
     <class_path>components\ImageProcessor\ImageProcessorDL090216RangeOffset\ImageProcessorDL090216RangeOffset\ImageProcessorDL090216RangeOffset.lvclass</class_path>
     <configuration>video_camera</configuration>
     <label/>
