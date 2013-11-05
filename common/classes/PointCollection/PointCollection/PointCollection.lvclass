@@ -209,13 +209,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="terminate.vi" Type="VI" URL="../terminate.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!%#%F%)'&amp;S=G&amp;Z!!!&amp;!!I!!"R!1!!#``````````]!"ANQ&lt;WFO&gt;#"B=H*B?1!W1(!!(A!!'2&gt;1&lt;WFO&gt;%.P&lt;'RF9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!45'^J&lt;H2$&lt;WRM:7.U;7^O)'^V&gt;!!%!!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!W1(!!(A!!'2&gt;1&lt;WFO&gt;%.P&lt;'RF9X2J&lt;WYO&lt;(:D&lt;'&amp;T=Q!35'^J&lt;H2$&lt;WRM:7.U;7^O)'FO!!"5!0!!$!!$!!5!"Q!)!!E!#1!*!!E!#A!*!!E!#Q)!!(A!!!U)!!!*!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!(%"!!!,``````````Q!&amp;#X"P;7ZU)'&amp;S=G&amp;Z!$:!=!!?!!!:&amp;V"P;7ZU1W^M&lt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!".1&lt;WFO&gt;%.P&lt;'RF9X2J&lt;WYA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"E85'^J&lt;H2$&lt;WRM:7.U;7^O,GRW9WRB=X-!%F"P;7ZU1W^M&lt;'6D&gt;'FP&lt;C"J&lt;A!!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="translate.vi" Type="VI" URL="../translate.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;V"P;7ZU1W^M&lt;'6D&gt;'FP&lt;CZM&gt;G.M98.T!".1&lt;WFO&gt;%.P&lt;'RF9X2J&lt;WYA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!+!!&gt;/&gt;7VF=GFD!"2!1!!"`````Q!("H:F9X2P=A!!.E"Q!"Y!!"E85'^J&lt;H2$&lt;WRM:7.U;7^O,GRW9WRB=X-!%F"P;7ZU1W^M&lt;'6D&gt;'FP&lt;C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!%!!!!*)!!!!!!1!+!!!!!!</Property>
