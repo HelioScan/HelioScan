@@ -14,7 +14,6 @@
 		<Item Name="Box.lvclass" Type="LVClass" URL="../Box/Box.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../SpaceVector/SpaceVector/SpaceVector.lvclass"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../arrays/space_vector_array.ctl"/>
 			<Item Name="x_y_z_enumeration.ctl" Type="VI" URL="../../../enumerations/x_y_z_enumeration.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
