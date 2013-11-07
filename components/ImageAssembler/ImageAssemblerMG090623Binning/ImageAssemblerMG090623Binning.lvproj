@@ -254,8 +254,6 @@
 				<Item Name="Filter 1D Array with Scalar (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U16)__ogtk.vi"/>
 				<Item Name="Filter 1D Array with Scalar (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U32)__ogtk.vi"/>
 				<Item Name="Filter 1D Array with Scalar (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (Variant)__ogtk.vi"/>
-				<Item Name="Get Cluster Element by Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Cluster Element by Name__ogtk.vi"/>
-				<Item Name="Get TDEnum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from TD__ogtk.vi"/>
 				<Item Name="Empty 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (I64)__ogtk.vi"/>
 				<Item Name="Empty 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Empty 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Empty 2D Array (I64)__ogtk.vi"/>
@@ -310,6 +308,9 @@
 				<Item Name="Filter 1D Array with Scalar (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (U64)__ogtk.vi"/>
 				<Item Name="Filter 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Filter 1D Array with Scalar (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array with Scalar (LVObject)__ogtk.vi"/>
+				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -417,103 +418,68 @@
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="84AD25F39291B9E06C1382AEA8ACEC4A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/84AD25F39291B9E06C1382AEA8ACEC4A"/>
-				<Item Name="9865AB816753174C279A9E6D62B7DE78" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9865AB816753174C279A9E6D62B7DE78"/>
-				<Item Name="88B30C2DBBEF03D1887322C9235DA51A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/88B30C2DBBEF03D1887322C9235DA51A"/>
-				<Item Name="D979702B7F75D27169E857BBF3E42683" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D979702B7F75D27169E857BBF3E42683"/>
-				<Item Name="B23AB43722AFEB419F1910B48DFF07F1" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/B23AB43722AFEB419F1910B48DFF07F1"/>
-				<Item Name="A71361755D6258DE9D61904B2732D313" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A71361755D6258DE9D61904B2732D313"/>
-				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
-				<Item Name="Create Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Create Semaphore.vi"/>
-				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
-				<Item Name="Semaphore Name &amp; Ref DB Action.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB Action.ctl"/>
-				<Item Name="Semaphore Name &amp; Ref DB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Name &amp; Ref DB.vi"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Get Semaphore Status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Get Semaphore Status.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
-				<Item Name="Release Semaphore_71.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore_71.vi"/>
-				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
-				<Item Name="Registry SAM.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry SAM.ctl"/>
-				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
-				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
-				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
-				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
-				<Item Name="Registry Handle Master.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Handle Master.vi"/>
-				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
-				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
-				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
-				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
-				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
-				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
-				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
-				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
-				<Item Name="0EE53E79E18AB23285F0282E8A1BC3C2" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0EE53E79E18AB23285F0282E8A1BC3C2"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
-				<Item Name="7C15251FE47C331B6AD0810EC5FC4387" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7C15251FE47C331B6AD0810EC5FC4387"/>
-				<Item Name="909E7F621823FB7692FF4F98DBEA3678" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/909E7F621823FB7692FF4F98DBEA3678"/>
-				<Item Name="28E6ABE0B5B6987C248963DC3EB36A50" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/28E6ABE0B5B6987C248963DC3EB36A50"/>
-				<Item Name="882D326A15B8A70653C9134EE1F1D04B" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/882D326A15B8A70653C9134EE1F1D04B"/>
-				<Item Name="3AAF63C281D66D62A50D1DA562FFEB51" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3AAF63C281D66D62A50D1DA562FFEB51"/>
-				<Item Name="4E2A8FC5B16D4FA2DFD353642850542F" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4E2A8FC5B16D4FA2DFD353642850542F"/>
-				<Item Name="18A70D7838BA408B98009B28B5C9A7D5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/18A70D7838BA408B98009B28B5C9A7D5"/>
-				<Item Name="98538088A2C3A316349D00467980CA87" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/98538088A2C3A316349D00467980CA87"/>
-				<Item Name="5F03605407904A17A18874C0F9A9F272" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/5F03605407904A17A18874C0F9A9F272"/>
-				<Item Name="643F2AEE525B288C4C9F89D21E639522" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/643F2AEE525B288C4C9F89D21E639522"/>
-				<Item Name="4C48020BC37190241867EBAE03894013" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4C48020BC37190241867EBAE03894013"/>
-				<Item Name="E2B5F28AD5828E275C3B4FAE741027E4" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E2B5F28AD5828E275C3B4FAE741027E4"/>
-				<Item Name="99FC2B2D934F7638B5F94361919DE60A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/99FC2B2D934F7638B5F94361919DE60A"/>
-				<Item Name="C94A83426DE542F8C16E63BCB89A70A0" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/C94A83426DE542F8C16E63BCB89A70A0"/>
-				<Item Name="2A0883D0B8E2CCF76BBC79B6424B826D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2A0883D0B8E2CCF76BBC79B6424B826D"/>
-				<Item Name="9152311B572F20A149A1AB024804C293" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9152311B572F20A149A1AB024804C293"/>
-				<Item Name="A02D583F75EF057EBB4C63A652EF0AC3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A02D583F75EF057EBB4C63A652EF0AC3"/>
-				<Item Name="F4B4B43093BA4D75A7EEDF371A1B4FCA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F4B4B43093BA4D75A7EEDF371A1B4FCA"/>
-				<Item Name="C007D1B46DC729CF2D355B5F4BB5BED8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/C007D1B46DC729CF2D355B5F4BB5BED8"/>
-				<Item Name="0EFCD8D83A47C693724E36E7AB151798" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0EFCD8D83A47C693724E36E7AB151798"/>
-				<Item Name="746661FF7730139B7169B288A1AA7FAB" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/746661FF7730139B7169B288A1AA7FAB"/>
-				<Item Name="6B0D305FBD69124A77A1B75D83BD63AF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6B0D305FBD69124A77A1B75D83BD63AF"/>
-				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
-				<Item Name="491782C45FB7427A1F3AF7B94170F52E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/491782C45FB7427A1F3AF7B94170F52E"/>
-				<Item Name="4906E73BF9E46E9901A33CEF102A5979" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4906E73BF9E46E9901A33CEF102A5979"/>
-				<Item Name="61FD9F093F29FFE64D50A9F3F2506FDF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/61FD9F093F29FFE64D50A9F3F2506FDF"/>
-				<Item Name="9047802128DDA9156E88D2F1823D7415" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9047802128DDA9156E88D2F1823D7415"/>
-				<Item Name="76A1932D4F9FDEE3130FB1F521C6A46C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/76A1932D4F9FDEE3130FB1F521C6A46C"/>
-				<Item Name="D1DFFF16D6BA9BF4C4751A1FA1703369" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D1DFFF16D6BA9BF4C4751A1FA1703369"/>
-				<Item Name="6FB00F5122D49ECA4E84E5C5B72C04EF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6FB00F5122D49ECA4E84E5C5B72C04EF"/>
-				<Item Name="A59BA25619075F748B3E1EC3ED54DD70" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A59BA25619075F748B3E1EC3ED54DD70"/>
-				<Item Name="7D017F985563E3250769FC9BDC7AEF0D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7D017F985563E3250769FC9BDC7AEF0D"/>
-				<Item Name="E390D8F05FE1CD91B22732B1FE1A256D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E390D8F05FE1CD91B22732B1FE1A256D"/>
-				<Item Name="E929CC3261B8F05872A61227CD7F032D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E929CC3261B8F05872A61227CD7F032D"/>
-				<Item Name="07A3042110CD6F346A4FD5EFA792B5D2" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/07A3042110CD6F346A4FD5EFA792B5D2"/>
-				<Item Name="3A3AF77EA7FC936FBBFAA324CBB17311" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3A3AF77EA7FC936FBBFAA324CBB17311"/>
-				<Item Name="EDC0AAEF59C0EE6FDB27B8C499ECFD5F" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/EDC0AAEF59C0EE6FDB27B8C499ECFD5F"/>
-				<Item Name="86D6E7846E01E80BB73AC819F0F08648" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/86D6E7846E01E80BB73AC819F0F08648"/>
-				<Item Name="D20113DFD1F75CFB52E0FDEBE65BFFD0" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D20113DFD1F75CFB52E0FDEBE65BFFD0"/>
-				<Item Name="FA6AFDD5E0F42159981A0438B8817197" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/FA6AFDD5E0F42159981A0438B8817197"/>
-				<Item Name="8686135DF5048844FA2C66F6EC7BAE54" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/8686135DF5048844FA2C66F6EC7BAE54"/>
-				<Item Name="69FB2411DB80E71099AFD6C90566D291" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/69FB2411DB80E71099AFD6C90566D291"/>
-				<Item Name="E6FC7903A8BE6DED0530D588E358BE27" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E6FC7903A8BE6DED0530D588E358BE27"/>
-				<Item Name="3BF64830E5DE18739559AD6836FBA6E6" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3BF64830E5DE18739559AD6836FBA6E6"/>
-				<Item Name="885EE49C620B4FA033CBB5FDE7641904" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/885EE49C620B4FA033CBB5FDE7641904"/>
-				<Item Name="E52F2B8B893E0EA8478A46BB19456F9C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E52F2B8B893E0EA8478A46BB19456F9C"/>
-				<Item Name="4C170243A48C66FE0802B9959C6A7C7A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4C170243A48C66FE0802B9959C6A7C7A"/>
-				<Item Name="4D80EFD72C83AA241ABB16C367BAD923" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4D80EFD72C83AA241ABB16C367BAD923"/>
-				<Item Name="5D24715869070F13F389C01B39C4FE46" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/5D24715869070F13F389C01B39C4FE46"/>
-				<Item Name="51800D7B2625400C710F657F8D7C973A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/51800D7B2625400C710F657F8D7C973A"/>
-				<Item Name="6A6A7D029305C3E5F5AA8C80EE214EC7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6A6A7D029305C3E5F5AA8C80EE214EC7"/>
-				<Item Name="F6A16D8A4E08426DF0116BE382619751" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F6A16D8A4E08426DF0116BE382619751"/>
-				<Item Name="9F3ECC69B0ADCF7E2F7101B65AC599D7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9F3ECC69B0ADCF7E2F7101B65AC599D7"/>
-				<Item Name="A2F5E08381A98218C0BA8D73B496BBDE" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A2F5E08381A98218C0BA8D73B496BBDE"/>
-				<Item Name="089E6AB95543C3962E30865DEB99F1E4" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/089E6AB95543C3962E30865DEB99F1E4"/>
-				<Item Name="0ABE0C9C930D41CA248336AF6944CC50" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0ABE0C9C930D41CA248336AF6944CC50"/>
-				<Item Name="F336576646327CF5414671EEEDE9E85E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F336576646327CF5414671EEEDE9E85E"/>
+				<Item Name="E3107912D9E55943948236499FCA76E6" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/E3107912D9E55943948236499FCA76E6"/>
+				<Item Name="B1F2DBEE6B129DB5D3107E416C05FCBD" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/B1F2DBEE6B129DB5D3107E416C05FCBD"/>
+				<Item Name="9E8D9C4508EB4B8A5D3721DFDDBA26C5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9E8D9C4508EB4B8A5D3721DFDDBA26C5"/>
+				<Item Name="4C2926E9C2FB4EEA9A336C33488DFA7A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/4C2926E9C2FB4EEA9A336C33488DFA7A"/>
+				<Item Name="57F3CEFCA5BD1105BC35FCCD00AF20B5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/57F3CEFCA5BD1105BC35FCCD00AF20B5"/>
+				<Item Name="892CDF8219F1A6DAB263CBD1FE0BDB01" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/892CDF8219F1A6DAB263CBD1FE0BDB01"/>
+				<Item Name="B2715A80F7399F29959051992514396C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/B2715A80F7399F29959051992514396C"/>
+				<Item Name="EFEC164E64719FDBF40443F43030DF85" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/EFEC164E64719FDBF40443F43030DF85"/>
+				<Item Name="A888B2C93BAC937D892E129E45AE4208" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A888B2C93BAC937D892E129E45AE4208"/>
+				<Item Name="1BF43EE904A879B95FAFA36300B64837" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1BF43EE904A879B95FAFA36300B64837"/>
+				<Item Name="7656E2DC7C72A4EA58808423568EB6CB" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7656E2DC7C72A4EA58808423568EB6CB"/>
+				<Item Name="9E461C6FFAF1D1795C42B825C27D1EAE" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9E461C6FFAF1D1795C42B825C27D1EAE"/>
+				<Item Name="93D0C833699F0A4BFB2F30B016EDDBAA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/93D0C833699F0A4BFB2F30B016EDDBAA"/>
+				<Item Name="A00EC7C91F65EBF3D35B6C7FE7A97841" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A00EC7C91F65EBF3D35B6C7FE7A97841"/>
+				<Item Name="EBA5B1C774E1142C66D5DC199E0C04E1" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/EBA5B1C774E1142C66D5DC199E0C04E1"/>
+				<Item Name="46BE21DCC69400274383458059058DE8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/46BE21DCC69400274383458059058DE8"/>
+				<Item Name="D908BF259F86ED052AA80C9D1A688BA2" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D908BF259F86ED052AA80C9D1A688BA2"/>
+				<Item Name="2B1ABC0BFCA4BBA2D10BCB7DE61B51A4" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2B1ABC0BFCA4BBA2D10BCB7DE61B51A4"/>
+				<Item Name="7DB0F1E8B635AB2655A136CA0B977267" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7DB0F1E8B635AB2655A136CA0B977267"/>
+				<Item Name="797920DD32805E86EA3B84CAB1389487" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/797920DD32805E86EA3B84CAB1389487"/>
+				<Item Name="2663AFF63C552E9A3868242D296C70DC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2663AFF63C552E9A3868242D296C70DC"/>
+				<Item Name="9A268916A29F38F1AE6E7FC8B9F7BC7A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9A268916A29F38F1AE6E7FC8B9F7BC7A"/>
+				<Item Name="C1D4EAA310CA3F08C2ABB8F21B452516" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/C1D4EAA310CA3F08C2ABB8F21B452516"/>
+				<Item Name="CACAD0E1460E171C454531EA120F60FA" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CACAD0E1460E171C454531EA120F60FA"/>
+				<Item Name="2A8A4F7EA74FE76F081FB281CD46F3E9" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2A8A4F7EA74FE76F081FB281CD46F3E9"/>
+				<Item Name="3E480E53258A5874FD5477026A58978C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/3E480E53258A5874FD5477026A58978C"/>
+				<Item Name="AD3A56D4CED5CDCC9EFFDAEEED6AE79D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/AD3A56D4CED5CDCC9EFFDAEEED6AE79D"/>
+				<Item Name="9F0A24507FD948F797272BF2503CB096" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9F0A24507FD948F797272BF2503CB096"/>
+				<Item Name="F4AF0F4FCD731E84449F7D89F92D6D8C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/F4AF0F4FCD731E84449F7D89F92D6D8C"/>
+				<Item Name="6980716084811AF6509517054EBC4AAF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6980716084811AF6509517054EBC4AAF"/>
+				<Item Name="25E01DE02E7F5FC3794248A0D1C11D7B" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/25E01DE02E7F5FC3794248A0D1C11D7B"/>
+				<Item Name="2131612FC40E5B5809FB16AE79DDFC2E" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2131612FC40E5B5809FB16AE79DDFC2E"/>
+				<Item Name="1584A7416837FD8B7D45F56B40B3E65A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1584A7416837FD8B7D45F56B40B3E65A"/>
+				<Item Name="0963F4E4B365AD43A95D0DE18626592A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/0963F4E4B365AD43A95D0DE18626592A"/>
+				<Item Name="6ACE88EC5718801E96594D8676F21D3C" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6ACE88EC5718801E96594D8676F21D3C"/>
+				<Item Name="738F382F2802D2EC6D3939E0CD2F62DB" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/738F382F2802D2EC6D3939E0CD2F62DB"/>
+				<Item Name="54D9315EA516221126E3272CFED2641D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/54D9315EA516221126E3272CFED2641D"/>
+				<Item Name="A8A9DEFA75C1D73B5791235C182242E8" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/A8A9DEFA75C1D73B5791235C182242E8"/>
+				<Item Name="1404D83C85569190AE383CB8FDFE56ED" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/1404D83C85569190AE383CB8FDFE56ED"/>
+				<Item Name="157AD03684133F2FD5C47CE8D9215C61" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/157AD03684133F2FD5C47CE8D9215C61"/>
+				<Item Name="11AEED5AAEB287D29EA4EE70BAA839BB" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/11AEED5AAEB287D29EA4EE70BAA839BB"/>
+				<Item Name="6CA2B2B72CD61AF718D16667906B9FE5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/6CA2B2B72CD61AF718D16667906B9FE5"/>
+				<Item Name="2CB91C84108BA40FC066BEB4DD77B26D" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2CB91C84108BA40FC066BEB4DD77B26D"/>
+				<Item Name="34F14AAD4DA0E1E0932259A6D2FAE322" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/34F14AAD4DA0E1E0932259A6D2FAE322"/>
+				<Item Name="7481C92961462B101BB34533650D52B3" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7481C92961462B101BB34533650D52B3"/>
+				<Item Name="D443311147EC877DFCD3AF56854E74AF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D443311147EC877DFCD3AF56854E74AF"/>
+				<Item Name="7D49C64FD9E2D1EA103D09C03FC111FE" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/7D49C64FD9E2D1EA103D09C03FC111FE"/>
+				<Item Name="EABBEE1B45D23BED4099967AB4744AF0" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/EABBEE1B45D23BED4099967AB4744AF0"/>
+				<Item Name="5B0AFD334F84140658FCA66D29A61268" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/5B0AFD334F84140658FCA66D29A61268"/>
+				<Item Name="CA5AD304473599AA3008E00A269B1A76" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/CA5AD304473599AA3008E00A269B1A76"/>
+				<Item Name="805DB52BC32751A9D4685221DC66B40A" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/805DB52BC32751A9D4685221DC66B40A"/>
+				<Item Name="D343F54611C90C26C00EC2E95E9B8AF7" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/D343F54611C90C26C00EC2E95E9B8AF7"/>
+				<Item Name="789534DDC578C2BD8880526E09F0CE89" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/789534DDC578C2BD8880526E09F0CE89"/>
+				<Item Name="2DD2797B5BF7D6DAF7F268D1DF365FF1" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2DD2797B5BF7D6DAF7F268D1DF365FF1"/>
+				<Item Name="5B133D9972E999808048D5802BA99668" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/5B133D9972E999808048D5802BA99668"/>
+				<Item Name="165D3755C77147DC43E6464BCB6EBECE" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/165D3755C77147DC43E6464BCB6EBECE"/>
+				<Item Name="2BFB9F7C2DEF21DE255FEFE3EEC45613" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/2BFB9F7C2DEF21DE255FEFE3EEC45613"/>
+				<Item Name="9AAEBC85B11F91EF712B0BC2152C19FF" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/9AAEBC85B11F91EF712B0BC2152C19FF"/>
+				<Item Name="784962B9C8EC9E9D4FD7BE5124C76CB5" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/784962B9C8EC9E9D4FD7BE5124C76CB5"/>
+				<Item Name="66C3F77FF012EA7E32BFF2D8FD223D69" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/66C3F77FF012EA7E32BFF2D8FD223D69"/>
+				<Item Name="15369F7224BF9B1810CB6703178EFABB" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/15369F7224BF9B1810CB6703178EFABB"/>
+				<Item Name="61C825BF9CB4CE08A69C8E7D1A948FEC" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/61C825BF9CB4CE08A69C8E7D1A948FEC"/>
 			</Item>
 			<Item Name="2D_rotate.vi" Type="VI" URL="../../../../common/utilities/2D_rotate.vi"/>
 			<Item Name="BalloonNotifier.lvclass" Type="LVClass" URL="../../../../common/classes/BalloonNotifier/BalloonNotifier/BalloonNotifier.lvclass"/>
@@ -555,11 +521,8 @@
 			<Item Name="get_project_path.vi" Type="VI" URL="../../../../common/utilities/get_project_path.vi"/>
 			<Item Name="HelioUpdateMH100803.lvclass" Type="LVClass" URL="../../../../tools/HelioUpdateMH100803/HelioUpdateMH100803/HelioUpdateMH100803.lvclass"/>
 			<Item Name="Image.lvclass" Type="LVClass" URL="../../../../common/classes/Image/Image/Image.lvclass"/>
-			<Item Name="LSID_cluster.ctl" Type="VI" URL="../../../../common/clusters/LSID_cluster.ctl"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 			<Item Name="make_path_absolute.vi" Type="VI" URL="../../../../common/utilities/make_path_absolute.vi"/>
 			<Item Name="make_path_relative.vi" Type="VI" URL="../../../../common/utilities/make_path_relative.vi"/>
-			<Item Name="manufacturer_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/manufacturer_specification_cluster.ctl"/>
 			<Item Name="mean_values_2Darray.vi" Type="VI" URL="../../../../common/utilities/mean_values_2Darray.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -584,8 +547,6 @@
 			<Item Name="send_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/send_main_trigger.vi"/>
 			<Item Name="settings_paths_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_paths_cluster.ctl"/>
 			<Item Name="settings_specification_cluster.ctl" Type="VI" URL="../../../../common/clusters/settings_specification_cluster.ctl"/>
-			<Item Name="SoftwareParameter.lvclass" Type="LVClass" URL="../../../../common/classes/SoftwareParameter/SoftwareParameter/SoftwareParameter.lvclass"/>
-			<Item Name="space_vector_array.ctl" Type="VI" URL="../../../../common/arrays/space_vector_array.ctl"/>
 			<Item Name="SpaceVector.lvclass" Type="LVClass" URL="../../../../common/classes/SpaceVector/SpaceVector/SpaceVector.lvclass"/>
 			<Item Name="split_string.vi" Type="VI" URL="../../../../common/utilities/split_string.vi"/>
 			<Item Name="System" Type="VI" URL="System">
@@ -610,13 +571,8 @@
 			<Item Name="main_trigger_enum.ctl" Type="VI" URL="../../../../main/labview_source/type_definitions/enumerations/main_trigger_enum.ctl"/>
 			<Item Name="strip_path_multiple.vi" Type="VI" URL="../../../../common/utilities/strip_path_multiple.vi"/>
 			<Item Name="undock_button.ctl" Type="VI" URL="../../../../main/labview_source/controls/undock_button.ctl"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="string_to_main_trigger.vi" Type="VI" URL="../../../../main/labview_source/main/string_to_main_trigger.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
