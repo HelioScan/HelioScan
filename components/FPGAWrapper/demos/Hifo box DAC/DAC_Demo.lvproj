@@ -218,6 +218,14 @@
 					<Property Name="FPGA.PersistentID" Type="Str">{56E80216-D4E0-4421-83A3-E4FA324870E8}</Property>
 				</Item>
 			</Item>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="DAC_channel_enable_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_channel_enable_cluster.ctl"/>
+				<Item Name="DAC_voltage_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_voltage_cluster.ctl"/>
+				<Item Name="DAC_values_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_values_cluster.ctl"/>
+				<Item Name="write_DAC_word.vi" Type="VI" URL="../../../common_VIs/write_DAC_word.vi"/>
+				<Item Name="DAC_nextEnabledChannel.vi" Type="VI" URL="../../../common_VIs/DAC_nextEnabledChannel.vi"/>
+				<Item Name="write_DACs.vi" Type="VI" URL="../../../common_VIs/write_DACs.vi"/>
+			</Item>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 				<Property Name="FPGA.PersistentID" Type="Str">{A7F2E2CC-3AF3-485C-BEF3-E55D36D4E603}</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E</Property>
@@ -241,14 +249,7 @@
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EConnector0/DIO32ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO32;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO34ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO34;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO36ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO36;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO38ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO38;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO32ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO32;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO34ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO34;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO36ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO36;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO38ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO38;0;ReadMethodType=bool;WriteMethodType=boolPXI-7813R/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_REAL_IOFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\helioscan\components\fpga_VIs\demos\Hifo box DAC\FPGA Bitfiles\DACDemo_FPGATarget_main_022B4F3A.lvbitx</Property>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies">
-				<Item Name="DAC_channel_enable_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_channel_enable_cluster.ctl"/>
-				<Item Name="DAC_voltage_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_voltage_cluster.ctl"/>
-				<Item Name="DAC_values_cluster.ctl" Type="VI" URL="../../../common_typedefs/DAC_values_cluster.ctl"/>
-				<Item Name="write_DAC_word.vi" Type="VI" URL="../../../common_VIs/write_DAC_word.vi"/>
-				<Item Name="DAC_nextEnabledChannel.vi" Type="VI" URL="../../../common_VIs/DAC_nextEnabledChannel.vi"/>
-				<Item Name="write_DACs.vi" Type="VI" URL="../../../common_VIs/write_DACs.vi"/>
-			</Item>
+			<Item Name="Dependencies" Type="Dependencies"/>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="main" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
